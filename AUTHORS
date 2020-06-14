@@ -1,0 +1,40 @@
+Developers:
+
+  Ilya Kotov <forkorov02@ya.ru>, <trialuser02@gmail.com>, <iokotov@astralinux.ru>
+
+Translators:
+
+  Arabic - abouzakaria kov
+  Brazilian Portuguese - VaGNaroK Mist 
+  Bulgarian - Kiril Kirilov
+  Catalan - Toni Estévez
+  Chinese (Simplified) - Cary Tian
+  Chinese (Taiwan) - Jeff Huang
+  Czech - fri
+  Danish - scootergrisen
+  Finnish - Nikolay Korotkiy
+  French - David GEIGER <david.david@mageialinux-online.org>, 
+           Adrien DAUGABEL <adrien.d@mageialinux-online.org>,
+           papoteur <papoteur@mageialinux-online.org>
+  Greek - Dimitrios Glentadakis
+  Hebrew - Genghis Khan, Elkana Birdugo
+  Dutch (Netherlands) - Heimen Stoffels
+  German - Ettore Atalan, Mario Blättermann
+  Italian - Luigi Baldoni
+  Polish - Tomasz Przybył (FadeMind), Evo
+  Russian - Ilya Kotov
+  Serbian - markosm
+  Slovak - Ján Ďanovský
+  Spanish - jcn363, Toni Estévez
+  Turkish - Yaşar Çiv, Serdar Sağlam
+
+Style sheets and color schemes:
+
+  airy.conf, darker.conf, dusk.conf, sand.conf, simple.conf, waves.conf,
+  *-simple.qss - q5sys (Lumina Desktop Environment)
+  fusion-fixes.qss - burak
+
+Patches and improvements:
+
+  Keyboard scheme option - Nikolay Korotkiy
+  Wayland fixes - Chris Rendle-Short
