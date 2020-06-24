@@ -3,7 +3,7 @@ qt6ct - Qt6 Configuration Tool
 This program allows users to configure Qt6 settings (theme, font, icons, etc.)
 under DE/WM without Qt integration.
 
-Official home page: https://sourceforge.net/projects/qt5ct/
+Official home page: https://github.com/trialuser02/qt6ct
 
 Requirements:
 
