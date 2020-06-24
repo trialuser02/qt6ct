@@ -7,7 +7,7 @@ CONFIG += plugin
 QT += gui-private
 
 !equals(DISABLE_DBUS, 1):qtHaveModule(dbus) {
-    QT += dbus theme_support-private
+    QT += dbus
     message(D-Bus support: Enabled)
 } else {
     message(D-Bus support: Disabled)
