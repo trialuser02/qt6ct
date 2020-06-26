@@ -6,12 +6,12 @@ CONFIG += plugin
 
 QT += gui-private
 
-!equals(DISABLE_DBUS, 1):qtHaveModule(dbus) {
-    QT += dbus
-    message(D-Bus support: Enabled)
-} else {
-    message(D-Bus support: Disabled)
-}
+#!equals(DISABLE_DBUS, 1):qtHaveModule(dbus) {
+#    QT += dbus
+#    message(D-Bus support: Enabled)
+#} else {
+#    message(D-Bus support: Disabled)
+#}
 
 SOURCES += \
     main.cpp \
