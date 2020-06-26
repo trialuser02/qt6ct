@@ -42,7 +42,7 @@ public:
 QPlatformTheme *Qt6CTPlatformThemePlugin::create(const QString &key, const QStringList &params)
 {
     Q_UNUSED(params);
-    if (key.toLower() == "qt6ct")
+    if (key.toLower() == "qt6ct" || key.toLower() == "qt5ct")
         return new Qt6CTPlatformTheme();
     return NULL;
 }
