@@ -39,25 +39,6 @@
 #include <QIcon>
 #include <QFileInfo>
 
-#if !defined(QT_NO_DBUS) && defined(QT_DBUS_LIB)
-
-#if !defined(QT_NO_SYSTEMTRAYICON)
-//#define DBUS_TRAY
-#endif
-
-//#define GLOBAL_MENU
-
-#endif
-
-class QPalette;
-#ifdef DBUS_TRAY
-class QPlatformSystemTrayIcon;
-#endif
-
-#ifdef GLOBAL_MENU
-class QPlatformMenuBar;
-#endif
-
 class Qt6CTPlatformTheme : public QObject, public QGenericUnixTheme
 {
     Q_OBJECT
