@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="88"/>
+        <location filename="../appearancepage.cpp" line="82"/>
         <source>Default</source>
         <translation>Standaard</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Standaard dialoogvensters:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="69"/>
         <source>Create</source>
-        <translation>Creëren</translation>
+        <translation>Maken</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create a Copy</source>
         <translation>Kopie creëren</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Rename</source>
         <translation>Naam wijzigen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="76"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Remove</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>Enter Color Scheme Name</source>
         <translation>Voer een naam in voor dit kleurenschema</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>File name:</source>
         <translation>Bestandsnaam:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="236"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Het kleurenschema &quot;%1&quot; bestaat al</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>Warning</source>
         <translation>Waarschuwing</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Het kleurenschema &quot;%1&quot; is alleen-lezen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="198"/>
+        <location filename="../appearancepage.cpp" line="189"/>
         <source>Confirm Remove</source>
-        <translation>Verwijdering bevestigen</translation>
+        <translation>Verwijderen bevestigen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="199"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Weet je zeker dat je het kleurenschema &quot;%1&quot; wilt verwijderen?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="210"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopie)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="236"/>
+        <location filename="../appearancepage.cpp" line="227"/>
         <source>Unable to copy file</source>
         <translation>Kopiëren van bestand niet mogelijk</translation>
     </message>
@@ -246,12 +246,12 @@
     <message>
         <location filename="../fontspage.ui" line="100"/>
         <source>Fixed width:</source>
-        <translation>Vastgezette breedte:</translation>
+        <translation>Vaste breedte:</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="125"/>
         <source>Create  fonts.conf</source>
-        <translation>fonts.conf creëren</translation>
+        <translation>fonts.conf samenstellen</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="132"/>
@@ -372,37 +372,37 @@
     <message>
         <location filename="../interfacepage.ui" line="256"/>
         <source>Show shortcut underlines</source>
-        <translation>Snelkoppelingen onderstrepen</translation>
+        <translation>Sneltoetsacties onderstrepen</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation>Sneltoetsen tonen in rechtermuisknopmenu&apos;s</translation>
+        <translation>Sneltoetsacties tonen in rechtermuisknopmenu&apos;s</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="61"/>
+        <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
         <translation>Alleen pictogram tonen</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="62"/>
+        <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
         <translation>Alleen tekst tonen</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="63"/>
+        <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
         <translation>Tekst naast het pictogram tonen</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="64"/>
+        <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
         <translation>Tekst onder het pictogram tonen</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="65"/>
+        <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
-        <translation>Applicatiestijl volgen</translation>
+        <translation>Programmastijl volgen</translation>
     </message>
 </context>
 <context>
@@ -410,12 +410,12 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished">Qt5-instellingen {6 ?}</translation>
+        <translation>Qt6-instellingen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation>De applicatie is onjuist ingesteld.</translation>
+        <translation>Het programma is onjuist ingesteld.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is niet ingesteld (vereiste waarde: &lt;b&gt;qt5ct&lt;/b&gt;). {6c?}</translation>
+        <translation>De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is niet ingesteld (vereiste waarde: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is onjuist ingesteld (huidige waarde: &lt;b&gt;%1&lt;/b&gt; - vereiste waarde: &lt;b&gt;qt5ct&lt;/b&gt;). {1&lt;?} {6c?}</translation>
+        <translation>De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is onjuist ingesteld (huidige waarde: &lt;b&gt;%1&lt;/b&gt; - vereiste waarde: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;libqt5ct-style.so&lt;/b&gt; kan niet worden gevonden. {6c?}</translation>
+        <translation>&lt;b&gt;libqt6ct-style.so&lt;/b&gt; is niet aangetroffen.</translation>
     </message>
 </context>
 <context>
@@ -498,135 +498,135 @@
     <message>
         <location filename="../paletteeditdialog.ui" line="29"/>
         <source>Build inactive palette</source>
-        <translation>Inactief kleurenschema bouwen</translation>
+        <translation>Inactief kleurenschema samenstellen</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="36"/>
         <source>Build disabled palette</source>
-        <translation>Uitgeschakeld kleurenschema bouwen</translation>
+        <translation>Uitgeschakeld kleurenschema samenstellen</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Active</source>
         <translation>Actief</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Inactive</source>
         <translation>Inactief</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Disabled</source>
         <translation>Uitgeschakeld</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Dark</source>
         <translation>Donker</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Window text</source>
         <translation>Venstertekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Button background</source>
         <translation>Knopachtergrond</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Bright</source>
         <translation>Licht</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less bright</source>
         <translation>Minder licht</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less dark</source>
         <translation>Minder donker</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Window</source>
         <translation>Venster</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Shadow</source>
         <translation>Schaduw</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Bright text</source>
         <translation>Lichte tekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
         <translation>Knoptekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal text</source>
         <translation>Normale tekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal background</source>
         <translation>Normale achtergrond</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlight</source>
         <translation>Markeren</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlighted text</source>
         <translation>Gemarkeerde tekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Visited link</source>
         <translation>Bezochte link</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Default</source>
         <translation>Standaard</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip background</source>
         <translation>Hulpballonachtergrond</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip text</source>
         <translation>Hulpballontekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Link</source>
         <translation>Link</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Alternate background</source>
         <translation>Afwisselende achtergrond</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="96"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
         <translation>Plaatshoudertekst</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="109"/>
+        <location filename="../paletteeditdialog.cpp" line="107"/>
         <source>Select Color</source>
         <translation>Kleur selecteren</translation>
     </message>
@@ -682,7 +682,7 @@
     <message>
         <location filename="../qsspage.ui" line="23"/>
         <source>Create</source>
-        <translation>Creëren</translation>
+        <translation>Maken</translation>
     </message>
     <message>
         <location filename="../qsspage.ui" line="66"/>
@@ -706,7 +706,7 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation>Kopie creëren</translation>
+        <translation>Kopie maken</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>

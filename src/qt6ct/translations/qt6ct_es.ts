@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="88"/>
+        <location filename="../appearancepage.cpp" line="82"/>
         <source>Default</source>
         <translation>Predeterminada</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Diálogos estándar:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="69"/>
         <source>Create</source>
         <translation>Crear</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create a Copy</source>
         <translation>Crear una copia</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Rename</source>
         <translation>Renombrar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="76"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Remove</source>
         <translation>Eliminar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>Enter Color Scheme Name</source>
         <translation>Escribir el nombre de la combinación de colores</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>File name:</source>
         <translation>Nombre del archivo:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="236"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>La combinación de colores «%1» ya existe</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>Warning</source>
         <translation>Aviso</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>La combinación de colores «%1» es de solo lectura</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="198"/>
+        <location filename="../appearancepage.cpp" line="189"/>
         <source>Confirm Remove</source>
         <translation>Confirmar la eliminación</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="199"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>¿Seguro que quiere eliminar la combinación de colores «%1»?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="210"/>
         <source>%1 (copy)</source>
         <translation>%1 (copia)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="236"/>
+        <location filename="../appearancepage.cpp" line="227"/>
         <source>Unable to copy file</source>
         <translation>No se puede copiar el archivo</translation>
     </message>
@@ -380,27 +380,27 @@
         <translation>Mostrar los accesos directos en los menús contextuales</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="61"/>
+        <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
         <translation>Mostrar solo los iconos</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="62"/>
+        <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
         <translation>Mostrar solo el texto</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="63"/>
+        <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
         <translation>Mostrar el texto a lado de los iconos</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="64"/>
+        <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
         <translation>Mostrar el texto debajo de los iconos</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="65"/>
+        <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
         <translation>Seguir el estilo de la aplicación</translation>
     </message>
@@ -506,127 +506,127 @@
         <translation>Generar la paleta desactivada</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Active</source>
         <translation>Activa</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Inactive</source>
         <translation>Inactiva</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Disabled</source>
         <translation>Desactivada</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Dark</source>
         <translation>Oscuro</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Window text</source>
         <translation>Texto de la ventana</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Button background</source>
         <translation>Fondo del botón</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Bright</source>
         <translation>Brillante</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less bright</source>
         <translation>Menos brillante</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less dark</source>
         <translation>Menos oscuro</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Window</source>
         <translation>Ventana</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Shadow</source>
         <translation>Sombra</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Bright text</source>
         <translation>Texto brillante</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
         <translation>Texto del botón</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal text</source>
         <translation>Texto normal</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal background</source>
         <translation>Fondo normal</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlight</source>
         <translation>Resaltado</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlighted text</source>
         <translation>Texto resaltado</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Visited link</source>
         <translation>Enlace visitado</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Default</source>
         <translation>Por defecto</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip background</source>
         <translation>Fondo de la información emergente</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip text</source>
         <translation>Texto de la información emergente</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Link</source>
         <translation>Enlace</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Alternate background</source>
         <translation>Fondo alternativo</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="96"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
         <translation>Texto de relleno</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="109"/>
+        <location filename="../paletteeditdialog.cpp" line="107"/>
         <source>Select Color</source>
         <translation>Seleccionar el color</translation>
     </message>

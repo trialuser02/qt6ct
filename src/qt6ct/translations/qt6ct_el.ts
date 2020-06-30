@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="88"/>
+        <location filename="../appearancepage.cpp" line="82"/>
         <source>Default</source>
         <translation>Εξ ορισμού</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Τυπικοί διάλογοι:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="69"/>
         <source>Create</source>
         <translation>Δημιουργία</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Edit</source>
         <translation>Επεξεργασία</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create a Copy</source>
         <translation>Δημιουργία αντιγράφου</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Rename</source>
         <translation>Μετονομασία</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="76"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Remove</source>
         <translation>Αφαίρεση</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>Enter Color Scheme Name</source>
         <translation>Εισαγάγετε το όνομα του χρωματικού σχήματος</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>File name:</source>
         <translation>Όνομα αρχείου:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="236"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Το χρωματικό σχήμα «%1» υπάρχει ήδη</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>Warning</source>
         <translation>Προειδοποίηση</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Το χρωματικό σχήμα «%1» είναι μόνο για ανάγνωση</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="198"/>
+        <location filename="../appearancepage.cpp" line="189"/>
         <source>Confirm Remove</source>
         <translation>Επικύρωση της αφαίρεσης</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="199"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Είστε σίγουρος-η ότι θέλετε να αφαιρέσετε το χρωματικό σχήμα «%1»;</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="210"/>
         <source>%1 (copy)</source>
         <translation>%1 (αντίγραφο)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="236"/>
+        <location filename="../appearancepage.cpp" line="227"/>
         <source>Unable to copy file</source>
         <translation>Αδύνατη η αντιγραφή του αρχείου</translation>
     </message>
@@ -380,27 +380,27 @@
         <translation>Εμφάνιση των συντομεύσεων στο σχετικό μενού</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="61"/>
+        <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
         <translation>Εμφάνιση μόνον του εικονιδίου</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="62"/>
+        <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
         <translation>Εμφάνιση μόνον του κειμένου</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="63"/>
+        <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
         <translation>Το κείμενο εμφανίζεται δίπλα από το εικονίδιο</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="64"/>
+        <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
         <translation>Το κείμενο εμφανίζεται κάτω από το εικονίδιο</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="65"/>
+        <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
         <translation>Ακολούθηση της τεχνοτροπίας της εφαρμογής</translation>
     </message>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished">Εργαλείο διαμόρφωσης της Qt5 {6 ?}</translation>
+        <translation>Εργαλείο διαμόρφωσης της Qt6</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">Η μεταβλητή περιβάλλοντος &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; δεν έχει οριστεί (απαιτούμενη τιμή: &lt;b&gt;qt5ct&lt;/b&gt;). {6c?}</translation>
+        <translation>Η μεταβλητή περιβάλλοντος &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; δεν έχει οριστεί (απαιτούμενη τιμή: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">Η μεταβλητή περιβάλλοντος &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; δεν έχει οριστεί σωστά (τρέχουσα τιμή: &lt;b&gt;%1&lt;/b&gt;, απαιτούμενη τιμή: &lt;b&gt;qt5ct&lt;/b&gt;). {1&lt;?} {6c?}</translation>
+        <translation>Η μεταβλητή περιβάλλοντος &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; δεν έχει οριστεί σωστά (τρέχουσα τιμή: &lt;b&gt;%1&lt;/b&gt;, απαιτούμενη τιμή: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished">Αδύνατη η εύρεση του &lt;b&gt;libqt5ct-style.so&lt;/b&gt; {6c?}</translation>
+        <translation>Αδύνατη η εύρεση του &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -506,127 +506,127 @@
         <translation>Δημιουργία απενεργοποιημένης χρωματοπυξίδας</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Active</source>
         <translation>Ενεργό</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Inactive</source>
         <translation>Ανενεργό</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Disabled</source>
         <translation>Απενεργοποιημένο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Dark</source>
         <translation>Σκούρο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Window text</source>
         <translation>Κείμενο παραθύρου</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Button background</source>
         <translation>Παρασκήνιο κουμπιού</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Bright</source>
         <translation>Φωτεινό</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less bright</source>
         <translation>Σκοτεινότερο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less dark</source>
         <translation>Εξασθενισμένο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Window</source>
         <translation>Παράθυρο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Shadow</source>
         <translation>Σκιά</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Bright text</source>
         <translation>Φωτεινό κείμενο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
         <translation>Κείμενο κουμπιού</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal text</source>
         <translation>Κανονικό κείμενο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal background</source>
         <translation>Κανονικό παρασκήνιο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlight</source>
         <translation>Τονισμός</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlighted text</source>
         <translation>Τονισμένο κείμενο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Visited link</source>
         <translation>Επισκεφθείς δεσμός</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Default</source>
         <translation>Εξ ορισμού</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip background</source>
         <translation>Παρασκήνιο υπόδειξης</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip text</source>
         <translation>Κείμενο υπόδειξης</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Link</source>
         <translation>Δεσμός</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Alternate background</source>
         <translation>Εναλλάξ παρασκήνιο</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="96"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
         <translation>Κείμενο δεσμευτικού θέσης</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="109"/>
+        <location filename="../paletteeditdialog.cpp" line="107"/>
         <source>Select Color</source>
         <translation>Επιλογή Χρώματος</translation>
     </message>

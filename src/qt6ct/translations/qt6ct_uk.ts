@@ -6,146 +6,146 @@
     <message>
         <location filename="../appearancepage.ui" line="20"/>
         <source>Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль:</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="59"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Глянути</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="69"/>
         <source>Active palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно з фокусом</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="74"/>
         <source>Inactive palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Решта вікон</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="79"/>
         <source>Disabled palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнені віджети</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="113"/>
         <source>Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Палітра</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="88"/>
+        <location filename="../appearancepage.cpp" line="82"/>
         <source>Default</source>
         <translation>Типово</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="134"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>По-своєму</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="161"/>
         <source>Color scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Схема кольорів:</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="187"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="218"/>
         <source>Standard dialogs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Звичні діалоги:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="69"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Edit</source>
         <translation>Редагувати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create a Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Зробити копію</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Rename</source>
         <translation>Перейменувати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="76"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Remove</source>
         <translation>Вилучити</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>Enter Color Scheme Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Назвіть схему кольорів</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="217"/>
-        <location filename="../appearancepage.cpp" line="256"/>
+        <location filename="../appearancepage.cpp" line="134"/>
+        <location filename="../appearancepage.cpp" line="208"/>
+        <location filename="../appearancepage.cpp" line="247"/>
         <source>File name:</source>
         <translation>Ім&apos;я файлу:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="236"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="152"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="266"/>
+        <location filename="../appearancepage.cpp" line="143"/>
+        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Схема кольорів &quot;%1&quot; уже існує</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>Warning</source>
         <translation>Попередження</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="170"/>
-        <location filename="../appearancepage.cpp" line="193"/>
-        <location filename="../appearancepage.cpp" line="251"/>
+        <location filename="../appearancepage.cpp" line="161"/>
+        <location filename="../appearancepage.cpp" line="184"/>
+        <location filename="../appearancepage.cpp" line="242"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
-        <translation type="unfinished"></translation>
+        <translation>Схему кольорів &quot;%1&quot; можна лише читати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="198"/>
+        <location filename="../appearancepage.cpp" line="189"/>
         <source>Confirm Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтвердити видалення</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="199"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви певні, що хочете видалити схему кольорів &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="219"/>
+        <location filename="../appearancepage.cpp" line="210"/>
         <source>%1 (copy)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (копія)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="236"/>
+        <location filename="../appearancepage.cpp" line="227"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдалося скопіювати файл</translation>
     </message>
 </context>
 <context>
@@ -154,78 +154,78 @@
         <location filename="../fontconfigdialog.ui" line="14"/>
         <location filename="../fontconfigdialog.cpp" line="73"/>
         <source>Font Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметри шрифту</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="29"/>
         <source>Disable automatic hinting for bold fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути автохінтинг грубих шрифтів</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="36"/>
         <source>LCD filter:</source>
-        <translation type="unfinished"></translation>
+        <translation>РК-фільтр:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="43"/>
         <source>Automatic hinting</source>
-        <translation type="unfinished"></translation>
+        <translation>Автохінтинг</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="50"/>
         <source>Hinting</source>
-        <translation type="unfinished"></translation>
+        <translation>Хінтинг</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="67"/>
         <source>Font resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Роздільність шрифту:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="110"/>
         <source> dpi</source>
-        <translation type="unfinished"></translation>
+        <translation>dpi</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="83"/>
         <source>Subpixel geometry:</source>
-        <translation type="unfinished"></translation>
+        <translation>Геометрія субпікселів:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="90"/>
         <source>Antialiasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Згладження</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="97"/>
         <source>Hinting style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль хінтингу:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="42"/>
         <location filename="../fontconfigdialog.cpp" line="47"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Жодного</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="43"/>
         <source>Slight</source>
-        <translation type="unfinished"></translation>
+        <translation>Легкий</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="44"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Середній</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="45"/>
         <source>Full</source>
-        <translation type="unfinished"></translation>
+        <translation>Повний</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="74"/>
         <source>&lt;i&gt;%1&lt;/i&gt; already exists. Do you want to replace it?</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;i&gt;%1&lt;/i&gt; уже існує. Замінити?</translation>
     </message>
 </context>
 <context>
@@ -236,37 +236,37 @@
         <location filename="../fontspage.ui" line="86"/>
         <location filename="../fontspage.ui" line="93"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="60"/>
         <source>General:</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальне:</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="100"/>
         <source>Fixed width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Термінал:</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="125"/>
         <source>Create  fonts.conf</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити fonts.conf</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="132"/>
         <source>Remove fonts.conf</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити fonts.conf</translation>
     </message>
     <message>
         <location filename="../fontspage.cpp" line="110"/>
         <source>Remove Font Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Стерти параметри шрифту</translation>
     </message>
     <message>
         <location filename="../fontspage.cpp" line="111"/>
         <source>Are you sure you want to delete &lt;i&gt;%1&lt;/i&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Точно стерти &lt;i&gt;%1&lt;/i&gt;?:</translation>
     </message>
 </context>
 <context>
@@ -274,33 +274,33 @@
     <message>
         <location filename="../interfacepage.ui" line="35"/>
         <source>Double click interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка подвійного кліку:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="42"/>
         <source>Cursor flash time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Період блимання курсору:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="49"/>
         <source>ComboBox effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Поле зі списком:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="56"/>
         <source>ToolTip effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Спливна підказка:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="63"/>
         <source>ToolBox effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкладки:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="70"/>
         <location filename="../interfacepage.ui" line="80"/>
         <source> ms</source>
-        <translation type="unfinished"></translation>
+        <translation>мс</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="94"/>
@@ -308,7 +308,7 @@
         <location filename="../interfacepage.ui" line="133"/>
         <location filename="../interfacepage.ui" line="157"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Без анімації</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="99"/>
@@ -316,93 +316,93 @@
         <location filename="../interfacepage.ui" line="138"/>
         <location filename="../interfacepage.ui" line="162"/>
         <source>Animate</source>
-        <translation type="unfinished"></translation>
+        <translation>Випад</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="121"/>
         <location filename="../interfacepage.ui" line="167"/>
         <source>Fade</source>
-        <translation type="unfinished"></translation>
+        <translation>Згасання</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="146"/>
         <source>Menu effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="175"/>
         <source>Enable gui effects</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути ефекти</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="182"/>
         <source>Dialog buttons layout:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопки в діалогах:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="192"/>
         <source>Keyboard scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Схема клавіш:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="202"/>
         <source>Menus have icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Іконки в меню</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="209"/>
         <source>Dialog buttons have icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Іконки в кнопках діалогів</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="219"/>
         <source>Activate item on single-click</source>
-        <translation type="unfinished"></translation>
+        <translation>Активувати одним кліком</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="229"/>
         <source>Toolbar button style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль кнопок панелі:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="239"/>
         <source>Mouse wheel scroll lines:</source>
-        <translation type="unfinished"></translation>
+        <translation>Коліщатко скролить рядки:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="256"/>
         <source>Show shortcut underlines</source>
-        <translation type="unfinished"></translation>
+        <translation>Підкреслювати скорочення</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорочення в контекстних меню</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="61"/>
+        <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Лише іконка</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="62"/>
+        <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Лише текст</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="63"/>
+        <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст поруч з іконкою</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="64"/>
+        <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст під іконкою</translation>
     </message>
     <message>
-        <location filename="../interfacepage.cpp" line="65"/>
+        <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
-        <translation type="unfinished"></translation>
+        <translation>Як бажає програма</translation>
     </message>
 </context>
 <context>
@@ -410,47 +410,47 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Засіб налаштування Qt6</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Програма налаштована хибно.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="68"/>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Сховати</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="49"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Вигляд</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="50"/>
         <source>Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифти</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="51"/>
         <source>Icon Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Тема іконок</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="52"/>
         <source>Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтерфейс</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="54"/>
         <source>Style Sheets</source>
-        <translation type="unfinished"></translation>
+        <translation>Стилі</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="62"/>
@@ -460,27 +460,27 @@
     <message>
         <location filename="../mainwindow.cpp" line="107"/>
         <source>Warning</source>
-        <translation type="unfinished">Попередження</translation>
+        <translation>Увага</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="116"/>
         <source>Please remove the &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; environment variable (current value: &lt;b&gt;%1&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, видаліть змінну середовища &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; (зараз: &lt;b&gt;%1&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінна середовища &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; не задана (потрібне значення: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінна середовища &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; задана хибно (зараз: &lt;b&gt;%1&lt;/b&gt;, треба: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;libqt6ct-style.so&lt;/b&gt; не знайдено</translation>
     </message>
 </context>
 <context>
@@ -488,147 +488,147 @@
     <message>
         <location filename="../paletteeditdialog.ui" line="14"/>
         <source>Palette Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор палітри</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="79"/>
         <source>Reset palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити палітру</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="29"/>
         <source>Build inactive palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Зібрати палітру решти вікон</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="36"/>
         <source>Build disabled palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Зібрати палітру вимкнених віджетів</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Фокус</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Решта</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="49"/>
+        <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнене</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Темно</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Window text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст вікна</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Button background</source>
-        <translation type="unfinished"></translation>
+        <translation>Тло кнопки</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Bright</source>
-        <translation type="unfinished"></translation>
+        <translation>Світло</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Less bright</source>
-        <translation type="unfinished"></translation>
+        <translation>Тьмяніше</translation>
+    </message>
+    <message>
+        <location filename="../paletteeditdialog.cpp" line="90"/>
+        <source>Less dark</source>
+        <translation>Світліше</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="91"/>
-        <source>Less dark</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Тінь</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Bright text</source>
-        <translation type="unfinished"></translation>
+        <translation>Світлий текст</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст кнопки</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Normal text</source>
-        <translation type="unfinished"></translation>
+        <translation>Звичний текст</translation>
+    </message>
+    <message>
+        <location filename="../paletteeditdialog.cpp" line="91"/>
+        <source>Normal background</source>
+        <translation>Звичне тло</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
-        <source>Normal background</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Highlight</source>
-        <translation type="unfinished"></translation>
+        <translation>Виділення</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="93"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlighted text</source>
-        <translation type="unfinished"></translation>
+        <translation>Виділений текст</translation>
+    </message>
+    <message>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
+        <source>Visited link</source>
+        <translation>Відвіданий лінк</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
-        <source>Visited link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
         <source>Default</source>
         <translation>Типово</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip background</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
-        <source>Tooltip text</source>
-        <translation type="unfinished"></translation>
+        <translation>Тло підказки</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
+        <source>Tooltip text</source>
+        <translation>Текст підказки</translation>
+    </message>
+    <message>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Лінк</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="94"/>
+        <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Alternate background</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінне тло</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="96"/>
+        <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
-        <translation type="unfinished"></translation>
+        <translation>Мітка-заповнювач</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="109"/>
+        <location filename="../paletteeditdialog.cpp" line="107"/>
         <source>Select Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Обрати колір</translation>
     </message>
 </context>
 <context>
@@ -636,32 +636,32 @@
     <message>
         <location filename="../previewform.ui" line="14"/>
         <source>Preview Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно перегляду</translation>
     </message>
     <message>
         <location filename="../previewform.ui" line="27"/>
         <source>Tab 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкладка 1</translation>
     </message>
     <message>
         <location filename="../previewform.ui" line="36"/>
         <source>PushButton</source>
-        <translation type="unfinished"></translation>
+        <translation>Командна кнопка</translation>
     </message>
     <message>
         <location filename="../previewform.ui" line="65"/>
         <source>Tab 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкладка 2</translation>
     </message>
     <message>
         <location filename="../previewform.ui" line="74"/>
         <source>RadioButton</source>
-        <translation type="unfinished"></translation>
+        <translation>Радіокнопка</translation>
     </message>
     <message>
         <location filename="../previewform.ui" line="84"/>
         <source>CheckBox</source>
-        <translation type="unfinished"></translation>
+        <translation>Прапорець</translation>
     </message>
 </context>
 <context>
@@ -669,12 +669,12 @@
     <message>
         <location filename="../qsseditordialog.cpp" line="46"/>
         <source>%1 - Style Sheet Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Редактор стилю</translation>
     </message>
     <message>
         <location filename="../qsseditordialog.ui" line="14"/>
         <source>Style Sheet Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор стилю</translation>
     </message>
 </context>
 <context>
@@ -682,7 +682,7 @@
     <message>
         <location filename="../qsspage.ui" line="23"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити</translation>
     </message>
     <message>
         <location filename="../qsspage.ui" line="66"/>
@@ -706,12 +706,12 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Зробити копію</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Глянути</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="106"/>
@@ -723,7 +723,7 @@
         <location filename="../qsspage.cpp" line="106"/>
         <location filename="../qsspage.cpp" line="251"/>
         <source>Enter Style Sheet Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Назвіть стиль</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="117"/>
@@ -737,48 +737,48 @@
     <message>
         <location filename="../qsspage.cpp" line="117"/>
         <source>The file &quot;%1&quot; already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл &quot;%1&quot; уже існує</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="151"/>
         <source>Confirm Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтвердити видалення</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="152"/>
         <source>Are you sure you want to remove style sheet &quot;%1&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Точно видалити стиль &quot;%1%?</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="208"/>
         <source>Rename Style Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейменувати стиль</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="208"/>
         <source>Style sheet name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Назва стилю:</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="218"/>
         <location filename="../qsspage.cpp" line="263"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль &quot;%1&quot; уже існує</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="226"/>
         <source>Unable to rename file</source>
-        <translation type="unfinished"></translation>
+        <translation>Збій переміщення файлу</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="253"/>
         <source>%1 (copy).qss</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (копія).qss</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Збій копіювання файлу</translation>
     </message>
 </context>
 </TS>
