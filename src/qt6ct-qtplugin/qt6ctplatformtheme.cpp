@@ -47,12 +47,6 @@
 
 #include <qt6ct/qt6ct.h>
 #include "qt6ctplatformtheme.h"
-#ifdef GLOBAL_MENU
-#include <private/qdbusmenubar_p.h>
-#endif
-#ifdef DBUS_TRAY
-#include <private/qdbustrayicon_p.h>
-#endif
 
 #include <QStringList>
 #include <qpa/qplatformthemefactory_p.h>
@@ -87,20 +81,6 @@ Qt6CTPlatformTheme::~Qt6CTPlatformTheme()
 
 }
 
-#ifdef GLOBAL_MENU
-QPlatformMenuBar *Qt6CTPlatformTheme::createPlatformMenuBar() const
-{
-    if(m_checkDBusGlobalMenu)
-    {
-        QDBusConnection conn = QDBusConnection::sessionBus();
-        m_dbusGlobalMenuAvailable = conn.interface()->isServiceRegistered("com.canonical.AppMenu.Registrar");
-        m_checkDBusGlobalMenu = false;
-        qCDebug(lqt6ct) << "D-Bus global menu:" << (m_dbusGlobalMenuAvailable ? "yes" : "no");
-    }
-    return (m_dbusGlobalMenuAvailable ? new QDBusMenuBar() : nullptr);
-}
-#endif
-
 bool Qt6CTPlatformTheme::usePlatformNativeDialog(DialogType type) const
 {
     return m_theme ? m_theme->usePlatformNativeDialog(type) :
@@ -112,20 +92,6 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
     return m_theme ? m_theme->createPlatformDialogHelper(type) :
                      QPlatformTheme::createPlatformDialogHelper(type);
 }
-
-#ifdef DBUS_TRAY
-QPlatformSystemTrayIcon *Qt6CTPlatformTheme::createPlatformSystemTrayIcon() const
-{
-    if(m_checkDBusTray)
-    {
-        QDBusMenuConnection conn;
-        m_dbusTrayAvailable = conn.isStatusNotifierHostRegistered();
-        m_checkDBusTray = false;
-        qCDebug(lqt6ct) << "D-Bus system tray:" << (m_dbusTrayAvailable ? "yes" : "no");
-    }
-    return (m_dbusTrayAvailable ? new QDBusTrayIcon() : nullptr);
-}
-#endif
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {

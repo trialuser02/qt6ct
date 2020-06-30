@@ -30,6 +30,7 @@
 #define QT6CTPLATFORMTHEME_H
 
 #include <qpa/qplatformtheme.h>
+#include <private/qgenericunixthemes_p.h>
 #include <QObject>
 #include <QFont>
 #include <QPalette>
@@ -41,10 +42,10 @@
 #if !defined(QT_NO_DBUS) && defined(QT_DBUS_LIB)
 
 #if !defined(QT_NO_SYSTEMTRAYICON)
-#define DBUS_TRAY
+//#define DBUS_TRAY
 #endif
 
-#define GLOBAL_MENU
+//#define GLOBAL_MENU
 
 #endif
 
@@ -57,7 +58,7 @@ class QPlatformSystemTrayIcon;
 class QPlatformMenuBar;
 #endif
 
-class Qt6CTPlatformTheme : public QObject, public QPlatformTheme
+class Qt6CTPlatformTheme : public QObject, public QGenericUnixTheme
 {
     Q_OBJECT
 public:
@@ -67,15 +68,9 @@ public:
 
     //virtual QPlatformMenuItem* createPlatformMenuItem() const;
     //virtual QPlatformMenu* createPlatformMenu() const;
-#ifdef GLOBAL_MENU
-    virtual QPlatformMenuBar* createPlatformMenuBar() const override;
-#endif
     //virtual void showPlatformMenuBar() {}
     virtual bool usePlatformNativeDialog(DialogType type) const override;
     virtual QPlatformDialogHelper *createPlatformDialogHelper(DialogType type) const override;
-#ifdef DBUS_TRAY
-    virtual QPlatformSystemTrayIcon *createPlatformSystemTrayIcon() const override;
-#endif
     virtual const QPalette *palette(Palette type = SystemPalette) const override;
     virtual const QFont *font(Font type = SystemFont) const override;
     virtual QVariant themeHint(ThemeHint hint) const override;
@@ -115,15 +110,6 @@ private:
     int m_toolButtonStyle = Qt::ToolButtonFollowStyle;
     int m_wheelScrollLines = 3;
     bool m_showShortcutsInContextMenus = false;
-#ifdef GLOBAL_MENU
-    mutable bool m_dbusGlobalMenuAvailable = false;
-    mutable bool m_checkDBusGlobalMenu = true;
-#endif
-#ifdef DBUS_TRAY
-    mutable bool m_dbusTrayAvailable = false;
-    mutable bool m_checkDBusTray = true;
-#endif
-
     QScopedPointer<QPlatformTheme> m_theme;
 };
 
