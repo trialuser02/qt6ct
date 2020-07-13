@@ -44,6 +44,7 @@
 #endif
 #include <QFile>
 #include <QFileSystemWatcher>
+#include <private/qiconloader_p.h>
 
 #include <qt6ct/qt6ct.h>
 #include "qt6ctplatformtheme.h"
@@ -190,7 +191,9 @@ void Qt6CTPlatformTheme::applySettings()
     }
 #endif
     QGuiApplication::setFont(m_generalFont); //apply font
-    QIcon::setThemeName(m_iconTheme); //apply icons
+    if(m_update)
+        QIconLoader::instance()->updateSystemTheme(); //apply icons
+
     if(m_palette && m_usePalette)
         QGuiApplication::setPalette(*m_palette); //apply palette
 
