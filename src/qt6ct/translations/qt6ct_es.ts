@@ -111,7 +111,7 @@
         <location filename="../appearancepage.cpp" line="219"/>
         <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
-        <translation>La combinación de colores «%1» ya existe</translation>
+        <translation>Ya existe la combinación de colores «%1»</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="161"/>
@@ -205,12 +205,12 @@
         <location filename="../fontconfigdialog.cpp" line="42"/>
         <location filename="../fontconfigdialog.cpp" line="47"/>
         <source>None</source>
-        <translation>Ninguno</translation>
+        <translation>Desactivar</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="43"/>
         <source>Slight</source>
-        <translation>Leve</translation>
+        <translation>Ligero</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="44"/>
@@ -316,13 +316,13 @@
         <location filename="../interfacepage.ui" line="138"/>
         <location filename="../interfacepage.ui" line="162"/>
         <source>Animate</source>
-        <translation>Animado</translation>
+        <translation>Animar</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="121"/>
         <location filename="../interfacepage.ui" line="167"/>
         <source>Fade</source>
-        <translation>Fundido</translation>
+        <translation>Fundir</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="146"/>
@@ -357,7 +357,7 @@
     <message>
         <location filename="../interfacepage.ui" line="219"/>
         <source>Activate item on single-click</source>
-        <translation>Activar los elementos con un solo clic</translation>
+        <translation>Activar elementos con un solo clic</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="229"/>
@@ -382,7 +382,7 @@
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
-        <translation>Mostrar solo los iconos</translation>
+        <translation>Mostrar solo el icono</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="56"/>
@@ -392,12 +392,12 @@
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation>Mostrar el texto a lado de los iconos</translation>
+        <translation>Mostrar el texto a lado del icono</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation>Mostrar el texto debajo de los iconos</translation>
+        <translation>Mostrar el texto debajo del icono</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished">Herramienta de configuración de QT5 {6 ?}</translation>
+        <translation>Herramienta de configuración de Qt6</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">No se ha configurado la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor requerido: &lt;b&gt;qt5ct&lt;/b&gt;). {6c?}</translation>
+        <translation>No se ha configurado la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor requerido: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">No se ha configurado correctemente la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valor requerido: qt5ct). {1&lt;?} {6c?}</translation>
+        <translation>No se ha configurado correctamente la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valor requerido: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished">No se puede encontrar &lt;b&gt;libqt5ct-style.so&lt;/b&gt; {6c?}</translation>
+        <translation>No se puede encontrar &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@
     <message>
         <location filename="../qsspage.cpp" line="117"/>
         <source>The file &quot;%1&quot; already exists</source>
-        <translation>El archivo «%1» ya existe</translation>
+        <translation>Ya existe el archivo «%1»</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="151"/>
@@ -763,7 +763,7 @@
         <location filename="../qsspage.cpp" line="218"/>
         <location filename="../qsspage.cpp" line="263"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
-        <translation>La hoja de estilo «%1» ya existe</translation>
+        <translation>Ya existe la hoja de estilo «%1»</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="226"/>

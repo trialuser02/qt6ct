@@ -11,7 +11,7 @@
     <message>
         <location filename="../appearancepage.ui" line="59"/>
         <source>Preview</source>
-        <translation>Voorbeeld</translation>
+        <translation>Voorvertoning</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="69"/>
@@ -72,7 +72,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="71"/>
         <source>Create a Copy</source>
-        <translation>Kopie creëren</translation>
+        <translation>Kopie maken</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="72"/>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="227"/>
         <source>Unable to copy file</source>
-        <translation>Kopiëren van bestand niet mogelijk</translation>
+        <translation>Het bestand kan niet worden gekopieerd</translation>
     </message>
 </context>
 <context>
@@ -362,7 +362,7 @@
     <message>
         <location filename="../interfacepage.ui" line="229"/>
         <source>Toolbar button style:</source>
-        <translation>Werkbalkknop-stijl:</translation>
+        <translation>Werkbalkknopstijl:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="239"/>
@@ -392,12 +392,12 @@
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation>Tekst naast het pictogram tonen</translation>
+        <translation>Tekst naast pictogram tonen</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation>Tekst onder het pictogram tonen</translation>
+        <translation>Tekst onder pictogram tonen</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
@@ -415,7 +415,7 @@
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation>Het programma is onjuist ingesteld.</translation>
+        <translation>Het programma is niet goed ingesteld.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
@@ -475,7 +475,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation>De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is onjuist ingesteld (huidige waarde: &lt;b&gt;%1&lt;/b&gt; - vereiste waarde: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
+        <translation>De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is niet goed ingesteld (huidige waarde: &lt;b&gt;%1&lt;/b&gt; - vereiste waarde: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
@@ -488,12 +488,12 @@
     <message>
         <location filename="../paletteeditdialog.ui" line="14"/>
         <source>Palette Editor</source>
-        <translation>Kleurenschema-bewerker</translation>
+        <translation>Kleurenschemabewerker</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="79"/>
         <source>Reset palette</source>
-        <translation>Standaardwaarden</translation>
+        <translation>Standaardwaarden teugzetten</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="29"/>
@@ -723,7 +723,7 @@
         <location filename="../qsspage.cpp" line="106"/>
         <location filename="../qsspage.cpp" line="251"/>
         <source>Enter Style Sheet Name</source>
-        <translation>Voer een naam in voor dit stijlblad</translation>
+        <translation>Geef dit stijlblad een naam</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="117"/>
@@ -768,7 +768,7 @@
     <message>
         <location filename="../qsspage.cpp" line="226"/>
         <source>Unable to rename file</source>
-        <translation>Het wijzigen van de bestandsnaam is mislukt</translation>
+        <translation>De bestandsnaam kan niet worden gewijzigd</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="253"/>
@@ -778,7 +778,7 @@
     <message>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
-        <translation>Kan bestand niet kopiëren</translation>
+        <translation>Het bestand kan niet worden gekopieerd</translation>
     </message>
 </context>
 </TS>

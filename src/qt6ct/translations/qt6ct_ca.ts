@@ -111,7 +111,7 @@
         <location filename="../appearancepage.cpp" line="219"/>
         <location filename="../appearancepage.cpp" line="257"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
-        <translation>L&apos;esquema de colors «%1» ja existeix</translation>
+        <translation>Ja existeix l&apos;esquema de colors «%1»</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="161"/>
@@ -125,17 +125,17 @@
         <location filename="../appearancepage.cpp" line="184"/>
         <location filename="../appearancepage.cpp" line="242"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
-        <translation>L&apos;esquema de color «%1» és de només lectura</translation>
+        <translation>L&apos;esquema de colors «%1» és de només lectura</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="189"/>
         <source>Confirm Remove</source>
-        <translation>Confirmació de la supressió</translation>
+        <translation>Confirma la supressió</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="190"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
-        <translation>Segur que voleu suprimir l&apos;esquema de color «%1»?</translation>
+        <translation>Segur que voleu suprimir l&apos;esquema de colors «%1»?</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="210"/>
@@ -205,7 +205,7 @@
         <location filename="../fontconfigdialog.cpp" line="42"/>
         <location filename="../fontconfigdialog.cpp" line="47"/>
         <source>None</source>
-        <translation>Cap</translation>
+        <translation>Desactiva</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="43"/>
@@ -382,7 +382,7 @@
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
-        <translation>Mostra només les icones</translation>
+        <translation>Mostra només la icona</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="56"/>
@@ -392,12 +392,12 @@
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation>Mostra el text al costat de les icones</translation>
+        <translation>Mostra el text al costat de la icona</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation>Mostra el text a sota de les icones</translation>
+        <translation>Mostra el text a sota de la icona</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Eina de configuració de Qt6</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha establert la variable d&apos;entorn &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor obligatori: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha establert correctament la variable d&apos;entorn &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valor obligatori: qt6ct).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot trobar &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -493,7 +493,7 @@
     <message>
         <location filename="../paletteeditdialog.ui" line="79"/>
         <source>Reset palette</source>
-        <translation>Restablir la paleta</translation>
+        <translation>Restableix la paleta</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.ui" line="29"/>
@@ -518,7 +518,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="48"/>
         <source>Disabled</source>
-        <translation>Desactiva</translation>
+        <translation>Desactivada</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="90"/>
@@ -568,7 +568,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
-        <translation>Text del butó</translation>
+        <translation>Text del botó</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="91"/>
@@ -598,7 +598,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Default</source>
-        <translation>Per defectee</translation>
+        <translation>Per defecte</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
@@ -689,7 +689,7 @@
         <location filename="../qsspage.cpp" line="51"/>
         <location filename="../qsspage.cpp" line="87"/>
         <source>Edit</source>
-        <translation>Editar</translation>
+        <translation>Edita</translation>
     </message>
     <message>
         <location filename="../qsspage.ui" line="76"/>
@@ -723,7 +723,7 @@
         <location filename="../qsspage.cpp" line="106"/>
         <location filename="../qsspage.cpp" line="251"/>
         <source>Enter Style Sheet Name</source>
-        <translation>Introdueix el nom del full d&apos;estil</translation>
+        <translation>Escriu el nom del full d&apos;estil</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="117"/>
@@ -737,7 +737,7 @@
     <message>
         <location filename="../qsspage.cpp" line="117"/>
         <source>The file &quot;%1&quot; already exists</source>
-        <translation>El fitxer «%1» ja existeix</translation>
+        <translation>Ja existeix el fitxer «%1»</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="151"/>
@@ -763,7 +763,7 @@
         <location filename="../qsspage.cpp" line="218"/>
         <location filename="../qsspage.cpp" line="263"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
-        <translation>El full d&apos;estil «%1» ja existeix</translation>
+        <translation>Ja existeix el full d&apos;estil «%1»</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="226"/>
