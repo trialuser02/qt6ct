@@ -42,12 +42,12 @@ int main(int argc, char **argv)
 
     QTranslator translator;
     QString locale = Qt6CT::systemLanguageID();
-    translator.load(QString(":/qt6ct_") + locale);
-    app.installTranslator(&translator);
+    if(translator.load(QString(":/qt6ct_") + locale))
+        app.installTranslator(&translator);
 
     QTranslator qt_translator;
-    qt_translator.load(QLibraryInfo::location (QLibraryInfo::TranslationsPath) + "/qtbase_" + locale);
-    app.installTranslator(&qt_translator);
+    if(qt_translator.load(QLibraryInfo::location (QLibraryInfo::TranslationsPath) + "/qtbase_" + locale))
+        app.installTranslator(&qt_translator);
 
     Qt6CT::initConfig();
 
