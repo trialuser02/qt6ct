@@ -46,7 +46,7 @@ int main(int argc, char **argv)
         app.installTranslator(&translator);
 
     QTranslator qt_translator;
-    if(qt_translator.load(QLibraryInfo::location (QLibraryInfo::TranslationsPath) + "/qtbase_" + locale))
+    if(qt_translator.load(QLibraryInfo::path(QLibraryInfo::TranslationsPath) + "/qtbase_" + locale))
         app.installTranslator(&qt_translator);
 
     Qt6CT::initConfig();
