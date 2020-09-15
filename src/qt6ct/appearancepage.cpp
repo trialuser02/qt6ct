@@ -49,6 +49,7 @@ AppearancePage::AppearancePage(QWidget *parent) :
     m_ui->setupUi(this);
     QStringList keys = QStyleFactory::keys();
     keys.removeAll("qt6ct-style"); //hide qt6ct proxy style
+    keys.removeAll("qt5gtk2"); //hide qt5gtk2 alias
     m_ui->styleComboBox->addItems(keys);
 
     connect(m_ui->paletteComboBox, SIGNAL(activated(int)), SLOT(updatePalette()));
@@ -80,9 +81,9 @@ AppearancePage::AppearancePage(QWidget *parent) :
 
     keys = QPlatformThemeFactory::keys();
     m_ui->dialogComboBox->addItem(tr("Default"), "default");
-    if(keys.contains("gtk2") || keys.contains("qt5gtk2"))
+    if(keys.contains("gtk2") || keys.contains("qt6gtk2"))
         m_ui->dialogComboBox->addItem("GTK2", "gtk2");
-    else if(keys.contains("gtk3") || keys.contains("qt5gtk3"))
+    else if(keys.contains("gtk3") || keys.contains("qt6gtk3"))
         m_ui->dialogComboBox->addItem("GTK3", "gtk3");
     if(keys.contains("kde"))
         m_ui->dialogComboBox->addItem("KDE", "kde");
