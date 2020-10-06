@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="82"/>
+        <location filename="../appearancepage.cpp" line="83"/>
         <source>Default</source>
         <translation>Типово</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Звичні діалоги:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="69"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Create</source>
         <translation>Створити</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Edit</source>
         <translation>Редагувати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Create a Copy</source>
         <translation>Зробити копію</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Rename</source>
         <translation>Перейменувати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="75"/>
         <source>Remove</source>
         <translation>Вилучити</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>Enter Color Scheme Name</source>
         <translation>Назвіть схему кольорів</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>File name:</source>
         <translation>Ім&apos;я файлу:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="227"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="228"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Схема кольорів &quot;%1&quot; уже існує</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>Warning</source>
         <translation>Попередження</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Схему кольорів &quot;%1&quot; можна лише читати</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="189"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Confirm Remove</source>
         <translation>Підтвердити видалення</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="190"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Ви певні, що хочете видалити схему кольорів &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="211"/>
         <source>%1 (copy)</source>
         <translation>%1 (копія)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="228"/>
         <source>Unable to copy file</source>
         <translation>Не вдалося скопіювати файл</translation>
     </message>

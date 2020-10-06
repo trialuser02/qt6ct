@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="82"/>
+        <location filename="../appearancepage.cpp" line="83"/>
         <source>Default</source>
         <translation>缺省</translation>
     </message>
@@ -57,95 +57,95 @@
     <message>
         <location filename="../appearancepage.ui" line="218"/>
         <source>Standard dialogs:</source>
-        <translation type="unfinished"></translation>
+        <translation>标准对话框：</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="69"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Create</source>
         <translation>创建</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Edit</source>
         <translation>编辑</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Create a Copy</source>
         <translation>创建副本</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Rename</source>
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="75"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>Enter Color Scheme Name</source>
         <translation>输入颜色方案名称</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>File name:</source>
         <translation>文件名：</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="227"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="228"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>颜色方案 &quot;%1&quot; 已经存在</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>颜色方案 &quot;%1&quot; 是只读状态</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="189"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Confirm Remove</source>
         <translation>确认移除</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="190"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>您确定要移除颜色方案 &quot;%1&quot; 吗？</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="211"/>
         <source>%1 (copy)</source>
         <translation>%1(拷贝)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="228"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>无法复制文件</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../interfacepage.ui" line="192"/>
         <source>Keyboard scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>键盘方案：</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="202"/>
@@ -357,52 +357,52 @@
     <message>
         <location filename="../interfacepage.ui" line="219"/>
         <source>Activate item on single-click</source>
-        <translation type="unfinished"></translation>
+        <translation>单击激活项目</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="229"/>
         <source>Toolbar button style:</source>
-        <translation type="unfinished"></translation>
+        <translation>工具栏按钮风格：</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="239"/>
         <source>Mouse wheel scroll lines:</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标滚轮滚动行数：</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="256"/>
         <source>Show shortcut underlines</source>
-        <translation type="unfinished"></translation>
+        <translation>显示快捷方式下划线</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation type="unfinished"></translation>
+        <translation>在右键菜单显示快捷方式</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>仅显示图标</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
-        <translation type="unfinished"></translation>
+        <translation>仅显示文本</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>文本位于图标旁</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>文本位于图标下方</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
-        <translation type="unfinished"></translation>
+        <translation>跟随应用程序风格</translation>
     </message>
 </context>
 <context>
@@ -410,22 +410,22 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished">Qt5 配置工具 {6 ?}</translation>
+        <translation>Qt6 配置工具</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>未正确配置应用程序。</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>信息</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="68"/>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>隐藏</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="49"/>
@@ -460,27 +460,27 @@
     <message>
         <location filename="../mainwindow.cpp" line="107"/>
         <source>Warning</source>
-        <translation type="unfinished">警告</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="116"/>
         <source>Please remove the &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; environment variable (current value: &lt;b&gt;%1&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>请移除&lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt;环境变量(当前值：&lt;b&gt;%1&lt;/b&gt;)。</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>没有设置&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; 环境变量(要求值：&lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>没有正确设置&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt;环境变量(当前值：&lt;b&gt;%1&lt;/b&gt;，要求值：&lt;b&gt;qt6ct&lt;/b&gt;)。</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>无法找到&lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -623,7 +623,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
-        <translation type="unfinished"></translation>
+        <translation>占位符文本</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="107"/>
@@ -706,12 +706,12 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation type="unfinished">创建副本</translation>
+        <translation>创建副本</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>查看</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="106"/>
@@ -773,12 +773,12 @@
     <message>
         <location filename="../qsspage.cpp" line="253"/>
         <source>%1 (copy).qss</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (副本).qss</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>无法复制文件</translation>
     </message>
 </context>
 </TS>

@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="82"/>
+        <location filename="../appearancepage.cpp" line="83"/>
         <source>Default</source>
         <translation>Oletus</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Tavalliset valintaikkunat:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="69"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Create</source>
         <translation>Luo</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Edit</source>
         <translation>Muokkaa</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Create a Copy</source>
         <translation>Luo kopio</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Rename</source>
         <translation>Nimeä uudelleen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="75"/>
         <source>Remove</source>
         <translation>Poista</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>Enter Color Scheme Name</source>
         <translation>Syötä väriskeeman nimi</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>File name:</source>
         <translation>Tiedostonimi:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="227"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="228"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Väriskeema &quot;%1&quot; on jo olemassa</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>Warning</source>
         <translation>Varoitus</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Väriskeema &quot;%1&quot; on vain luettavissa</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="189"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Confirm Remove</source>
         <translation>Vahvista poistaminen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="190"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Oletko varma, että haluat poistaa väriskeeman &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="211"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopio)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="228"/>
         <source>Unable to copy file</source>
         <translation>Tiedostoa ei voi kopioida</translation>
     </message>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished">Qt5-asetustyökalu {6 ?}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt;-ympäristömuuttujaa ei ole asetettu (vaadittu arvo: &lt;b&gt;qt5ct&lt;/b&gt;). {6c?}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished">&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt;-ympäristömuuttujaa ei ole asetettu oikein (nykyinen arvo: &lt;b&gt;%1&lt;/b&gt;, vaadittu arvo: &lt;b&gt;qt5ct&lt;/b&gt;). {1&lt;?} {6c?}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;libqt5ct-style.so&lt;/b&gt; ei löydy {6c?}</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="82"/>
+        <location filename="../appearancepage.cpp" line="83"/>
         <source>Default</source>
         <translation>Výchozí</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Běžné dialogy:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="69"/>
+        <location filename="../appearancepage.cpp" line="70"/>
         <source>Create</source>
         <translation>Vytvořit</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Edit</source>
         <translation>Upravit</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Create a Copy</source>
         <translation>Vytvořit kopii</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Rename</source>
         <translation>Přejmenovat</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="75"/>
         <source>Remove</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>Enter Color Scheme Name</source>
         <translation>Zadejte název barevného schématu</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="134"/>
-        <location filename="../appearancepage.cpp" line="208"/>
-        <location filename="../appearancepage.cpp" line="247"/>
+        <location filename="../appearancepage.cpp" line="135"/>
+        <location filename="../appearancepage.cpp" line="209"/>
+        <location filename="../appearancepage.cpp" line="248"/>
         <source>File name:</source>
         <translation>Název souboru:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="227"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="228"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="143"/>
-        <location filename="../appearancepage.cpp" line="219"/>
-        <location filename="../appearancepage.cpp" line="257"/>
+        <location filename="../appearancepage.cpp" line="144"/>
+        <location filename="../appearancepage.cpp" line="220"/>
+        <location filename="../appearancepage.cpp" line="258"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Již je barevné schéma &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>Warning</source>
         <translation>Varování</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="161"/>
-        <location filename="../appearancepage.cpp" line="184"/>
-        <location filename="../appearancepage.cpp" line="242"/>
+        <location filename="../appearancepage.cpp" line="162"/>
+        <location filename="../appearancepage.cpp" line="185"/>
+        <location filename="../appearancepage.cpp" line="243"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Barevné schéma &quot;%1&quot; je pouze pro čtení</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="189"/>
+        <location filename="../appearancepage.cpp" line="190"/>
         <source>Confirm Remove</source>
         <translation>Potvrdit odstranění</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="190"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Jste si jistý, že chcete odstranit barevné schéma &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="211"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopie)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="227"/>
+        <location filename="../appearancepage.cpp" line="228"/>
         <source>Unable to copy file</source>
         <translation>Nelze zkopírovat soubor</translation>
     </message>
