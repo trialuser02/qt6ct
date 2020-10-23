@@ -133,11 +133,11 @@ void FontConfigDialog::writeOption(QXmlStreamWriter *stream, const QString &name
     stream->writeStartElement("edit");
     stream->writeAttribute("name", name);
     stream->writeAttribute("mode", "assign");
-    if(value.type() == QVariant::String)
+    if(value.typeId() == QMetaType::QString)
         stream->writeTextElement("const", value.toString());
-    else if(value.type() == QVariant::Int)
+    else if(value.typeId() == QMetaType::Int)
         stream->writeTextElement("double", QString::number(value.toInt()));
-    else if(value.type() == QVariant::Bool)
+    else if(value.typeId() == QMetaType::Bool)
         stream->writeTextElement("bool", value.toBool() ? QStringLiteral("true") : QStringLiteral("false"));
     stream->writeEndElement();
 }
