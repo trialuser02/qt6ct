@@ -135,7 +135,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
-        <translation>Er du sikker på, at du vil fjerne farveskema &quot;%1&quot;?</translation>
+        <translation>Er du sikker på, at du vil fjerne farveskemaet &quot;%1&quot;?</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="211"/>
@@ -179,7 +179,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="67"/>
         <source>Font resolution:</source>
-        <translation>Skriftypeopløsning:</translation>
+        <translation>Opløsning for skrift:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="110"/>
@@ -189,7 +189,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="83"/>
         <source>Subpixel geometry:</source>
-        <translation>Underpixel geometri:</translation>
+        <translation>Geometri for underpixel:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="90"/>
@@ -199,7 +199,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="97"/>
         <source>Hinting style:</source>
-        <translation>Hintingstil:</translation>
+        <translation>Stil for hinting:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="42"/>
@@ -274,12 +274,12 @@
     <message>
         <location filename="../interfacepage.ui" line="35"/>
         <source>Double click interval:</source>
-        <translation>Dobbeltklik interval:</translation>
+        <translation>Interval for dobbeltklik:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="42"/>
         <source>Cursor flash time:</source>
-        <translation>Markør blinktid:</translation>
+        <translation>Blinketid for markør:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="49"/>
@@ -332,7 +332,7 @@
     <message>
         <location filename="../interfacepage.ui" line="175"/>
         <source>Enable gui effects</source>
-        <translation>Aktivér gui effekter</translation>
+        <translation>Aktivér brugerfladeeffekter</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="182"/>
@@ -347,7 +347,7 @@
     <message>
         <location filename="../interfacepage.ui" line="202"/>
         <source>Menus have icons</source>
-        <translation>Menu har ikoner</translation>
+        <translation>Menuer har ikoner</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="209"/>
@@ -362,17 +362,17 @@
     <message>
         <location filename="../interfacepage.ui" line="229"/>
         <source>Toolbar button style:</source>
-        <translation>Værktøjslinjeknap stil:</translation>
+        <translation>Stil for værktøjslinjeknap:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="239"/>
         <source>Mouse wheel scroll lines:</source>
-        <translation>Musehjul rullelinjer:</translation>
+        <translation>Rullelinjer for musehjul:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="256"/>
         <source>Show shortcut underlines</source>
-        <translation>Vis genveje understreget</translation>
+        <translation>Vis understregninger for genveje</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="266"/>
@@ -392,12 +392,12 @@
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation>Tekst ved siden af ikonet</translation>
+        <translation>Teksten vises ved siden af ikonet</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation>Tekst under ikonet</translation>
+        <translation>Teksten vises under ikonet</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
@@ -533,7 +533,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="90"/>
         <source>Button background</source>
-        <translation>Knap baggrund</translation>
+        <translation>Baggrund for knap</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="90"/>
@@ -568,7 +568,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="91"/>
         <source>Button text</source>
-        <translation>Knap tekst</translation>
+        <translation>Tekst for knap</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="91"/>
@@ -583,12 +583,12 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlight</source>
-        <translation>Markeret</translation>
+        <translation>Fremhævning</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlighted text</source>
-        <translation>Markeret tekst</translation>
+        <translation>Fremhævet tekst</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
@@ -603,12 +603,12 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip background</source>
-        <translation>Værktøjstip baggrund</translation>
+        <translation>Baggrund for værktøjstip</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Tooltip text</source>
-        <translation>Værktøjstip tekst</translation>
+        <translation>Tekst for værktøjstip</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
@@ -618,12 +618,12 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Alternate background</source>
-        <translation>Alternativ baggrund</translation>
+        <translation>Skift baggrund</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
-        <translation>Pladsholder tekst</translation>
+        <translation>Pladsholdertekst</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="107"/>
@@ -661,7 +661,7 @@
     <message>
         <location filename="../previewform.ui" line="84"/>
         <source>CheckBox</source>
-        <translation>Tjekboks</translation>
+        <translation>Afkrydsningsboks</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     <message>
         <location filename="../qsspage.cpp" line="152"/>
         <source>Are you sure you want to remove style sheet &quot;%1&quot;?</source>
-        <translation>Er du sikker på, at du vil fjerne typografiark &quot;%1&quot;?</translation>
+        <translation>Er du sikker på, at du vil fjerne typografiarket &quot;%1&quot;?</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="208"/>
