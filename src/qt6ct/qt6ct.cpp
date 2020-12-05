@@ -65,8 +65,7 @@ QString Qt6CT::configFile()
 
 QStringList Qt6CT::iconPaths()
 {
-    QStringList paths, out;
-    paths << QDir::homePath() + QLatin1String("/.icons");
+    QStringList paths = { QDir::homePath() + QLatin1String("/.icons") };
 
     for(const QString &p : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
     {
@@ -75,12 +74,16 @@ QStringList Qt6CT::iconPaths()
     paths.removeDuplicates();
 
     //remove invalid
-    for(const QString &p : paths)
+    QStringList::iterator it = paths.begin();
+    while(it != paths.end())
     {
-        if(QDir(p).exists())
-            out << p;
+        if(QDir(*it).exists())
+            ++it ;
+        else
+            it = paths.erase(it);
     }
-    return out;
+
+    return paths;
 }
 
 QString Qt6CT::userStyleSheetPath()
