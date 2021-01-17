@@ -15,9 +15,15 @@ Requirements:
 
 Installation:
 
-qmake PREFIX=<your installation path>
-make
-make install (under root)
+- Arch AUR
+  https://aur.archlinux.org/packages/qt6ct/
+
+- Source Code
+```
+  qmake PREFIX=<your installation path>
+  make
+  sudo make install
+```
 
 Add line 'export QT_QPA_PLATFORMTHEME=qt6ct' to ~/.profile and re-login.
 Alternatively, create the file /etc/X11/Xsession.d/100-qt6ct with
