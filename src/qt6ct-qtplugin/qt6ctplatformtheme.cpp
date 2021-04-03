@@ -201,12 +201,14 @@ void Qt6CTPlatformTheme::applySettings()
     if(m_palette && m_usePalette && !m_update)
         qApp->setPalette(*m_palette);
 
-    if(hasWidgets())
+    if(hasWidgets() && m_update)
     {
         for(QWidget *w : qApp->allWidgets())
         {
             QEvent e(QEvent::ThemeChange);
             QApplication::sendEvent(w, &e);
+            if(m_palette && m_usePalette)
+                w->setPalette(*m_palette);
         }
     }
 #endif
