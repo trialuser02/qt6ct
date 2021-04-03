@@ -57,7 +57,7 @@
     <message>
         <location filename="../appearancepage.ui" line="218"/>
         <source>Standard dialogs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Finestre di dialogo standard:</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="70"/>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="228"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile copiare il file</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../interfacepage.ui" line="192"/>
         <source>Keyboard scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Schema della tastiera:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="202"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra le scorciatoie nei menu contestuali</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
@@ -410,22 +410,22 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Strumento di configurazione Qt6</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;applicazione non è configurata correttamente.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="68"/>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Nascondi</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="49"/>
@@ -460,7 +460,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="107"/>
         <source>Warning</source>
-        <translation type="unfinished">Attenzione</translation>
+        <translation>Avviso</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="116"/>
@@ -706,12 +706,12 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation type="unfinished">Crea una copia</translation>
+        <translation>Crea una Copia</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizza</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="106"/>
@@ -778,7 +778,7 @@
     <message>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile copiare il file</translation>
     </message>
 </context>
 </TS>

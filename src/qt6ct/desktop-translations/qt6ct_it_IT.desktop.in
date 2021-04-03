@@ -33,3 +33,6 @@ Categories=Settings;DesktopSettings;Qt;
 
 
 # Translations
+Icon[it_IT]=preferenze-tema-desktop
+Name[it_IT]=Impostazioni Qt6
+Comment[it_IT]=Strumento di configurazione Qt6
