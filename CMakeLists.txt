@@ -2,19 +2,53 @@ cmake_minimum_required(VERSION 3.16.0)
 
 project(qt6ct LANGUAGES CXX)
 
+include(GNUInstallDirs)
+
+CONFIGURE_FILE(
+  "${CMAKE_CURRENT_SOURCE_DIR}/cmake_uninstall.cmake.in"
+  "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake"
+  IMMEDIATE @ONLY)
+
+ADD_CUSTOM_TARGET(uninstall
+  "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake")
+
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(CMAKE_VISIBILITY_INLINES_HIDDEN 1)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 COMPONENTS BuildInternals Core Concurrent Gui REQUIRED)
-find_package(Qt6 COMPONENTS Widgets)
+ADD_DEFINITIONS(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DUSE_WIDGETS)
+
+find_package(Qt6 COMPONENTS BuildInternals Widgets Concurrent LinguistTools REQUIRED)
+
+get_target_property(QT_QTPATHS_EXECUTABLE Qt6::qtpaths IMPORTED_LOCATION)
+get_target_property(QT_LRELEASE_EXECUTABLE Qt6::lrelease IMPORTED_LOCATION)
+
+if(QT_QTPATHS_EXECUTABLE)
+    message(STATUS "Found qtpaths executable: " ${QT_QTPATHS_EXECUTABLE})
+    execute_process(COMMAND ${QT_QTPATHS_EXECUTABLE} -query QT_INSTALL_PLUGINS OUTPUT_VARIABLE PLUGINDIR OUTPUT_STRIP_TRAILING_WHITESPACE)
+    message(STATUS "Plugin path: " ${PLUGINDIR})
+else()
+    message(FATAL_ERROR "Could NOT find qtpaths executable")
+endif()
+
+if(QT_LRELEASE_EXECUTABLE)
+    message(STATUS "Found lrelease executable: " ${QT_LRELEASE_EXECUTABLE})
+    message(STATUS "Generating translations ...")
+    execute_process(COMMAND find ${CMAKE_CURRENT_SOURCE_DIR} -name *.ts COMMAND xargs ${QT_LRELEASE_EXECUTABLE} -silent)
+else()
+    message(FATAL_ERROR "Could NOT find lrelease executable")
+endif()
 
 add_subdirectory(src/qt6ct)
-#add_subdirectory(qt6ct-qtplugin)
-#add_subdirectory(qt6ct-style)
+add_subdirectory(src/qt6ct-qtplugin)
+add_subdirectory(src/qt6ct-style)
+
+install(DIRECTORY qss DESTINATION ${CMAKE_INSTALL_DATADIR})
+install(DIRECTORY colors DESTINATION ${CMAKE_INSTALL_DATADIR})
 
 if(UNIX)
     add_custom_target(distclean @echo cleaning for source distribution)
@@ -51,6 +85,6 @@ if(UNIX)
         ARGS ${CMAKE_CURRENT_BINARY_DIR} -name *_automoc.dir | xargs rm -rf
         COMMAND rm
         ARGS -rf ${CMAKE_CURRENT_BINARY_DIR}/doc/html
-        TARGET  distclean
+        TARGET distclean
     )
 endif(UNIX)

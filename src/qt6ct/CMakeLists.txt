@@ -1,7 +1,5 @@
 project(app)
 
-add_definitions(-DUSE_WIDGETS)
-
 set(app_SRCS
   appearancepage.cpp
   fontconfigdialog.cpp
@@ -25,7 +23,10 @@ set(app_SRCS
   previewform.ui
   qsseditordialog.ui
   qsspage.ui
+  translations/translations.qrc
 )
 
 add_executable(qt6ct ${app_SRCS})
 target_link_libraries(qt6ct PRIVATE Qt6::Widgets Qt6::Concurrent Qt6::WidgetsPrivate)
+install(TARGETS qt6ct DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(FILES qt6ct.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
