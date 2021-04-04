@@ -9,6 +9,7 @@ Version 0.2
 * updated Danish translation (scootergrisen)
 
 Version 0.3
+* added cmake support (experimental)
 * fixed color schemes
 * fixed palette updating
 * updated Finish translation (Nikolay Korotkiy)
