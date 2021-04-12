@@ -57,7 +57,7 @@ export the following environment variable:
 export QT_LOGGING_RULES="qt6ct.debug=true"
 
 Another way is to change qtlogging.ini file. See Qt documentation for details:
-https://doc.qt.io/qt-5/qloggingcategory.html (paragraph "Configuring Categories")
+https://doc.qt.io/qt-6/qloggingcategory.html (paragraph "Configuring Categories")
 
 Files and Directories:
 

@@ -377,7 +377,7 @@
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastenkürzel in Kontextmenüs anzeigen.</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
@@ -410,7 +410,7 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt6-Konfigurationswerkzeug</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
@@ -470,17 +470,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="122"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Umgebungsvariable &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; ist nicht festgelegt (erforderlicher Wert: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Umgebungsvariable &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; ist nicht korrekt festgelegt (aktueller Wert: &lt;b&gt;%1&lt;/b&gt;, erforderlicher Wert: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="133"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;libqt6ct-style.so&lt;/b&gt;konnte nicht gefunden werden.</translation>
     </message>
 </context>
 <context>
