@@ -49,8 +49,8 @@ add_subdirectory(src/qt6ct)
 add_subdirectory(src/qt6ct-qtplugin)
 add_subdirectory(src/qt6ct-style)
 
-install(DIRECTORY qss DESTINATION ${CMAKE_INSTALL_DATADIR})
-install(DIRECTORY colors DESTINATION ${CMAKE_INSTALL_DATADIR})
+install(DIRECTORY qss DESTINATION ${CMAKE_INSTALL_DATADIR}/qt6ct)
+install(DIRECTORY colors DESTINATION ${CMAKE_INSTALL_DATADIR}/qt6ct)
 
 if(UNIX)
     add_custom_target(distclean @echo cleaning for source distribution)
