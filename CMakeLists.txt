@@ -29,19 +29,21 @@ get_target_property(QT_LRELEASE_EXECUTABLE Qt6::lrelease IMPORTED_LOCATION)
 
 if(QT_QTPATHS_EXECUTABLE)
     message(STATUS "Found qtpaths executable: " ${QT_QTPATHS_EXECUTABLE})
-    execute_process(COMMAND ${QT_QTPATHS_EXECUTABLE} -query QT_INSTALL_PLUGINS OUTPUT_VARIABLE PLUGINDIR OUTPUT_STRIP_TRAILING_WHITESPACE)
-    message(STATUS "Plugin path: " ${PLUGINDIR})
 else()
     message(FATAL_ERROR "Could NOT find qtpaths executable")
 endif()
 
 if(QT_LRELEASE_EXECUTABLE)
     message(STATUS "Found lrelease executable: " ${QT_LRELEASE_EXECUTABLE})
-    message(STATUS "Generating translations ...")
-    execute_process(COMMAND find ${CMAKE_CURRENT_SOURCE_DIR} -name *.ts COMMAND xargs ${QT_LRELEASE_EXECUTABLE} -silent)
 else()
     message(FATAL_ERROR "Could NOT find lrelease executable")
 endif()
+
+execute_process(COMMAND ${QT_QTPATHS_EXECUTABLE} -query QT_INSTALL_PLUGINS OUTPUT_VARIABLE PLUGINDIR OUTPUT_STRIP_TRAILING_WHITESPACE)
+message(STATUS "Plugin path: " ${PLUGINDIR})
+
+message(STATUS "Generating translations ...")
+execute_process(COMMAND find ${CMAKE_CURRENT_SOURCE_DIR} -name *.ts COMMAND xargs ${QT_LRELEASE_EXECUTABLE} -silent)
 
 add_subdirectory(src/qt6ct)
 add_subdirectory(src/qt6ct-qtplugin)
