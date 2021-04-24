@@ -181,12 +181,16 @@ void Qt6CTPlatformTheme::applySettings()
         if(m_update && m_usePalette)
             qApp->setPalette(*m_palette);
 
-
-        //do not override application style
-        if(m_prevStyleSheet == qApp->styleSheet())
-            qApp->setStyleSheet(m_userStyleSheet);
-        else
+        // prepend our stylesheet to that of the application
+        // (first removing any previous stylesheet we have set)
+        QString appStyleSheet = qApp->styleSheet();
+        int prevIndex = appStyleSheet.indexOf(m_prevStyleSheet);
+        if (prevIndex >= 0) {
+            appStyleSheet.remove(prevIndex, m_prevStyleSheet.size());
+            qApp->setStyleSheet(m_userStyleSheet + appStyleSheet);
+        } else {
             qCDebug(lqt6ct) << "custom style sheet is disabled";
+        }
         m_prevStyleSheet = m_userStyleSheet;
     }
 #endif
