@@ -345,9 +345,11 @@ QString Qt6CTPlatformTheme::loadStyleSheets(const QStringList &paths)
         QFile file(path);
         file.open(QIODevice::ReadOnly);
         content.append(QString::fromUtf8(file.readAll()));
+        if(!content.endsWith(QChar::LineFeed))
+            content.append(QChar::LineFeed);
     }
-    QRegularExpression regExp("//.*(\\n|$)");
-    content.remove(regExp);
+    QRegularExpression regExp("//.*\n");
+    content.replace(regExp, "\n");
     return content;
 }
 
