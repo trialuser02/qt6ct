@@ -15,8 +15,8 @@ Requirements:
 
 Installation:
 
-- Arch AUR
-  https://aur.archlinux.org/packages/qt6ct/
+- Arch package
+  https://archlinux.org/packages/?q=qt6ct
 
 - Source Code (qmake)
   qmake PREFIX=<your installation path>
