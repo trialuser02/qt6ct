@@ -16,6 +16,6 @@ Version 0.3
 * updated German translation (LeSnake)
 
 Version 0.4
+* fixed cmake support
 * fixed build with Qt 6.1 using cmake
-* prepend custom stylesheets to the application
-  stylesheet (John Lindgren)
+* prepend custom stylesheets to the application stylesheet (John Lindgren)
