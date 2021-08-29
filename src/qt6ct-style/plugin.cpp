@@ -27,9 +27,6 @@
  */
 
 #include <QStylePlugin>
-#include <QSettings>
-#include <QStyleFactory>
-#include <qt6ct/qt6ct.h>
 #include "qt6ctproxystyle.h"
 
 class Qt6CTStylePlugin : public QStylePlugin
@@ -44,13 +41,7 @@ public:
 QStyle *Qt6CTStylePlugin::create(const QString &key)
 {
     if (key == "qt6ct-style")
-    {
-        QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
-        QString style = settings.value("Appearance/style", "Fusion").toString();
-        if(key == style || !QStyleFactory::keys().contains(style))
-            style = "Fusion";
-        return new Qt6CTProxyStyle(style);
-    }
+        return new Qt6CTProxyStyle();
     return nullptr;
 }
 

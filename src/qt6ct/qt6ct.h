@@ -38,12 +38,19 @@
 #define QT6CT_VERSION_INT (QT6CT_VERSION_MAJOR<<8 | QT6CT_VERSION_MINOR)
 #define QT6CT_VERSION_STR QT6CT_STRINGIFY(QT6CT_VERSION_MAJOR.QT6CT_VERSION_MINOR)
 
+#include <QSet>
 #include <QString>
 #include <QStringList>
 
 class Qt6CT
 {
 public:
+    class StyleInstance
+    {
+    public:
+        virtual void reloadSettings() = 0;
+    };
+
     static void initConfig();
     static QString configPath();
     static QString configFile();
@@ -55,8 +62,12 @@ public:
     static QString systemLanguageID();
     static QString resolvePath(const QString &path);
 
+    static void registerStyleInstance(StyleInstance *instance);
+    static void unregisterStyleInstance(StyleInstance *instance);
+    static void reloadStyleInstanceSettings();
+
 private:
-    Qt6CT() {}
+    static QSet<StyleInstance*> styleInstances;
 };
 
 #endif // QT6CT_H

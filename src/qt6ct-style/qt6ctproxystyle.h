@@ -30,18 +30,21 @@
 #define QT6CTPROXYSTYLE_H
 
 #include <QProxyStyle>
+#include <qt6ct/qt6ct.h>
 
-class Qt6CTProxyStyle : public QProxyStyle
+class Qt6CTProxyStyle : public QProxyStyle, public Qt6CT::StyleInstance
 {
     Q_OBJECT
 public:
-    explicit Qt6CTProxyStyle(const QString &key);
+    explicit Qt6CTProxyStyle();
+    void reloadSettings() override;
 
     virtual ~Qt6CTProxyStyle();
 
     int styleHint(StyleHint hint, const QStyleOption *option, const QWidget *widget, QStyleHintReturn *returnData) const override;
 
 private:
+    QString m_style;
     int m_dialogButtonsHaveIcons;
     int m_activateItemOnSingleClick;
     int m_underlineShortcut;

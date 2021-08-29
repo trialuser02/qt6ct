@@ -177,8 +177,8 @@ void Qt6CTPlatformTheme::applySettings()
         if(m_update)
             qApp->setWheelScrollLines(m_wheelScrollLines);
 
-        if(m_update && qApp->style()->objectName() == "qt6ct-style") //ignore application style
-            qApp->setStyle("qt6ct-style"); //recreate style object
+        if (m_update)
+            Qt6CT::reloadStyleInstanceSettings();
 
         if(!m_palette)
             m_palette = new QPalette(qApp->style()->standardPalette());
