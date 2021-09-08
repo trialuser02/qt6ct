@@ -198,13 +198,7 @@ void Qt6CTPlatformTheme::applySettings()
     if(m_update)
         QIconLoader::instance()->updateSystemTheme(); //apply icons
 
-    if(m_palette && m_usePalette)
-        QGuiApplication::setPalette(*m_palette); //apply palette
-
 #ifdef QT_WIDGETS_LIB
-    if(m_palette && m_usePalette && !m_update)
-        qApp->setPalette(*m_palette);
-
     if(hasWidgets() && m_update)
     {
         for(QWidget *w : qApp->allWidgets())
