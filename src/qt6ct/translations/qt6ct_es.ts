@@ -428,57 +428,62 @@
         <translation>Ocultar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="49"/>
+        <location filename="../mainwindow.cpp" line="50"/>
         <source>Appearance</source>
         <translation>Apariencia</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="50"/>
+        <location filename="../mainwindow.cpp" line="51"/>
         <source>Fonts</source>
         <translation>Tipos de letra</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="51"/>
+        <location filename="../mainwindow.cpp" line="52"/>
         <source>Icon Theme</source>
         <translation>Tema de iconos</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="52"/>
+        <location filename="../mainwindow.cpp" line="53"/>
         <source>Interface</source>
         <translation>Interfaz</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="54"/>
+        <location filename="../mainwindow.cpp" line="55"/>
         <source>Style Sheets</source>
         <translation>Hojas de estilo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="62"/>
+        <location filename="../mainwindow.cpp" line="57"/>
+        <source>Troubleshooting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="64"/>
         <source>Version: %1</source>
         <translation>Versión: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="107"/>
+        <location filename="../mainwindow.cpp" line="109"/>
         <source>Warning</source>
         <translation>Aviso</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="116"/>
+        <location filename="../mainwindow.cpp" line="118"/>
         <source>Please remove the &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; environment variable (current value: &lt;b&gt;%1&lt;/b&gt;).</source>
         <translation>Elimine la variable de entorno &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="122"/>
+        <location filename="../mainwindow.cpp" line="124"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
         <translation>No se ha configurado la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor requerido: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="128"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
         <translation>No se ha configurado correctamente la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valor requerido: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="133"/>
+        <location filename="../mainwindow.cpp" line="135"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
         <translation>No se puede encontrar &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
@@ -779,6 +784,49 @@
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
         <translation>No se puede copiar el archivo</translation>
+    </message>
+</context>
+<context>
+    <name>TroubleshootingPage</name>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="20"/>
+        <source>Ignored applications:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="29"/>
+        <source>Add...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="40"/>
+        <source>Remove</source>
+        <translation type="unfinished">Eliminar</translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="73"/>
+        <source>Do not apply any styles and color schemes for the listed applications.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="82"/>
+        <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.ui" line="85"/>
+        <source>Force raster surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.cpp" line="64"/>
+        <source>Select Application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../troubleshootingpage.cpp" line="64"/>
+        <source>Executable files (*)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
