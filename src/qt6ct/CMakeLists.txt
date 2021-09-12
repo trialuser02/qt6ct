@@ -13,6 +13,7 @@ set(app_SRCS
   qsspage.cpp
   qt6ct.cpp
   tabpage.cpp
+  troubleshooting.cpp
   appearancepage.ui
   fontconfigdialog.ui
   fontspage.ui
@@ -23,6 +24,7 @@ set(app_SRCS
   previewform.ui
   qsseditordialog.ui
   qsspage.ui
+  troubleshooting.ui
   translations/translations.qrc
 )
 
