@@ -91,6 +91,7 @@ private:
     int m_toolButtonStyle = Qt::ToolButtonFollowStyle;
     int m_wheelScrollLines = 3;
     bool m_showShortcutsInContextMenus = false;
+    bool m_isIgnored = false;
     QScopedPointer<QPlatformTheme> m_theme;
 };
 

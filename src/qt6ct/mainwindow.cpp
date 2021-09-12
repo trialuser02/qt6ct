@@ -39,6 +39,7 @@
 #include "iconthemepage.h"
 #include "interfacepage.h"
 #include "qsspage.h"
+#include "troubleshootingpage.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -53,6 +54,7 @@ MainWindow::MainWindow(QWidget *parent) :
 #ifdef USE_WIDGETS
     m_ui->tabWidget->addTab(new QSSPage(this), tr("Style Sheets"));
 #endif
+    m_ui->tabWidget->addTab(new TroubleshootingPage(this), tr("Troubleshooting"));
 
     QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
     restoreGeometry(settings.value("SettingsWindow/geometry").toByteArray());

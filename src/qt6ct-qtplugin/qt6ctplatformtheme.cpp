@@ -58,6 +58,7 @@ Q_LOGGING_CATEGORY(lqt6ct, "qt6ct", QtWarningMsg)
 
 Qt6CTPlatformTheme::Qt6CTPlatformTheme()
 {
+    QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, true);
     Qt6CT::initConfig();
     if(QGuiApplication::desktopSettingsAware())
     {
@@ -96,7 +97,7 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {
-    return (m_usePalette && m_palette) ? m_palette : QPlatformTheme::palette(type);
+    return (m_usePalette && m_palette) ? m_palette : QGenericUnixTheme::palette(type);
 }
 
 const QFont *Qt6CTPlatformTheme::font(QPlatformTheme::Font type) const
@@ -108,6 +109,9 @@ const QFont *Qt6CTPlatformTheme::font(QPlatformTheme::Font type) const
 
 QVariant Qt6CTPlatformTheme::themeHint(QPlatformTheme::ThemeHint hint) const
 {
+    if(m_isIgnored)
+        return QGenericUnixTheme::themeHint(hint);
+
     switch (hint)
     {
     case QPlatformTheme::CursorFlashTime:
@@ -133,7 +137,7 @@ QVariant Qt6CTPlatformTheme::themeHint(QPlatformTheme::ThemeHint hint) const
     case QPlatformTheme::ShowShortcutsInContextMenus:
         return m_showShortcutsInContextMenus;
     default:
-        return QPlatformTheme::themeHint(hint);
+        return QGenericUnixTheme::themeHint(hint);
     }
 }
 
@@ -149,8 +153,12 @@ QIcon Qt6CTPlatformTheme::fileIcon(const QFileInfo &fileInfo, QPlatformTheme::Ic
 
 void Qt6CTPlatformTheme::applySettings()
 {
-    if(!QGuiApplication::desktopSettingsAware())
+    if(!QGuiApplication::desktopSettingsAware() || m_isIgnored)
+    {
+        m_usePalette = false;
+        m_update = true;
         return;
+    }
 
     if(!m_update)
     {
@@ -321,8 +329,22 @@ void Qt6CTPlatformTheme::readSettings()
     QStringList qssPaths = settings.value("stylesheets").toStringList();
     m_userStyleSheet = loadStyleSheets(qssPaths);
 #endif
-
     settings.endGroup();
+
+    //load troubleshooting
+    if(!m_update)
+    {
+        settings.beginGroup("Troubleshooting");
+        m_isIgnored = settings.value("ignored_applications").toStringList().contains(QCoreApplication::applicationFilePath());
+        int forceRasterWidgets = settings.value("force_raster_widgets", Qt::PartiallyChecked).toInt();
+        if(!m_isIgnored && forceRasterWidgets == Qt::Checked)
+            QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, true);
+        else if(!m_isIgnored && forceRasterWidgets == Qt::Unchecked)
+            QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, false);
+        if(m_isIgnored)
+            m_usePalette = false;
+        settings.endGroup();
+    }
 }
 
 #ifdef QT_WIDGETS_LIB
