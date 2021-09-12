@@ -58,7 +58,6 @@ Q_LOGGING_CATEGORY(lqt6ct, "qt6ct", QtWarningMsg)
 
 Qt6CTPlatformTheme::Qt6CTPlatformTheme()
 {
-    QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, true);
     Qt6CT::initConfig();
     if(QGuiApplication::desktopSettingsAware())
     {
