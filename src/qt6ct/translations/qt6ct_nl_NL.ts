@@ -52,7 +52,7 @@
     <message>
         <location filename="../appearancepage.ui" line="187"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="218"/>
@@ -89,7 +89,7 @@
         <location filename="../appearancepage.cpp" line="209"/>
         <location filename="../appearancepage.cpp" line="248"/>
         <source>Enter Color Scheme Name</source>
-        <translation>Voer een naam in voor dit kleurenschema</translation>
+        <translation>Geef dit kleurenschema een naam</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="135"/>
@@ -111,7 +111,7 @@
         <location filename="../appearancepage.cpp" line="220"/>
         <location filename="../appearancepage.cpp" line="258"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
-        <translation>Het kleurenschema &quot;%1&quot; bestaat al</translation>
+        <translation>Het kleurenschema “%1” bestaat al</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="162"/>
@@ -125,7 +125,7 @@
         <location filename="../appearancepage.cpp" line="185"/>
         <location filename="../appearancepage.cpp" line="243"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
-        <translation>Het kleurenschema &quot;%1&quot; is alleen-lezen</translation>
+        <translation>Het kleurenschema “%1” is alleen-lezen</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="190"/>
@@ -135,7 +135,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="191"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
-        <translation>Weet je zeker dat je het kleurenschema &quot;%1&quot; wilt verwijderen?</translation>
+        <translation>Weet je zeker dat je het kleurenschema “%1” wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="211"/>
@@ -236,7 +236,7 @@
         <location filename="../fontspage.ui" line="86"/>
         <location filename="../fontspage.ui" line="93"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
     <message>
         <location filename="../fontspage.ui" line="60"/>
@@ -289,12 +289,12 @@
     <message>
         <location filename="../interfacepage.ui" line="56"/>
         <source>ToolTip effect:</source>
-        <translation>Hulpballon-effect:</translation>
+        <translation>Hulpballoneffect:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="63"/>
         <source>ToolBox effect:</source>
-        <translation>Gereedschapsvenster-effect:</translation>
+        <translation>Gereedschapsvenstereffect:</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="70"/>
@@ -430,7 +430,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="50"/>
         <source>Appearance</source>
-        <translation>Uiterlijk</translation>
+        <translation>Vormgeving</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="51"/>
@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="57"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Probleemoplossing</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="64"/>
@@ -588,7 +588,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
         <source>Highlight</source>
-        <translation>Markeren</translation>
+        <translation>Markering</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="92"/>
@@ -737,12 +737,12 @@
         <location filename="../qsspage.cpp" line="263"/>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="117"/>
         <source>The file &quot;%1&quot; already exists</source>
-        <translation>Het bestand &quot;%1&quot; bestaat al</translation>
+        <translation>Het bestand “%1” bestaat al</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="151"/>
@@ -752,7 +752,7 @@
     <message>
         <location filename="../qsspage.cpp" line="152"/>
         <source>Are you sure you want to remove style sheet &quot;%1&quot;?</source>
-        <translation>Weet je zeker dat je het stijlblad &quot;%1&quot; wilt verwijderen?</translation>
+        <translation>Weet je zeker dat je het stijlblad “%1” wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="208"/>
@@ -768,7 +768,7 @@
         <location filename="../qsspage.cpp" line="218"/>
         <location filename="../qsspage.cpp" line="263"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
-        <translation>Het stijlblad &quot;%1&quot; bestaat al</translation>
+        <translation>Het stijlblad “%1” bestaat al</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="226"/>
@@ -791,42 +791,42 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Genegeerde programma&apos;s:</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Toevoegen…</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished">Verwijderen</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas geen stijlen en kleurenschema&apos;s toe op programma&apos;s op deze lijst.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit zorgt er voor dat zichtbare elementen worden uitgelijnd op een rooster en geen ondersteuning hebben voor onderliggende OpenGL-widgets.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Rooster afdwingen</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies een programma</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitvoerbare bestanden (*)</translation>
     </message>
 </context>
 </TS>

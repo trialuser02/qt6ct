@@ -6,7 +6,7 @@
     <message>
         <location filename="../appearancepage.ui" line="20"/>
         <source>Style:</source>
-        <translation>Ύφος:</translation>
+        <translation>Τεχνοτροπία:</translation>
     </message>
     <message>
         <location filename="../appearancepage.ui" line="59"/>
@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="57"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιμετώπιση προβλημάτων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="64"/>
@@ -791,42 +791,42 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγνοημένες εφαρμογές:</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη...</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished">Αφαίρεση</translation>
+        <translation>Αφαίρεση</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην γίνεται εφαρμογή τεχνοτροπίας και χρωματικών συνδυασμών για τις εφαρμογές στο κατάστιχο.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα γραφικά συστατικά άνω επιπέδου να χρησιμοποιούν επιφάνειες raster, και να μην υποστηρίζουν γραφικά συστατικά απογόνους που δεν είναι βασισμένα σε εγγενή GL.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξαναγκασμός της επιφάνειας raster</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογή εφαρμογής</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτελέσιμα αρχεία (*)</translation>
     </message>
 </context>
 </TS>
