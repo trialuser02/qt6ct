@@ -25,6 +25,7 @@ Comment=Qt6 Configuration Tool
 
 
 
+
 Exec=qt6ct
 Icon=preferences-desktop-theme
 Terminal=false
