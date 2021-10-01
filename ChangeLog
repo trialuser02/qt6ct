@@ -19,3 +19,11 @@ Version 0.4
 * fixed cmake support
 * fixed build with Qt 6.1 using cmake
 * prepend custom stylesheets to the application stylesheet (John Lindgren)
+
+Version 0.5
+* added troubleshooting settings
+* fixed issue with custom palette
+* updated Dutch translation (Heimen Stoffels)
+* updated Spanish translation (Toni Estévez and salazarbarrera)
+* updated Russian translation
+* updated Greek translation (Dimitrios Glentadakis)
