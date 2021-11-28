@@ -32,6 +32,7 @@
 #include <QProcessEnvironment>
 #include <QMessageBox>
 #include <QStyleFactory>
+#include <QLibraryInfo>
 #include "qt6ct.h"
 #include "mainwindow.h"
 #include "appearancepage.h"
@@ -133,5 +134,11 @@ void MainWindow::checkConfiguration()
     if(!QStyleFactory::keys().contains("qt6ct-style"))
     {
         m_errors << tr("Unable to find <b>libqt6ct-style.so</b>");
+    }
+
+    QVersionNumber v = QLibraryInfo::version();
+    if(v.majorVersion() != QT_VERSION_MAJOR || v.minorVersion() != QT_VERSION_MINOR)
+    {
+        m_errors << tr("The <b>%1</b> plugin is compiled against incompatible Qt version (%2).").arg("libqt6ct.so").arg(QT_VERSION_STR);
     }
 }

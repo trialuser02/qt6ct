@@ -26,6 +26,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <QLibraryInfo>
 #include <qpa/qplatformthemeplugin.h>
 #include "qt6ctplatformtheme.h"
 
@@ -42,9 +43,16 @@ public:
 QPlatformTheme *Qt6CTPlatformThemePlugin::create(const QString &key, const QStringList &params)
 {
     Q_UNUSED(params);
-    if (key.toLower() == "qt6ct" || key.toLower() == "qt5ct")
+    QVersionNumber v = QLibraryInfo::version();
+    if(v.majorVersion() != QT_VERSION_MAJOR || v.minorVersion() != QT_VERSION_MINOR)
+    {
+        qCCritical(lqt6ct) << "qt6ct is compiled against incompatible Qt version (" QT_VERSION_STR ").";
+        return nullptr;
+    }
+
+    if(key.toLower() == "qt6ct" || key.toLower() == "qt5ct")
         return new Qt6CTPlatformTheme();
-    return NULL;
+    return nullptr;
 }
 
 QT_END_NAMESPACE

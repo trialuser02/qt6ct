@@ -39,6 +39,8 @@
 #include <QIcon>
 #include <QFileInfo>
 
+Q_DECLARE_LOGGING_CATEGORY(lqt6ct)
+
 class Qt6CTPlatformTheme : public QObject, public QGenericUnixTheme
 {
     Q_OBJECT
