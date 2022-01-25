@@ -87,6 +87,8 @@ AppearancePage::AppearancePage(QWidget *parent) :
         m_ui->dialogComboBox->addItem("GTK3", "gtk3");
     if(keys.contains("kde"))
         m_ui->dialogComboBox->addItem("KDE", "kde");
+    if (keys.contains("xdgdesktopportal"))
+        m_ui->dialogComboBox->addItem("XDG Desktop Portal", "xdgdesktopportal");
 
     readSettings();
 }
