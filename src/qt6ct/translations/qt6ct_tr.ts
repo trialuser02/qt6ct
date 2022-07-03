@@ -85,65 +85,65 @@
         <translation>Kaldır</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="135"/>
-        <location filename="../appearancepage.cpp" line="209"/>
-        <location filename="../appearancepage.cpp" line="248"/>
+        <location filename="../appearancepage.cpp" line="137"/>
+        <location filename="../appearancepage.cpp" line="211"/>
+        <location filename="../appearancepage.cpp" line="250"/>
         <source>Enter Color Scheme Name</source>
         <translation>Renk Şeması Adını Girin</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="135"/>
-        <location filename="../appearancepage.cpp" line="209"/>
-        <location filename="../appearancepage.cpp" line="248"/>
+        <location filename="../appearancepage.cpp" line="137"/>
+        <location filename="../appearancepage.cpp" line="211"/>
+        <location filename="../appearancepage.cpp" line="250"/>
         <source>File name:</source>
         <translation>Dosya adı:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="144"/>
-        <location filename="../appearancepage.cpp" line="220"/>
-        <location filename="../appearancepage.cpp" line="228"/>
-        <location filename="../appearancepage.cpp" line="258"/>
+        <location filename="../appearancepage.cpp" line="146"/>
+        <location filename="../appearancepage.cpp" line="222"/>
+        <location filename="../appearancepage.cpp" line="230"/>
+        <location filename="../appearancepage.cpp" line="260"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="144"/>
-        <location filename="../appearancepage.cpp" line="220"/>
-        <location filename="../appearancepage.cpp" line="258"/>
+        <location filename="../appearancepage.cpp" line="146"/>
+        <location filename="../appearancepage.cpp" line="222"/>
+        <location filename="../appearancepage.cpp" line="260"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>&quot;%1&quot; renk şeması zaten var</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="162"/>
-        <location filename="../appearancepage.cpp" line="185"/>
-        <location filename="../appearancepage.cpp" line="243"/>
+        <location filename="../appearancepage.cpp" line="164"/>
+        <location filename="../appearancepage.cpp" line="187"/>
+        <location filename="../appearancepage.cpp" line="245"/>
         <source>Warning</source>
         <translation>Uyarı</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="162"/>
-        <location filename="../appearancepage.cpp" line="185"/>
-        <location filename="../appearancepage.cpp" line="243"/>
+        <location filename="../appearancepage.cpp" line="164"/>
+        <location filename="../appearancepage.cpp" line="187"/>
+        <location filename="../appearancepage.cpp" line="245"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>&quot;%1&quot; renk şeması salt okunur</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="190"/>
+        <location filename="../appearancepage.cpp" line="192"/>
         <source>Confirm Remove</source>
         <translation>Kaldırmayı Onayla</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="191"/>
+        <location filename="../appearancepage.cpp" line="193"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>&quot;%1&quot; renk şemasını kaldırmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="211"/>
+        <location filename="../appearancepage.cpp" line="213"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopya)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="228"/>
+        <location filename="../appearancepage.cpp" line="230"/>
         <source>Unable to copy file</source>
         <translation>Dosya kopyalanamıyor</translation>
     </message>
@@ -478,17 +478,17 @@
         <translation>&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; ortam değişkeni ayarlanmadı (gereken değer: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="129"/>
-        <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation>&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; ortam değişkeni doğru ayarlanmadı (geçerli değer: &lt;b&gt;%1&lt;/b&gt;, gereken değer: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
+        <location filename="../mainwindow.cpp" line="130"/>
+        <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="137"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
         <translation>&lt;b&gt;libqt6ct-style.so&lt;/b&gt; bulunamadı</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="142"/>
+        <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
         <translation type="unfinished"></translation>
     </message>
