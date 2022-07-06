@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ru">
 <context>
     <name>AppearancePage</name>
     <message>
@@ -475,12 +473,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Переменная среды &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; не установлена (требуемые значения: &lt;b&gt;qt6ct&lt;/b&gt; или &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Переменная среды&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; установлена неправильно (текущее значение: &lt;b&gt;%1&lt;/b&gt;, требуемые значения: &lt;b&gt;qt6ct&lt;/b&gt;или &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
@@ -490,7 +488,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>Модуль %1 собран с несовместимой версией Qt (%2).</translation>
     </message>
 </context>
 <context>
