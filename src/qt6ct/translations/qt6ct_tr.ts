@@ -474,8 +474,8 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
-        <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required value: &lt;b&gt;qt6ct&lt;/b&gt;).</source>
-        <translation>&lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; ortam değişkeni ayarlanmadı (gereken değer: &lt;b&gt;qt6ct&lt;/b&gt;).</translation>
+        <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
