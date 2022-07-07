@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="58"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Solució de problemes</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="65"/>
@@ -475,12 +475,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha configurat la variable d&apos;entorn &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valors obligatoris: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha configurat correctament la variable d&apos;entorn &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valors obligatoris: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>El complement &lt;b&gt;%1&lt;/b&gt; s&apos;ha compilat amb una versió de Qt incompatible (%2).</translation>
     </message>
 </context>
 <context>
@@ -796,42 +796,42 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicacions ignorades: </translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix...</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>No apliquis estils ni esquemes de colors per a les aplicacions enumerades. </translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes que els components de nivell superior usin superfícies facin servir rasteritzades pures i no admetin components secundaris no nadius basats en GL. </translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Força la superfície rasteritzada </translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona l&apos;aplicació</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ftixers executables (*)</translation>
     </message>
 </context>
 </TS>

@@ -164,7 +164,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="36"/>
         <source>LCD filter:</source>
-        <translation>LCD-filter:</translation>
+        <translation>Lcd-filter:</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="43"/>
@@ -475,12 +475,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>De &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt;-omgevingsvariabel is niet juist ingesteld. Vereiste waarden: &lt;b&gt;qt6ct&lt;/b&gt; of &lt;b&gt;qt5ct&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>De omgevingsvariabel &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; is niet goed ingesteld (huidige waarde: &lt;b&gt;%1&lt;/b&gt; - vereiste waarde: &lt;b&gt;qt6ct&lt;/b&gt; of &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>De plug-in &lt;b&gt;%1&lt;/b&gt; is gebouwd met een incompatibele Qt-versie (%2).</translation>
     </message>
 </context>
 <context>

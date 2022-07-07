@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="58"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Solución de problemas</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="65"/>
@@ -475,12 +475,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No se ha configurado la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valores obligatorios: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>No se ha configurado correctamente la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valores requeridos: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>El complemento &lt;b&gt;%1&lt;/b&gt; se ha compilado con una versión de Qt incompatible (%2).</translation>
     </message>
 </context>
 <context>
@@ -796,42 +796,42 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicaciones ignoradas:</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir...</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished">Eliminar</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>No aplicar estilos ni combinaciones de colores para las aplicaciones enumeradas.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hacer que los componentes de nivel superior usen superficies rasterizadas puras y no admitan componentes secundarios no nativos basados en GL.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Forzar la superficie rasterizada</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar la aplicación</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Archivos ejecutables (*)</translation>
     </message>
 </context>
 </TS>
