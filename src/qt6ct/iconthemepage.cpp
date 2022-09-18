@@ -31,7 +31,6 @@
 #include <QFileInfoList>
 #include <QDir>
 #include <QTreeWidgetItem>
-#include <QtConcurrent>
 #include <QProgressBar>
 #include <QMetaObject>
 #include "qt6ct.h"
@@ -43,12 +42,14 @@ IconThemePage::IconThemePage(QWidget *parent) :
     m_ui(new Ui::IconThemePage)
 {
     m_ui->setupUi(this);
-    m_watcher = new QFutureWatcher<QList<QTreeWidgetItem *>>(this);
     m_progressBar = new QProgressBar(m_ui->treeWidget);
     m_progressBar->resize(200, m_progressBar->height());
     m_progressBar->setRange(0, 100);
-    connect(m_watcher, SIGNAL(finished()), SLOT(onFinished()));
-    m_watcher->setFuture(QtConcurrent::run(&IconThemePage::loadThemes, this));
+
+    QThread *thread = QThread::create(&IconThemePage::loadThemes, this);
+    thread->setParent(this);
+    connect(thread, SIGNAL(finished()), this, SLOT(onFinished()));
+    thread->start();
 }
 
 IconThemePage::~IconThemePage()
@@ -66,12 +67,13 @@ void IconThemePage::writeSettings()
 
 void IconThemePage::onFinished()
 {
-   m_ui->treeWidget->addTopLevelItems(m_watcher->result());
+   m_ui->treeWidget->addTopLevelItems(m_items);
    m_ui->treeWidget->resizeColumnToContents(0);
    m_ui->treeWidget->resizeColumnToContents(1);
    m_ui->treeWidget->resizeColumnToContents(2);
    m_ui->treeWidget->resizeColumnToContents(3);
    m_progressBar->hide();
+   m_items.clear();
    readSettings();
 }
 
@@ -101,10 +103,11 @@ void IconThemePage::readSettings()
     }
 }
 
-QList<QTreeWidgetItem *> IconThemePage::loadThemes()
+void IconThemePage::loadThemes()
 {
+    m_items.clear();
+
     QFileInfoList themeFileList;
-    QList<QTreeWidgetItem *> items;
     for(const QString &path : Qt6CT::iconPaths())
     {
         QDir dir(path);
@@ -121,10 +124,9 @@ QList<QTreeWidgetItem *> IconThemePage::loadThemes()
     {
         QTreeWidgetItem *item = loadTheme(info.canonicalFilePath());
         if(item)
-            items << item;
+            m_items << item;
         QMetaObject::invokeMethod(m_progressBar, "setValue", Qt::QueuedConnection, Q_ARG(int, ++i * 100 / themeFileList.count()));
     }
-    return items;
 }
 
 QTreeWidgetItem *IconThemePage::loadTheme(const QString &path)

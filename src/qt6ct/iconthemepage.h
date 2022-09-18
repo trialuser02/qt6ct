@@ -56,12 +56,12 @@ private slots:
 private:
     void resizeEvent(QResizeEvent *event) override;
     void readSettings();
-    QList<QTreeWidgetItem *> loadThemes();
+    void loadThemes();
     QTreeWidgetItem *loadTheme(const QString &path);
     QIcon findIcon(const QString &themePath, int size, const QString &name);
     Ui::IconThemePage *m_ui;
-    QFutureWatcher<QList<QTreeWidgetItem *>> *m_watcher;
     QProgressBar *m_progressBar;
+    QList<QTreeWidgetItem *> m_items;
 };
 
 #endif // ICONTHEMEPAGE_H

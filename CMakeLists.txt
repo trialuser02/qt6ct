@@ -22,7 +22,7 @@ set(CMAKE_AUTOUIC ON)
 
 ADD_DEFINITIONS(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DUSE_WIDGETS)
 
-find_package(Qt6 COMPONENTS BuildInternals Widgets Concurrent LinguistTools REQUIRED)
+find_package(Qt6 COMPONENTS BuildInternals Widgets LinguistTools REQUIRED)
 
 #get_target_property(QT_QTPATHS_EXECUTABLE Qt6::qtpaths IMPORTED_LOCATION)
 get_target_property(QT_LRELEASE_EXECUTABLE Qt6::lrelease IMPORTED_LOCATION)

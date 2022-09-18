@@ -2,7 +2,7 @@ include(../../qt6ct.pri)
 
 TEMPLATE = app
 
-QT += widgets concurrent gui-private
+QT += widgets gui-private
 
 SOURCES += \
     main.cpp \
