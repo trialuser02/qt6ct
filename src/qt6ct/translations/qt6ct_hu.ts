@@ -465,7 +465,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="110"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelmeztetés</translation>
+        <translation>Figyelmeztetés</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="119"/>
@@ -716,7 +716,7 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation type="unfinished">Másolat létrehozás</translation>
+        <translation>Másolat létrehozás</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>
@@ -752,7 +752,7 @@
     <message>
         <location filename="../qsspage.cpp" line="151"/>
         <source>Confirm Remove</source>
-        <translation type="unfinished">Törlés megerősítése</translation>
+        <translation>Törlés megerősítése</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="152"/>
@@ -788,7 +788,7 @@
     <message>
         <location filename="../qsspage.cpp" line="271"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished">Nem lehet másolni a fájlt</translation>
+        <translation>Nem lehet másolni a fájlt</translation>
     </message>
 </context>
 <context>
@@ -806,7 +806,7 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>

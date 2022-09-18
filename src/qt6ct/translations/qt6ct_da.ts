@@ -806,7 +806,7 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished">Fjern</translation>
+        <translation>Fjern</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>

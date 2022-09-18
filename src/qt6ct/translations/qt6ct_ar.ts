@@ -465,7 +465,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="110"/>
         <source>Warning</source>
-        <translation type="unfinished">تحذير</translation>
+        <translation>تحذير</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="119"/>
@@ -716,7 +716,7 @@
     <message>
         <location filename="../qsspage.cpp" line="52"/>
         <source>Create a Copy</source>
-        <translation type="unfinished">انشئ نسخة</translation>
+        <translation>انشئ نسخة</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="92"/>
@@ -806,7 +806,7 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
