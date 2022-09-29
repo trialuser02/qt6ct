@@ -35,11 +35,12 @@ Version 0.6
 * improved warning about incorrect environment variable
 * only prepend user stylesheet if it has changed (Carlo Teubner)
 * removed Qt Concurrent dependency
-* updated Russian translation
-* updated Polish translation (Marek Adamski)
+* fixed issue with missing Ukrainian transation
 * updated Bulgarian translation (Kiril Kirilov)
 * updated Catalan translation (Toni Estévez)
-* updated Dutch translation (Heimen Stoffels)
 * updated Czech translation (fri)
+* updated Dutch translation (Heimen Stoffels)
+* updated Polish translation (Marek Adamski)
+* updated Russian translation
 * updated Spanish translation (Toni Estévez)
 * updated Greek translation (Dimitrios Glentadakis)
