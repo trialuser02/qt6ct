@@ -27,3 +27,19 @@ Version 0.5
 * updated Spanish translation (Toni Estévez and salazarbarrera)
 * updated Russian translation
 * updated Greek translation (Dimitrios Glentadakis)
+
+Version 0.6
+* added Qt 6.4 support
+* added Qt version checking
+* added xdgdesktopportal dialogs support (Marco Genasci)
+* improved warning about incorrect environment variable
+* only prepend user stylesheet if it has changed (Carlo Teubner)
+* removed Qt Concurrent dependency
+* updated Russian translation
+* updated Polish translation (Marek Adamski)
+* updated Bulgarian translation (Kiril Kirilov)
+* updated Catalan translation (Toni Estévez)
+* updated Dutch translation (Heimen Stoffels)
+* updated Czech translation (fri)
+* updated Spanish translation (Toni Estévez)
+* updated Greek translation (Dimitrios Glentadakis)
