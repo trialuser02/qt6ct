@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="58"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Řešení potíží</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="65"/>
@@ -475,12 +475,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Proměnná prostředí &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; není nastavena (požadované hodnoty: &lt;b&gt;qt6ct&lt;/b&gt; nebo &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Proměnná prostředí &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment není nastavena správně (nynější hodnota: &lt;b&gt;%1&lt;/b&gt;, požadované hodnoty: &lt;b&gt;qt6ct&lt;/b&gt; nebo &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="143"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>Přídavný modul &lt;b&gt;%1&lt;/b&gt; je zkompilován proti nekompatibilní verzi Qt (%2).</translation>
     </message>
 </context>
 <context>
@@ -796,12 +796,12 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehlížené programy:</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat...</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
@@ -811,27 +811,27 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro uvedené aplikace nepoužívat žádné styly a barevná schémata.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Doplňky nejvyšší úrovně používají čistě rastrové povrchy a nepodporují podřízené doplňky, které nejsou založeny na nativním GL.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynutit rastrový povrch</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrat program</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="64"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustitelné soubory (*)</translation>
     </message>
 </context>
 </TS>
