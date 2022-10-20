@@ -33,6 +33,7 @@
 #include <QTreeWidgetItem>
 #include <QProgressBar>
 #include <QMetaObject>
+#include <QThread>
 #include "qt6ct.h"
 #include "iconthemepage.h"
 #include "ui_iconthemepage.h"
@@ -46,14 +47,20 @@ IconThemePage::IconThemePage(QWidget *parent) :
     m_progressBar->resize(200, m_progressBar->height());
     m_progressBar->setRange(0, 100);
 
-    QThread *thread = QThread::create(&IconThemePage::loadThemes, this);
-    thread->setParent(this);
-    connect(thread, SIGNAL(finished()), this, SLOT(onFinished()));
-    thread->start();
+    m_thread = QThread::create(&IconThemePage::loadThemes, this);
+    m_thread->setParent(this);
+    connect(m_thread, SIGNAL(finished()), SLOT(onFinished()));
+    m_thread->start();
 }
 
 IconThemePage::~IconThemePage()
 {
+    if(m_thread->isRunning())
+    {
+        m_stopped = true;
+        m_thread->wait();
+    }
+
     delete m_ui;
 }
 
@@ -67,14 +74,14 @@ void IconThemePage::writeSettings()
 
 void IconThemePage::onFinished()
 {
-   m_ui->treeWidget->addTopLevelItems(m_items);
-   m_ui->treeWidget->resizeColumnToContents(0);
-   m_ui->treeWidget->resizeColumnToContents(1);
-   m_ui->treeWidget->resizeColumnToContents(2);
-   m_ui->treeWidget->resizeColumnToContents(3);
-   m_progressBar->hide();
-   m_items.clear();
-   readSettings();
+    m_ui->treeWidget->addTopLevelItems(m_items);
+    m_ui->treeWidget->resizeColumnToContents(0);
+    m_ui->treeWidget->resizeColumnToContents(1);
+    m_ui->treeWidget->resizeColumnToContents(2);
+    m_ui->treeWidget->resizeColumnToContents(3);
+    m_progressBar->hide();
+    m_items.clear();
+    readSettings();
 }
 
 void IconThemePage::resizeEvent(QResizeEvent *event)
@@ -105,7 +112,9 @@ void IconThemePage::readSettings()
 
 void IconThemePage::loadThemes()
 {
+    m_ui->treeWidget->clear();
     m_items.clear();
+    m_stopped = false;
 
     QFileInfoList themeFileList;
     for(const QString &path : Qt6CT::iconPaths())
@@ -117,6 +126,9 @@ void IconThemePage::loadThemes()
             QDir themeDir(info.absoluteFilePath());
             themeFileList << themeDir.entryInfoList(QStringList() << "index.theme", QDir::Files);
         }
+
+        if(m_stopped)
+            return;
     }
 
     int i = 0;
@@ -125,6 +137,14 @@ void IconThemePage::loadThemes()
         QTreeWidgetItem *item = loadTheme(info.canonicalFilePath());
         if(item)
             m_items << item;
+
+        if(m_stopped)
+        {
+            qDeleteAll(m_items);
+            m_items.clear();
+            return;
+        }
+
         QMetaObject::invokeMethod(m_progressBar, "setValue", Qt::QueuedConnection, Q_ARG(int, ++i * 100 / themeFileList.count()));
     }
 }

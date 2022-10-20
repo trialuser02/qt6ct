@@ -30,7 +30,7 @@
 #define ICONTHEMEPAGE_H
 
 #include <QIcon>
-#include <QFutureWatcher>
+#include <atomic>
 #include "tabpage.h"
 
 namespace Ui {
@@ -39,6 +39,7 @@ class IconThemePage;
 
 class QTreeWidgetItem;
 class QProgressBar;
+class QThread;
 
 class IconThemePage : public TabPage
 {
@@ -62,7 +63,9 @@ private:
     QIcon findIconHelper(const QString &themePath, int size, const QString &name, QStringList *visited);
     Ui::IconThemePage *m_ui;
     QProgressBar *m_progressBar;
+    QThread *m_thread;
     QList<QTreeWidgetItem *> m_items;
+    std::atomic_bool m_stopped = ATOMIC_VAR_INIT(false);
 };
 
 #endif // ICONTHEMEPAGE_H
