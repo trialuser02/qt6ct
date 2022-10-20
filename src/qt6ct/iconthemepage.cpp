@@ -177,10 +177,17 @@ QTreeWidgetItem *IconThemePage::loadTheme(const QString &path)
 
 QIcon IconThemePage::findIcon(const QString &themePath, int size, const QString &name)
 {
+    QStringList visited;
+    return findIconHelper(themePath, size, name, &visited);
+}
+
+QIcon IconThemePage::findIconHelper(const QString &themePath, int size, const QString &name, QStringList *visited)
+{
     QSettings config(themePath, QSettings::IniFormat);
     config.beginGroup("Icon Theme");
     QStringList dirs = config.value("Directories").toStringList();
     QStringList parents = config.value("Inherits").toStringList();
+    visited->append(config.value("Name").toString());
     bool haveInherits = !parents.isEmpty();
     config.endGroup();
 
@@ -237,10 +244,10 @@ QIcon IconThemePage::findIcon(const QString &themePath, int size, const QString 
     {
         QString parentThemePath = QDir(QFileInfo(themePath).path() + "/../" + parent).canonicalPath() + "/index.theme";
 
-        if(!QFile::exists(parentThemePath) || parentThemePath == themePath)
+        if(!QFile::exists(parentThemePath) || visited->contains(parent)) //protect against recursion
             continue;
 
-        QIcon icon = findIcon(parentThemePath, size, name);
+        QIcon icon = findIconHelper(parentThemePath, size, name, visited);
         if(!icon.isNull())
             return icon;
     }
