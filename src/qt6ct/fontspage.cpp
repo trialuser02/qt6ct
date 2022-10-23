@@ -62,8 +62,8 @@ void FontsPage::writeSettings()
 {
     QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
     settings.beginGroup("Fonts");
-    settings.setValue("general", m_ui->generalFontLabel->font());
-    settings.setValue("fixed", m_ui->fixedFontLabel->font());
+    settings.setValue("general", m_ui->generalFontLabel->font().toString());
+    settings.setValue("fixed", m_ui->fixedFontLabel->font().toString());
     settings.endGroup();
 }
 
@@ -89,8 +89,9 @@ void FontsPage::readSettings()
 
 void FontsPage::loadFont(QSettings *settings, QLabel *label, const QString &key)
 {
-    QFont font = settings->value(key, QApplication::font()).value<QFont>();
-    label->setText(font.family () + " " + QString::number(font.pointSize ()));
+    QFont font = QApplication::font();
+    font.fromString(settings->value(key, QApplication::font().toString()).toString());
+    label->setText(font.family() + " " + QString::number(font.pointSize()));
     label->setFont(font);
 }
 
