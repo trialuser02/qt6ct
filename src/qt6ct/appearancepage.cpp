@@ -50,6 +50,7 @@ AppearancePage::AppearancePage(QWidget *parent) :
     QStringList keys = QStyleFactory::keys();
     keys.removeAll("qt6ct-style"); //hide qt6ct proxy style
     keys.removeAll("qt5gtk2"); //hide qt5gtk2 alias
+    keys.removeAll("gtk2"); //hide gtk2 alias
     m_ui->styleComboBox->addItems(keys);
 
     connect(m_ui->paletteComboBox, SIGNAL(activated(int)), SLOT(updatePalette()));
