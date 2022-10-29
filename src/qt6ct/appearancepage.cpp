@@ -446,5 +446,4 @@ void AppearancePage::createColorScheme(const QString &name, const QPalette &pale
     settings.setValue("disabled_colors",disabledColors);
 
     settings.endGroup();
-
 }

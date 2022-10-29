@@ -44,3 +44,9 @@ Version 0.6
 * updated Russian translation
 * updated Spanish translation (Toni Estévez)
 * updated Greek translation (Dimitrios Glentadakis)
+
+Version 0.7
+* fixed crash when loading default font
+* changed font configuration format
+* improved icon loader
+* updated Czech translation (fri)
