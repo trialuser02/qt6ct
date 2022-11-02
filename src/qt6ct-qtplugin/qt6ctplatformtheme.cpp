@@ -77,9 +77,7 @@ Qt6CTPlatformTheme::Qt6CTPlatformTheme()
 
 Qt6CTPlatformTheme::~Qt6CTPlatformTheme()
 {
-    if(m_palette)
-        delete m_palette;
-
+    delete m_palette;
 }
 
 bool Qt6CTPlatformTheme::usePlatformNativeDialog(DialogType type) const
@@ -292,21 +290,21 @@ void Qt6CTPlatformTheme::readSettings()
     settings.endGroup();
 
     settings.beginGroup("Interface");
-    m_doubleClickInterval = QPlatformTheme::themeHint(QPlatformTheme::MouseDoubleClickInterval).toInt();
+    m_doubleClickInterval = QGenericUnixTheme::themeHint(QPlatformTheme::MouseDoubleClickInterval).toInt();
     m_doubleClickInterval = settings.value("double_click_interval", m_doubleClickInterval).toInt();
-    m_cursorFlashTime = QPlatformTheme::themeHint(QPlatformTheme::CursorFlashTime).toInt();
+    m_cursorFlashTime = QGenericUnixTheme::themeHint(QPlatformTheme::CursorFlashTime).toInt();
     m_cursorFlashTime = settings.value("cursor_flash_time", m_cursorFlashTime).toInt();
     m_showShortcutsInContextMenus = settings.value("show_shortcuts_in_context_menus", true).toBool();
-    m_buttonBoxLayout = QPlatformTheme::themeHint(QPlatformTheme::DialogButtonBoxLayout).toInt();
+    m_buttonBoxLayout = QGenericUnixTheme::themeHint(QPlatformTheme::DialogButtonBoxLayout).toInt();
     m_buttonBoxLayout = settings.value("buttonbox_layout", m_buttonBoxLayout).toInt();
-    m_keyboardScheme = QPlatformTheme::themeHint(QPlatformTheme::KeyboardScheme).toInt();
+    m_keyboardScheme = QGenericUnixTheme::themeHint(QPlatformTheme::KeyboardScheme).toInt();
     m_keyboardScheme = settings.value("keyboard_scheme", m_keyboardScheme).toInt();
     QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, !settings.value("menus_have_icons", true).toBool());
     m_toolButtonStyle = settings.value("toolbutton_style", Qt::ToolButtonFollowStyle).toInt();
     m_wheelScrollLines = settings.value("wheel_scroll_lines", 3).toInt();
 
     //load effects
-    m_uiEffects = QPlatformTheme::themeHint(QPlatformTheme::UiEffects).toInt();
+    m_uiEffects = QGenericUnixTheme::themeHint(QPlatformTheme::UiEffects).toInt();
     if(settings.childKeys().contains("gui_effects"))
     {
         QStringList effectList = settings.value("gui_effects").toStringList();
@@ -371,7 +369,7 @@ QString Qt6CTPlatformTheme::loadStyleSheets(const QStringList &paths)
         if(!content.endsWith(QChar::LineFeed))
             content.append(QChar::LineFeed);
     }
-    QRegularExpression regExp("//.*\n");
+    static const QRegularExpression regExp("//.*\n");
     content.replace(regExp, "\n");
     return content;
 }

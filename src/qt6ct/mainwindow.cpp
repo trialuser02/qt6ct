@@ -140,6 +140,6 @@ void MainWindow::checkConfiguration()
     QVersionNumber v = QLibraryInfo::version();
     if(v.majorVersion() != QT_VERSION_MAJOR || v.minorVersion() != QT_VERSION_MINOR)
     {
-        m_errors << tr("The <b>%1</b> plugin is compiled against incompatible Qt version (%2).").arg("libqt6ct.so").arg(QT_VERSION_STR);
+        m_errors << tr("The <b>%1</b> plugin is compiled against incompatible Qt version (%2).").arg("libqt6ct.so", QT_VERSION_STR);
     }
 }

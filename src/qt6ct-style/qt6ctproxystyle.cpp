@@ -50,21 +50,21 @@ int Qt6CTProxyStyle::styleHint(QStyle::StyleHint hint, const QStyleOption *optio
     {
         if(m_dialogButtonsHaveIcons == Qt::Unchecked)
             return 0;
-        else if(m_dialogButtonsHaveIcons == Qt::Checked)
+        if(m_dialogButtonsHaveIcons == Qt::Checked)
             return 1;
     }
     else if(hint == QStyle::SH_ItemView_ActivateItemOnSingleClick)
     {
         if(m_activateItemOnSingleClick == Qt::Unchecked)
             return 0;
-        else if(m_activateItemOnSingleClick == Qt::Checked)
+        if(m_activateItemOnSingleClick == Qt::Checked)
             return 1;
     }
     else if(hint == QStyle::SH_UnderlineShortcut)
     {
         if(m_underlineShortcut == Qt::Unchecked)
             return 0;
-        else if(m_underlineShortcut == Qt::Checked)
+        if(m_underlineShortcut == Qt::Checked)
             return 1;
     }
     return QProxyStyle::styleHint(hint, option, widget, returnData);

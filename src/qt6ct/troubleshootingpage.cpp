@@ -68,9 +68,7 @@ void TroubleshootingPage::on_addAppButton_clicked()
 
 void TroubleshootingPage::on_removeAppButton_clicked()
 {
-    QListWidgetItem *item = m_ui->ignoredAppsListWidget->currentItem();
-    if(item)
-        delete item;
+    delete m_ui->ignoredAppsListWidget->currentItem();
 }
 
 void TroubleshootingPage::readSettings()

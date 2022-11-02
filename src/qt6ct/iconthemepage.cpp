@@ -230,7 +230,7 @@ QIcon IconThemePage::findIconHelper(const QString &themePath, int size, const QS
             iconDir.setFilter(QDir::Files);
             iconDir.setNameFilters(QStringList () << name + "-*.*");
             if(!iconDir.entryInfoList().isEmpty())
-                p = iconDir.entryInfoList().first().absoluteFilePath();
+                p = iconDir.entryInfoList().constFirst().absoluteFilePath();
         }
 
         if(p.isEmpty())

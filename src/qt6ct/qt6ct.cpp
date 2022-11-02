@@ -142,7 +142,7 @@ QString Qt6CT::resolvePath(const QString &path)
         return tmp;
 
     //find environment variables
-    QRegularExpression regexp("\\$([A-Z_]+)\\/");
+    static const QRegularExpression regexp("\\$([A-Z_]+)\\/");
     QRegularExpressionMatchIterator it = regexp.globalMatch(tmp);
 
     while (it.hasNext())
