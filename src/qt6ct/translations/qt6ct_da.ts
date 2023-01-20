@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="83"/>
+        <location filename="../appearancepage.cpp" line="84"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Standarddialoger:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create</source>
         <translation>Opret</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Create a Copy</source>
         <translation>Opret en kopi</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Rename</source>
         <translation>Omdøb</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="75"/>
+        <location filename="../appearancepage.cpp" line="76"/>
         <source>Remove</source>
         <translation>Fjern</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>Enter Color Scheme Name</source>
         <translation>Indtast navn på farveskema</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>File name:</source>
         <translation>Filnavn:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="230"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="229"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Farveskemaet &quot;%1&quot; findes allerede</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>Warning</source>
         <translation>Advarsel</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Farveskemaet &quot;%1&quot; er skrivebeskyttet</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="192"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Confirm Remove</source>
         <translation>Bekræft fjernelse</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="193"/>
+        <location filename="../appearancepage.cpp" line="192"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Er du sikker på, at du vil fjerne farveskemaet &quot;%1&quot;?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="213"/>
+        <location filename="../appearancepage.cpp" line="212"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopi)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="230"/>
+        <location filename="../appearancepage.cpp" line="229"/>
         <source>Unable to copy file</source>
         <translation>Kan ikke kopiere fil</translation>
     </message>
@@ -259,12 +259,12 @@
         <translation>Fjern fonts.conf</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="110"/>
+        <location filename="../fontspage.cpp" line="111"/>
         <source>Remove Font Configuration</source>
         <translation>Fjern konfiguration af skrifttype</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="111"/>
+        <location filename="../fontspage.cpp" line="112"/>
         <source>Are you sure you want to delete &lt;i&gt;%1&lt;/i&gt;?</source>
         <translation>Er du sikker på, at du vil slette &lt;i&gt;%1&lt;/i&gt;?</translation>
     </message>

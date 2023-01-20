@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="83"/>
+        <location filename="../appearancepage.cpp" line="84"/>
         <source>Default</source>
         <translation>Predeterminada</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Diálogos estándar:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create</source>
         <translation>Crear</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Create a Copy</source>
         <translation>Crear una copia</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Rename</source>
         <translation>Renombrar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="75"/>
+        <location filename="../appearancepage.cpp" line="76"/>
         <source>Remove</source>
         <translation>Eliminar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>Enter Color Scheme Name</source>
         <translation>Escribir el nombre de la combinación de colores</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>File name:</source>
         <translation>Nombre del archivo:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="230"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="229"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Ya existe la combinación de colores «%1»</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>Warning</source>
         <translation>Aviso</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>La combinación de colores «%1» es de solo lectura</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="192"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Confirm Remove</source>
         <translation>Confirmar la eliminación</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="193"/>
+        <location filename="../appearancepage.cpp" line="192"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>¿Seguro que quiere eliminar la combinación de colores «%1»?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="213"/>
+        <location filename="../appearancepage.cpp" line="212"/>
         <source>%1 (copy)</source>
         <translation>%1 (copia)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="230"/>
+        <location filename="../appearancepage.cpp" line="229"/>
         <source>Unable to copy file</source>
         <translation>No se puede copiar el archivo</translation>
     </message>
@@ -259,12 +259,12 @@
         <translation>Eliminar fonts.conf</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="110"/>
+        <location filename="../fontspage.cpp" line="111"/>
         <source>Remove Font Configuration</source>
         <translation>Eliminar la configuración de los tipos de letra</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="111"/>
+        <location filename="../fontspage.cpp" line="112"/>
         <source>Are you sure you want to delete &lt;i&gt;%1&lt;/i&gt;?</source>
         <translation>¿Seguro que quiere eliminar &lt;i&gt;%1&lt;/i&gt;?</translation>
     </message>

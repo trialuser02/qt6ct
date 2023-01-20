@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="83"/>
+        <location filename="../appearancepage.cpp" line="84"/>
         <source>Default</source>
         <translation>Standaard</translation>
     </message>
@@ -60,90 +60,90 @@
         <translation>Standaard dialoogvensters:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="70"/>
+        <location filename="../appearancepage.cpp" line="71"/>
         <source>Create</source>
         <translation>Maken</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Create a Copy</source>
         <translation>Kopie maken</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Rename</source>
         <translation>Naam wijzigen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="75"/>
+        <location filename="../appearancepage.cpp" line="76"/>
         <source>Remove</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>Enter Color Scheme Name</source>
         <translation>Geef dit kleurenschema een naam</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="137"/>
-        <location filename="../appearancepage.cpp" line="211"/>
-        <location filename="../appearancepage.cpp" line="250"/>
+        <location filename="../appearancepage.cpp" line="136"/>
+        <location filename="../appearancepage.cpp" line="210"/>
+        <location filename="../appearancepage.cpp" line="249"/>
         <source>File name:</source>
         <translation>Bestandsnaam:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="230"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="229"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="146"/>
-        <location filename="../appearancepage.cpp" line="222"/>
-        <location filename="../appearancepage.cpp" line="260"/>
+        <location filename="../appearancepage.cpp" line="145"/>
+        <location filename="../appearancepage.cpp" line="221"/>
+        <location filename="../appearancepage.cpp" line="259"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
         <translation>Het kleurenschema “%1” bestaat al</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>Warning</source>
         <translation>Waarschuwing</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="164"/>
-        <location filename="../appearancepage.cpp" line="187"/>
-        <location filename="../appearancepage.cpp" line="245"/>
+        <location filename="../appearancepage.cpp" line="163"/>
+        <location filename="../appearancepage.cpp" line="186"/>
+        <location filename="../appearancepage.cpp" line="244"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
         <translation>Het kleurenschema “%1” is alleen-lezen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="192"/>
+        <location filename="../appearancepage.cpp" line="191"/>
         <source>Confirm Remove</source>
         <translation>Verwijderen bevestigen</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="193"/>
+        <location filename="../appearancepage.cpp" line="192"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
         <translation>Weet je zeker dat je het kleurenschema “%1” wilt verwijderen?</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="213"/>
+        <location filename="../appearancepage.cpp" line="212"/>
         <source>%1 (copy)</source>
         <translation>%1 (kopie)</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="230"/>
+        <location filename="../appearancepage.cpp" line="229"/>
         <source>Unable to copy file</source>
         <translation>Het bestand kan niet worden gekopieerd</translation>
     </message>
@@ -259,12 +259,12 @@
         <translation>fonts.conf verwijderen</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="110"/>
+        <location filename="../fontspage.cpp" line="111"/>
         <source>Remove Font Configuration</source>
         <translation>Lettertypeconfiguatie verwijderen</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="111"/>
+        <location filename="../fontspage.cpp" line="112"/>
         <source>Are you sure you want to delete &lt;i&gt;%1&lt;/i&gt;?</source>
         <translation>Weet je zeker dat je &lt;i&gt;%1&lt;/i&gt; wilt verwijderen?</translation>
     </message>
