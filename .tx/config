@@ -1,13 +1,13 @@
 [main]
 host = https://www.transifex.com
 
-[qt6ct.qt6ct]
+[o:qt-configuration-tool:p:qt6ct:r:qt6ct]
 file_filter = src/qt6ct/translations/qt6ct_<lang>.ts
 source_lang = en
 source_file = src/qt6ct/translations/qt6ct_en.ts
 type = QT
 
-[qt6ct.qt6ct-desktop]
+[o:qt-configuration-tool:p:qt6ct:r:qt6ct-desktop]
 file_filter = src/qt6ct/desktop-translations/qt6ct_<lang>.desktop.in
 source_lang = en
 source_file = src/qt6ct/qt6ct.desktop
