@@ -26,7 +26,7 @@ Comment[el]=Εργαλείο διαμόρφωσης της Qt6
 Name[el]=Ρυθμίσεις Qt6
 
 Comment[es]=Herramienta de configuración de Qt6
-Name[es]=Ajustes Qt6
+Name[es]=Ajustes de Qt6
 
 Comment[es_ES]=Herramienta de configuración de Qt6
 Name[es_ES]=Ajustes Qt6
@@ -62,6 +62,9 @@ Name[sr]=Qt6 поставке
 
 Comment[tr]=Qt6 Yapılandırma Aracı
 Name[tr]=Qt6 Ayarları
+
+Name[uk]=Параметри Qt6
+Comment[uk]=Засіб налаштування Qt6
 
 Comment[zh_CN]=Qt6 配置工具
 Name[zh_CN]=Qt6 设置
