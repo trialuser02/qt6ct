@@ -8,5 +8,6 @@ ln -s "../../qt6ct-style/libqt6ct-style.so" "${MYDIR}/src/qt6ct/styles/"
 export QT_LOGGING_RULES="qt6ct.debug=true"
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_QPA_PLATFORM_PLUGIN_PATH=${MYDIR}/src/qt6ct-qtplugin
+export LD_LIBRARY_PATH=${MYDIR}/src/qt6ct-common:${LD_LIBRARY_PATH}
 ${MYDIR}/src/qt6ct/qt6ct
 rm -rf ${MYDIR}/src/qt6ct/styles/

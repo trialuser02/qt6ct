@@ -16,7 +16,6 @@ SOURCES += \
     fontconfigdialog.cpp \
     qsspage.cpp \
     qsseditordialog.cpp \
-    qt6ct.cpp \
     troubleshootingpage.cpp
 
 FORMS += \
@@ -43,7 +42,6 @@ HEADERS += \
     fontconfigdialog.h \
     qsspage.h \
     qsseditordialog.h \
-    qt6ct.h \
     troubleshootingpage.h
 
 !equals (DISABLE_WIDGETS,1) {

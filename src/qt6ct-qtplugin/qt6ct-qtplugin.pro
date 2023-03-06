@@ -8,7 +8,6 @@ QT += gui-private
 
 SOURCES += \
     main.cpp \
-    ../qt6ct/qt6ct.cpp \
     qt6ctplatformtheme.cpp
 
 !equals(DISABLE_WIDGETS,1) {
@@ -20,7 +19,6 @@ OTHER_FILES += qt6ct.json
 INCLUDEPATH += ../
 
 HEADERS += \
-    ../qt6ct/qt6ct.h \
     qt6ctplatformtheme.h
 
 target.path = $$PLUGINDIR/platformthemes

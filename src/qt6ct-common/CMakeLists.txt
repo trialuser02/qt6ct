@@ -1,7 +1,7 @@
 project(qt6ct-common)
 
 set(app_SRCS
-  ../qt6ct/qt6ct.cpp
+  qt6ct.cpp
 )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../)

@@ -14,13 +14,11 @@ INSTALLS += target
 INCLUDEPATH += ../
 
 HEADERS += \
-    qt6ctproxystyle.h \
-    ../qt6ct/qt6ct.h
+    qt6ctproxystyle.h
 
 SOURCES += \
     plugin.cpp \
-    qt6ctproxystyle.cpp \
-    ../qt6ct/qt6ct.cpp
+    qt6ctproxystyle.cpp
 
 OTHER_FILES += \
     qt6ct.json

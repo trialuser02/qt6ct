@@ -35,15 +35,13 @@
 #include <QtDebug>
 #include "qt6ct.h"
 
-#define EXPORT __attribute__((visibility("default")))
-
 #ifndef QT6CT_DATADIR
 #define QT6CT_DATADIR "/usr/share"
 #endif
 
 QSet<Qt6CT::StyleInstance*> Qt6CT::styleInstances;
 
-EXPORT void Qt6CT::initConfig()
+void Qt6CT::initConfig()
 {
     if(QFile::exists(configFile()))
         return;
@@ -56,17 +54,17 @@ EXPORT void Qt6CT::initConfig()
     QFile::copy(globalConfig, configFile());
 }
 
-EXPORT QString Qt6CT::configPath()
+QString Qt6CT::configPath()
 {
     return QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + QLatin1String("/qt6ct");
 }
 
-EXPORT QString Qt6CT::configFile()
+QString Qt6CT::configFile()
 {
     return configPath() + QLatin1String("/qt6ct.conf");
 }
 
-EXPORT QStringList Qt6CT::iconPaths()
+QStringList Qt6CT::iconPaths()
 {
     QStringList paths = { QDir::homePath() + QLatin1String("/.icons") };
 
@@ -89,12 +87,12 @@ EXPORT QStringList Qt6CT::iconPaths()
     return paths;
 }
 
-EXPORT QString Qt6CT::userStyleSheetPath()
+QString Qt6CT::userStyleSheetPath()
 {
     return configPath() + QLatin1String("/qss");
 }
 
-EXPORT QStringList Qt6CT::sharedStyleSheetPaths()
+QStringList Qt6CT::sharedStyleSheetPaths()
 {
     QStringList paths;
     for(const QString &p : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
@@ -106,12 +104,12 @@ EXPORT QStringList Qt6CT::sharedStyleSheetPaths()
     return paths;
 }
 
-EXPORT QString Qt6CT::userColorSchemePath()
+QString Qt6CT::userColorSchemePath()
 {
     return configPath() + QLatin1String("/colors");
 }
 
-EXPORT QStringList Qt6CT::sharedColorSchemePaths()
+QStringList Qt6CT::sharedColorSchemePaths()
 {
     QStringList paths;
     for(const QString &p : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
@@ -123,7 +121,7 @@ EXPORT QStringList Qt6CT::sharedColorSchemePaths()
     return paths;
 }
 
-EXPORT QString Qt6CT::systemLanguageID()
+QString Qt6CT::systemLanguageID()
 {
 #ifdef Q_OS_UNIX
     QByteArray v = qgetenv ("LC_ALL");
@@ -137,7 +135,7 @@ EXPORT QString Qt6CT::systemLanguageID()
     return  QLocale::system().name();
 }
 
-EXPORT QString Qt6CT::resolvePath(const QString &path)
+QString Qt6CT::resolvePath(const QString &path)
 {
     QString tmp = path;
     tmp.replace("~", QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
@@ -158,18 +156,18 @@ EXPORT QString Qt6CT::resolvePath(const QString &path)
     return tmp;
 }
 
-EXPORT void Qt6CT::registerStyleInstance(Qt6CT::StyleInstance *instance)
+void Qt6CT::registerStyleInstance(Qt6CT::StyleInstance *instance)
 {
     styleInstances.insert(instance);
 }
 
-EXPORT void Qt6CT::unregisterStyleInstance(Qt6CT::StyleInstance *instance)
+void Qt6CT::unregisterStyleInstance(Qt6CT::StyleInstance *instance)
 {
     styleInstances.remove(instance);
 }
 
-EXPORT void Qt6CT::reloadStyleInstanceSettings()
+void Qt6CT::reloadStyleInstanceSettings()
 {
-    for(auto instance : styleInstances)
+    for(auto instance : qAsConst(styleInstances))
         instance->reloadSettings();
 }

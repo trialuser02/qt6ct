@@ -46,7 +46,7 @@
 #include <QFileSystemWatcher>
 #include <private/qiconloader_p.h>
 
-#include <qt6ct/qt6ct.h>
+#include "qt6ct.h"
 #include "qt6ctplatformtheme.h"
 
 #include <QStringList>

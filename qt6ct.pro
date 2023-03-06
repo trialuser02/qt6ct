@@ -1,6 +1,6 @@
 TEMPLATE = subdirs
 
-SUBDIRS += src/qt6ct-qtplugin src/qt6ct-style src/qt6ct
+SUBDIRS += src/qt6ct-common  src/qt6ct-qtplugin src/qt6ct-style src/qt6ct
 
 
 unix:exists($$[QT_INSTALL_BINS]/lrelease){
@@ -40,6 +40,7 @@ INSTALLS += qss colors
 
 message (PREFIX=$$PREFIX)
 message (BINDIR=$$BINDIR)
+message (LIBDIR=$$LIBDIR)
 message (DATADIR=$$DATADIR)
 message (PLUGINDIR=$$PLUGINDIR)
 equals (DISABLE_WIDGETS,1):message ("Qt Widgets are disabled!")
