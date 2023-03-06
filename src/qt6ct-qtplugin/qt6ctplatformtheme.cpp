@@ -177,16 +177,16 @@ void Qt6CTPlatformTheme::applySettings()
         if(m_update)
             qApp->setWheelScrollLines(m_wheelScrollLines);
 
-        if (m_update)
+        if(m_update)
+        {
             Qt6CT::reloadStyleInstanceSettings();
-
-        if(!m_palette)
             m_palette = new QPalette(qApp->style()->standardPalette());
+        }
 
         if(m_update && m_usePalette)
             qApp->setPalette(*m_palette);
 
-        if (m_userStyleSheet != m_prevStyleSheet) {
+        if(m_userStyleSheet != m_prevStyleSheet) {
             // prepend our stylesheet to that of the application
             // (first removing any previous stylesheet we have set)
             QString appStyleSheet = qApp->styleSheet();
