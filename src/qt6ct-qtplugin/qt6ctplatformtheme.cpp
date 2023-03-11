@@ -167,6 +167,8 @@ void Qt6CTPlatformTheme::applySettings()
         }
     }
 
+    QGuiApplication::setFont(m_generalFont); //apply font
+
 #ifdef QT_WIDGETS_LIB
     if(hasWidgets())
     {
@@ -201,7 +203,7 @@ void Qt6CTPlatformTheme::applySettings()
         }
     }
 #endif
-    QGuiApplication::setFont(m_generalFont); //apply font
+
     if(m_update)
         QIconLoader::instance()->updateSystemTheme(); //apply icons
 
