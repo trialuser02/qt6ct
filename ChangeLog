@@ -50,3 +50,9 @@ Version 0.7
 * changed font configuration format
 * improved icon loader
 * updated Czech translation (fri)
+
+Version 0.8
+* added keywords entry to desktop file (Mateusz Łukasik)
+* fixed compatibility with applications that use own stylesheet (John Lindgren)
+* fixed font applying issue
+* updated Japanese translation (UTUMI Hirosi)
