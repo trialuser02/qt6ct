@@ -78,3 +78,4 @@ Icon=preferences-desktop-theme
 Terminal=false
 Type=Application
 Categories=Settings;DesktopSettings;Qt;
+Keywords=settings;desktop;qt;qtsettings;qt6;
