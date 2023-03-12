@@ -177,13 +177,13 @@ void Qt6CTPlatformTheme::applySettings()
         //Qt 5.6 or higher should be use themeHint function on application startup.
         //So, there is no need to call this function first time.
         if(m_update)
-            qApp->setWheelScrollLines(m_wheelScrollLines);
-
-        if(m_update)
         {
+            qApp->setWheelScrollLines(m_wheelScrollLines);
             Qt6CT::reloadStyleInstanceSettings();
-            m_palette = new QPalette(qApp->style()->standardPalette());
         }
+
+        if(!m_palette)
+            m_palette = new QPalette(qApp->style()->standardPalette());
 
         if(m_update && m_usePalette)
             qApp->setPalette(*m_palette);
