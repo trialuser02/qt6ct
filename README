@@ -64,6 +64,7 @@ Files and Directories:
 qt6ct - Qt6 configuration tool
 libqt6ct.so - qt6ct platform plugin
 libqt6ct-style.so - qt6ct proxy style plugin
+libqt6ct-common.so - qt6ct shared library
 ~/.config/qt6ct/qt6ct.conf - configuration file
 ~/.config/qt6ct/qss, ~/.local/share/qt6ct/qss, /usr/share/qt6ct/qss, /usr/local/share/qt6ct/qss - style sheets
 ~/.config/qt6ct/colors,~/.local/share/qt6ct/colors, /usr/share/qt6ct/colors,
