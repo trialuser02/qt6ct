@@ -94,7 +94,8 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {
-    return (m_usePalette && m_palette) ? m_palette : QGenericUnixTheme::palette(type);
+    Q_UNUSED(type);
+    return (m_usePalette && m_palette) ? m_palette : nullptr;
 }
 
 const QFont *Qt6CTPlatformTheme::font(QPlatformTheme::Font type) const
