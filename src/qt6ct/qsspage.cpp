@@ -67,10 +67,9 @@ QSSPage::~QSSPage()
     delete m_ui;
 }
 
-void QSSPage::writeSettings()
+void QSSPage::writeSettings(QSettings *settings)
 {
     QStringList styleSheets;
-    QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
 
     for(int i = 0; i < m_ui->qssListWidget->count(); ++i)
     {
@@ -79,7 +78,7 @@ void QSSPage::writeSettings()
             styleSheets << item->data(QSS_FULL_PATH_ROLE).toString();
     }
 
-    settings.setValue("Interface/stylesheets", styleSheets);
+    settings->setValue("Interface/stylesheets", styleSheets);
 }
 
 void QSSPage::on_qssListWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *)

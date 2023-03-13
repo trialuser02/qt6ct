@@ -43,7 +43,7 @@ public:
     TroubleshootingPage(QWidget *parent);
     ~TroubleshootingPage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private slots:
     void on_addAppButton_clicked();

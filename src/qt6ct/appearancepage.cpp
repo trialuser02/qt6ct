@@ -101,15 +101,14 @@ AppearancePage::~AppearancePage()
     delete m_previewUi;
 }
 
-void AppearancePage::writeSettings()
+void AppearancePage::writeSettings(QSettings *settings)
 {
-    QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
-    settings.beginGroup("Appearance");
-    settings.setValue("style", m_ui->styleComboBox->currentText());
-    settings.setValue("custom_palette", m_ui->customPaletteButton->isChecked());
-    settings.setValue("color_scheme_path", m_ui->colorSchemeComboBox->currentData().toString());
-    settings.setValue("standard_dialogs", m_ui->dialogComboBox->currentData().toString());
-    settings.endGroup();
+    settings->beginGroup("Appearance");
+    settings->setValue("style", m_ui->styleComboBox->currentText());
+    settings->setValue("custom_palette", m_ui->customPaletteButton->isChecked());
+    settings->setValue("color_scheme_path", m_ui->colorSchemeComboBox->currentData().toString());
+    settings->setValue("standard_dialogs", m_ui->dialogComboBox->currentData().toString());
+    settings->endGroup();
 }
 
 void AppearancePage::on_styleComboBox_textActivated(const QString &text)

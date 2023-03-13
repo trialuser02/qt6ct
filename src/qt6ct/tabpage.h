@@ -30,6 +30,7 @@
 #define TABPAGE_H
 
 #include <QWidget>
+#include <QSettings>
 
 class TabPage : public QWidget
 {
@@ -37,7 +38,7 @@ class TabPage : public QWidget
 public:
     explicit TabPage(QWidget *parent = nullptr);
 
-    virtual void writeSettings() = 0;
+    virtual void writeSettings(QSettings *settings) = 0;
 };
 
 #endif // TABPAGE_H

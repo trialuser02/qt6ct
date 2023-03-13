@@ -46,7 +46,7 @@ public:
     explicit FontsPage(QWidget *parent = nullptr);
     ~FontsPage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private slots:
     void onFontChangeRequested(QWidget *widget);

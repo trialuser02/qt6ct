@@ -43,7 +43,7 @@ public:
     explicit InterfacePage(QWidget *parent = nullptr);
     ~InterfacePage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private:
     void readSettings();

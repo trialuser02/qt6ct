@@ -66,22 +66,21 @@ InterfacePage::~InterfacePage()
     delete m_ui;
 }
 
-void InterfacePage::writeSettings()
+void InterfacePage::writeSettings(QSettings *settings)
 {
-    QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
-    settings.beginGroup("Interface");
-    settings.setValue("double_click_interval", m_ui->doubleClickIntervalSpinBox->value());
-    settings.setValue("cursor_flash_time", m_ui->cursorFlashTimeSpinBox->value());
-    settings.setValue("buttonbox_layout", m_ui->buttonLayoutComboBox->currentData());
-    settings.setValue("keyboard_scheme", m_ui->keyboardSchemeComboBox->currentData());
-    settings.setValue("menus_have_icons", m_ui->menuIconsCheckBox->isChecked());
-    settings.setValue("show_shortcuts_in_context_menus", m_ui->showShortcutsInMenusCheckBox->isChecked());
+    settings->beginGroup("Interface");
+    settings->setValue("double_click_interval", m_ui->doubleClickIntervalSpinBox->value());
+    settings->setValue("cursor_flash_time", m_ui->cursorFlashTimeSpinBox->value());
+    settings->setValue("buttonbox_layout", m_ui->buttonLayoutComboBox->currentData());
+    settings->setValue("keyboard_scheme", m_ui->keyboardSchemeComboBox->currentData());
+    settings->setValue("menus_have_icons", m_ui->menuIconsCheckBox->isChecked());
+    settings->setValue("show_shortcuts_in_context_menus", m_ui->showShortcutsInMenusCheckBox->isChecked());
 
-    settings.setValue("underline_shortcut", m_ui->shortcutUnderlineCheckBox->checkState());
-    settings.setValue("activate_item_on_single_click", m_ui->singleClickCheckBox->checkState());
-    settings.setValue("dialog_buttons_have_icons", m_ui->dialogIconsCheckBox->checkState());
-    settings.setValue("toolbutton_style", m_ui->toolButtonStyleComboBox->currentData());
-    settings.setValue("wheel_scroll_lines", m_ui->wheelScrollLinesSpinBox->value());
+    settings->setValue("underline_shortcut", m_ui->shortcutUnderlineCheckBox->checkState());
+    settings->setValue("activate_item_on_single_click", m_ui->singleClickCheckBox->checkState());
+    settings->setValue("dialog_buttons_have_icons", m_ui->dialogIconsCheckBox->checkState());
+    settings->setValue("toolbutton_style", m_ui->toolButtonStyleComboBox->currentData());
+    settings->setValue("wheel_scroll_lines", m_ui->wheelScrollLinesSpinBox->value());
 
     QStringList effects;
     if(m_ui->guiEffectsCheckBox->isChecked())
@@ -103,8 +102,8 @@ void InterfacePage::writeSettings()
     if(m_ui->toolBoxEffectComboBox->currentIndex() == 1)
         effects << "AnimateToolBox";
 
-    settings.setValue("gui_effects", effects);
-    settings.endGroup();
+    settings->setValue("gui_effects", effects);
+    settings->endGroup();
 }
 
 void InterfacePage::readSettings()

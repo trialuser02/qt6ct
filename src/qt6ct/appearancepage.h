@@ -47,7 +47,7 @@ public:
     explicit AppearancePage(QWidget *parent = nullptr);
     ~AppearancePage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private slots:
     void on_styleComboBox_textActivated(const QString &text);

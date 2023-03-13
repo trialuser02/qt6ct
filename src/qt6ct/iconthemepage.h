@@ -49,7 +49,7 @@ public:
     explicit IconThemePage(QWidget *parent = nullptr);
     ~IconThemePage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private slots:
     void onFinished();

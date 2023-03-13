@@ -46,7 +46,7 @@ public:
     explicit QSSPage(QWidget *parent = nullptr);
     ~QSSPage();
 
-    void writeSettings() override;
+    void writeSettings(QSettings *settings) override;
 
 private slots:
     void on_qssListWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *);

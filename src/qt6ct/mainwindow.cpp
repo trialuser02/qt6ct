@@ -90,11 +90,12 @@ void MainWindow::on_buttonBox_clicked(QAbstractButton *button)
     int id = m_ui->buttonBox->standardButton(button);
     if(id == QDialogButtonBox::Ok || id == QDialogButtonBox::Apply)
     {
+        QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
         for(int i = 0; i < m_ui->tabWidget->count(); ++i)
         {
             TabPage *p = qobject_cast<TabPage*>(m_ui->tabWidget->widget(i));
             if(p)
-                p->writeSettings();
+                p->writeSettings(&settings);
         }
     }
 

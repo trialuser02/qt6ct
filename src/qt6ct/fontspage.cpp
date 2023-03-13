@@ -58,13 +58,12 @@ FontsPage::~FontsPage()
     delete m_ui;
 }
 
-void FontsPage::writeSettings()
+void FontsPage::writeSettings(QSettings *settings)
 {
-    QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
-    settings.beginGroup("Fonts");
-    settings.setValue("general", m_ui->generalFontLabel->font().toString());
-    settings.setValue("fixed", m_ui->fixedFontLabel->font().toString());
-    settings.endGroup();
+    settings->beginGroup("Fonts");
+    settings->setValue("general", m_ui->generalFontLabel->font().toString());
+    settings->setValue("fixed", m_ui->fixedFontLabel->font().toString());
+    settings->endGroup();
 }
 
 void FontsPage::onFontChangeRequested(QWidget *widget)

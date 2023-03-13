@@ -64,12 +64,11 @@ IconThemePage::~IconThemePage()
     delete m_ui;
 }
 
-void IconThemePage::writeSettings()
+void IconThemePage::writeSettings(QSettings *settings)
 {
-    QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
     QTreeWidgetItem *item = m_ui->treeWidget->currentItem();
     if(item)
-        settings.setValue("Appearance/icon_theme", item->data(3, Qt::UserRole));
+        settings->setValue("Appearance/icon_theme", item->data(3, Qt::UserRole));
 }
 
 void IconThemePage::onFinished()
