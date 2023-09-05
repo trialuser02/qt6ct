@@ -24,8 +24,11 @@ set(app_SRCS
   qsseditordialog.ui
   qsspage.ui
   troubleshootingpage.ui
-  translations/translations.qrc
 )
+
+if(Qt6LinguistTools_FOUND)
+    list(APPEND app_SRCS translations/translations.qrc)
+endif()
 
 add_executable(qt6ct ${app_SRCS})
 target_link_libraries(qt6ct PRIVATE Qt6::Widgets Qt6::WidgetsPrivate qt6ct-common)
