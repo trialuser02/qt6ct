@@ -67,7 +67,6 @@ private:
     void setPalette(QWidget *w, QPalette p);
     void findColorSchemes(const QString &path);
     void findColorSchemes(const QStringList &paths);
-    QPalette loadColorScheme(const QString &filePath);
     void createColorScheme(const QString &name, const QPalette &palette);
     Ui::AppearancePage *m_ui;
     QStyle *m_selectedStyle = nullptr;

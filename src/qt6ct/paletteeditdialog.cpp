@@ -93,6 +93,9 @@ void PaletteEditDialog::setPalette(const QPalette &palette)
         tr("Default"), tr("Tooltip background") , tr("Tooltip text"), tr("Placeholder text")
     };
 
+#if (QT_VERSION >= QT_VERSION_CHECK(6,6,0))
+    labels << tr("Accent");
+#endif
     m_ui->tableWidget->setVerticalHeaderLabels(labels);
 }
 

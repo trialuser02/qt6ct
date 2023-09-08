@@ -32,6 +32,7 @@
 #include <QStandardPaths>
 #include <QRegularExpression>
 #include <QFile>
+#include <QSettings>
 #include <QtDebug>
 #include "qt6ct.h"
 
@@ -154,6 +155,47 @@ QString Qt6CT::resolvePath(const QString &path)
     }
 
     return tmp;
+}
+
+QPalette Qt6CT::loadColorScheme(const QString &filePath, const QPalette &fallback)
+{
+    QPalette customPalette;
+    QSettings settings(filePath, QSettings::IniFormat);
+    settings.beginGroup("ColorScheme");
+    QStringList activeColors = settings.value("active_colors").toStringList();
+    QStringList inactiveColors = settings.value("inactive_colors").toStringList();
+    QStringList disabledColors = settings.value("disabled_colors").toStringList();
+    settings.endGroup();
+
+
+#if (QT_VERSION >= QT_VERSION_CHECK(6,6,0))
+    if(activeColors.count() == QPalette::Accent)
+        activeColors << activeColors.at(QPalette::Highlight);
+    if(inactiveColors.count() == QPalette::Accent)
+        inactiveColors << inactiveColors.at(QPalette::Highlight);
+    if(disabledColors.count() == QPalette::Accent)
+        disabledColors << disabledColors.at(QPalette::Highlight);
+#endif
+
+
+    if(activeColors.count() >= QPalette::NColorRoles &&
+            inactiveColors.count() >= QPalette::NColorRoles &&
+            disabledColors.count() >= QPalette::NColorRoles)
+    {
+        for (int i = 0; i < QPalette::NColorRoles; i++)
+        {
+            QPalette::ColorRole role = QPalette::ColorRole(i);
+            customPalette.setColor(QPalette::Active, role, QColor(activeColors.at(i)));
+            customPalette.setColor(QPalette::Inactive, role, QColor(inactiveColors.at(i)));
+            customPalette.setColor(QPalette::Disabled, role, QColor(disabledColors.at(i)));
+        }
+    }
+    else
+    {
+        customPalette = fallback; //load fallback palette
+    }
+
+    return customPalette;
 }
 
 void Qt6CT::registerStyleInstance(Qt6CT::StyleInstance *instance)

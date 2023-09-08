@@ -41,6 +41,7 @@
 #include <QSet>
 #include <QString>
 #include <QStringList>
+#include <QPalette>
 
 #ifdef QT6CT_LIBRARY
 #define QT6CT_EXPORT Q_DECL_EXPORT
@@ -67,6 +68,7 @@ public:
     static QStringList sharedColorSchemePaths();
     static QString systemLanguageID();
     static QString resolvePath(const QString &path);
+    static QPalette loadColorScheme(const QString &filePath, const QPalette &fallback);
 
     static void registerStyleInstance(StyleInstance *instance);
     static void unregisterStyleInstance(StyleInstance *instance);

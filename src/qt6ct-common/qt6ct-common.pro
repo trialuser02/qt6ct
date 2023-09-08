@@ -2,7 +2,6 @@ include(../../qt6ct.pri)
 
 TEMPLATE = lib
 TARGET = qt6ct-common
-QT -= gui
 LIBS -= -lqt6ct-common
 
 VER_MAJ = $$system(cat qt6ct.h | grep 'define\\ QT6CT_VERSION_MAJOR' | cut -d '\\ ' -f3)
