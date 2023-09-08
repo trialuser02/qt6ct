@@ -43,8 +43,8 @@ FontsPage::FontsPage(QWidget *parent) :
 {
     m_ui->setupUi(this);
 
-    connect(m_ui->changeGeneralFontButton, &QToolButton::clicked, [=] { onFontChangeRequested(m_ui->generalFontLabel); } );
-    connect(m_ui->changeFixedWidthFontButton, &QToolButton::clicked, [=] { onFontChangeRequested(m_ui->fixedFontLabel); } );
+    connect(m_ui->changeGeneralFontButton, &QToolButton::clicked, this, [=] { onFontChangeRequested(m_ui->generalFontLabel); } );
+    connect(m_ui->changeFixedWidthFontButton, &QToolButton::clicked, this, [=] { onFontChangeRequested(m_ui->fixedFontLabel); } );
 
     readSettings();
 
