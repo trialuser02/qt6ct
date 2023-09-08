@@ -76,9 +76,7 @@ Qt6CTPlatformTheme::Qt6CTPlatformTheme()
 }
 
 Qt6CTPlatformTheme::~Qt6CTPlatformTheme()
-{
-    delete m_palette;
-}
+{}
 
 bool Qt6CTPlatformTheme::usePlatformNativeDialog(DialogType type) const
 {
@@ -94,7 +92,7 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {
-    return (m_usePalette && m_palette) ? m_palette : QGenericUnixTheme::palette(type);
+    return (m_usePalette && m_palette) ? m_palette.get() : QGenericUnixTheme::palette(type);
 }
 
 const QFont *Qt6CTPlatformTheme::font(QPlatformTheme::Font type) const
@@ -183,7 +181,7 @@ void Qt6CTPlatformTheme::applySettings()
         }
 
         if(!m_palette)
-            m_palette = new QPalette(qApp->style()->standardPalette());
+            m_palette = std::make_unique<QPalette>(*QGenericUnixTheme::palette(QPlatformTheme::SystemPalette));
 
         if(m_update && m_usePalette)
             qApp->setPalette(*m_palette);
@@ -250,11 +248,7 @@ void Qt6CTPlatformTheme::updateSettings()
 
 void Qt6CTPlatformTheme::readSettings()
 {
-    if(m_palette)
-    {
-        delete m_palette;
-        m_palette = nullptr;
-    }
+    m_palette.reset();
 
     QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
 
@@ -264,7 +258,7 @@ void Qt6CTPlatformTheme::readSettings()
     if(!schemePath.isEmpty() && settings.value("custom_palette", false).toBool())
     {
         schemePath = Qt6CT::resolvePath(schemePath); //replace environment variables
-        m_palette = new QPalette(Qt6CT::loadColorScheme(schemePath, *QPlatformTheme::palette(SystemPalette)));
+        m_palette = std::make_unique<QPalette>(Qt6CT::loadColorScheme(schemePath, *QPlatformTheme::palette(SystemPalette)));
     }
     m_iconTheme = settings.value("icon_theme").toString();
     //load dialogs
@@ -364,7 +358,7 @@ bool Qt6CTPlatformTheme::hasWidgets()
 QString Qt6CTPlatformTheme::loadStyleSheets(const QStringList &paths)
 {
     QString content;
-    for(const QString &path : paths)
+    for(const QString &path : qAsConst(paths))
     {
         if(!QFile::exists(path))
             continue;

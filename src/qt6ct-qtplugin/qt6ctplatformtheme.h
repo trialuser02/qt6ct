@@ -38,6 +38,7 @@
 #include <QScopedPointer>
 #include <QIcon>
 #include <QFileInfo>
+#include <memory>
 
 Q_DECLARE_LOGGING_CATEGORY(lqt6ct)
 
@@ -80,7 +81,7 @@ private:
 #endif
     QString loadStyleSheets(const QStringList &paths);
     QString m_style, m_iconTheme, m_userStyleSheet, m_prevStyleSheet;
-    QPalette *m_palette = nullptr;
+    std::unique_ptr<QPalette> m_palette;
     QFont m_generalFont, m_fixedFont;
     int m_doubleClickInterval;
     int m_cursorFlashTime;
