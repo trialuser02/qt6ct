@@ -35,7 +35,7 @@
     </message>
     <message>
         <location filename="../appearancepage.ui" line="124"/>
-        <location filename="../appearancepage.cpp" line="84"/>
+        <location filename="../appearancepage.cpp" line="85"/>
         <source>Default</source>
         <translation>Predeterminada</translation>
     </message>
@@ -60,27 +60,27 @@
         <translation>Diálogos estándar:</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="71"/>
+        <location filename="../appearancepage.cpp" line="72"/>
         <source>Create</source>
         <translation>Crear</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="72"/>
+        <location filename="../appearancepage.cpp" line="73"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="73"/>
+        <location filename="../appearancepage.cpp" line="74"/>
         <source>Create a Copy</source>
         <translation>Crear una copia</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="74"/>
+        <location filename="../appearancepage.cpp" line="75"/>
         <source>Rename</source>
         <translation>Renombrar</translation>
     </message>
     <message>
-        <location filename="../appearancepage.cpp" line="76"/>
+        <location filename="../appearancepage.cpp" line="77"/>
         <source>Remove</source>
         <translation>Eliminar</translation>
     </message>
@@ -259,12 +259,12 @@
         <translation>Eliminar fonts.conf</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="111"/>
+        <location filename="../fontspage.cpp" line="110"/>
         <source>Remove Font Configuration</source>
         <translation>Eliminar la configuración de los tipos de letra</translation>
     </message>
     <message>
-        <location filename="../fontspage.cpp" line="112"/>
+        <location filename="../fontspage.cpp" line="111"/>
         <source>Are you sure you want to delete &lt;i&gt;%1&lt;/i&gt;?</source>
         <translation>¿Seguro que quiere eliminar &lt;i&gt;%1&lt;/i&gt;?</translation>
     </message>
@@ -463,32 +463,32 @@
         <translation>Versión: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="110"/>
+        <location filename="../mainwindow.cpp" line="111"/>
         <source>Warning</source>
         <translation>Aviso</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="119"/>
+        <location filename="../mainwindow.cpp" line="120"/>
         <source>Please remove the &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; environment variable (current value: &lt;b&gt;%1&lt;/b&gt;).</source>
         <translation>Elimine la variable de entorno &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="125"/>
+        <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
         <translation>No se ha configurado la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valores obligatorios: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="130"/>
+        <location filename="../mainwindow.cpp" line="131"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
         <translation>No se ha configurado correctamente la variable de entorno &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; (valor actual: &lt;b&gt;%1&lt;/b&gt;, valores requeridos: &lt;b&gt;qt6ct&lt;/b&gt; o &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="138"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
         <translation>No se puede encontrar &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="143"/>
+        <location filename="../mainwindow.cpp" line="144"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
         <translation>El complemento &lt;b&gt;%1&lt;/b&gt; se ha compilado con una versión de Qt incompatible (%2).</translation>
     </message>
@@ -636,7 +636,12 @@
         <translation>Texto de relleno</translation>
     </message>
     <message>
-        <location filename="../paletteeditdialog.cpp" line="107"/>
+        <location filename="../paletteeditdialog.cpp" line="97"/>
+        <source>Accent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../paletteeditdialog.cpp" line="110"/>
         <source>Select Color</source>
         <translation>Seleccionar el color</translation>
     </message>
@@ -697,7 +702,7 @@
     <message>
         <location filename="../qsspage.ui" line="66"/>
         <location filename="../qsspage.cpp" line="51"/>
-        <location filename="../qsspage.cpp" line="87"/>
+        <location filename="../qsspage.cpp" line="86"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
@@ -719,74 +724,74 @@
         <translation>Crear una copia</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="92"/>
+        <location filename="../qsspage.cpp" line="91"/>
         <source>View</source>
         <translation>Vista</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="106"/>
-        <location filename="../qsspage.cpp" line="251"/>
+        <location filename="../qsspage.cpp" line="105"/>
+        <location filename="../qsspage.cpp" line="250"/>
         <source>File name:</source>
         <translation>Nombre del archivo:</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="106"/>
-        <location filename="../qsspage.cpp" line="251"/>
+        <location filename="../qsspage.cpp" line="105"/>
+        <location filename="../qsspage.cpp" line="250"/>
         <source>Enter Style Sheet Name</source>
         <translation>Escribir el nombre de la hoja de estilo</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="117"/>
-        <location filename="../qsspage.cpp" line="218"/>
-        <location filename="../qsspage.cpp" line="226"/>
-        <location filename="../qsspage.cpp" line="263"/>
-        <location filename="../qsspage.cpp" line="271"/>
+        <location filename="../qsspage.cpp" line="116"/>
+        <location filename="../qsspage.cpp" line="217"/>
+        <location filename="../qsspage.cpp" line="225"/>
+        <location filename="../qsspage.cpp" line="262"/>
+        <location filename="../qsspage.cpp" line="270"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="117"/>
+        <location filename="../qsspage.cpp" line="116"/>
         <source>The file &quot;%1&quot; already exists</source>
         <translation>Ya existe el archivo «%1»</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="151"/>
+        <location filename="../qsspage.cpp" line="150"/>
         <source>Confirm Remove</source>
         <translation>Confirmar la eliminación</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="152"/>
+        <location filename="../qsspage.cpp" line="151"/>
         <source>Are you sure you want to remove style sheet &quot;%1&quot;?</source>
         <translation>¿Seguro que quiere eliminar la hoja de estilo «%1»?</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="208"/>
+        <location filename="../qsspage.cpp" line="207"/>
         <source>Rename Style Sheet</source>
         <translation>Renombrar la hoja de estilo</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="208"/>
+        <location filename="../qsspage.cpp" line="207"/>
         <source>Style sheet name:</source>
         <translation>Nombre de la hoja de estilo:</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="218"/>
-        <location filename="../qsspage.cpp" line="263"/>
+        <location filename="../qsspage.cpp" line="217"/>
+        <location filename="../qsspage.cpp" line="262"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
         <translation>Ya existe la hoja de estilo «%1»</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="226"/>
+        <location filename="../qsspage.cpp" line="225"/>
         <source>Unable to rename file</source>
         <translation>No se puede cambiar el nombre del archivo</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="253"/>
+        <location filename="../qsspage.cpp" line="252"/>
         <source>%1 (copy).qss</source>
         <translation>%1 (copia).qss</translation>
     </message>
     <message>
-        <location filename="../qsspage.cpp" line="271"/>
+        <location filename="../qsspage.cpp" line="270"/>
         <source>Unable to copy file</source>
         <translation>No se puede copiar el archivo</translation>
     </message>
@@ -824,12 +829,12 @@
         <translation>Forzar la superficie rasterizada</translation>
     </message>
     <message>
-        <location filename="../troubleshootingpage.cpp" line="64"/>
+        <location filename="../troubleshootingpage.cpp" line="63"/>
         <source>Select Application</source>
         <translation>Seleccionar la aplicación</translation>
     </message>
     <message>
-        <location filename="../troubleshootingpage.cpp" line="64"/>
+        <location filename="../troubleshootingpage.cpp" line="63"/>
         <source>Executable files (*)</source>
         <translation>Archivos ejecutables (*)</translation>
     </message>
