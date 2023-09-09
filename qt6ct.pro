@@ -1,3 +1,5 @@
+CONFIG += ordered
+
 TEMPLATE = subdirs
 
 SUBDIRS += src/qt6ct-common  src/qt6ct-qtplugin src/qt6ct-style src/qt6ct
