@@ -4,12 +4,12 @@ project(qt6ct LANGUAGES CXX)
 
 include(GNUInstallDirs)
 
-CONFIGURE_FILE(
+configure_file(
   "${CMAKE_CURRENT_SOURCE_DIR}/cmake_uninstall.cmake.in"
   "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake"
   IMMEDIATE @ONLY)
 
-ADD_CUSTOM_TARGET(uninstall
+add_custom_target(uninstall
   "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake")
 
 set(CMAKE_CXX_STANDARD 17)
@@ -22,40 +22,47 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_BUILD_RPATH_USE_ORIGIN ON)
 
-ADD_DEFINITIONS(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DUSE_WIDGETS)
+add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DUSE_WIDGETS)
 
-find_package(Qt6 COMPONENTS BuildInternals Widgets LinguistTools REQUIRED)
+find_package(Qt6 REQUIRED COMPONENTS BuildInternals Core Widgets OPTIONAL_COMPONENTS LinguistTools)
 
-#get_target_property(QT_QTPATHS_EXECUTABLE Qt6::qtpaths IMPORTED_LOCATION)
-get_target_property(QT_LRELEASE_EXECUTABLE Qt6::lrelease IMPORTED_LOCATION)
+get_target_property(QT_QTPATHS_EXECUTABLE Qt6::qtpaths IMPORTED_LOCATION)
 
-#if(QT_QTPATHS_EXECUTABLE)
-#    message(STATUS "Found qtpaths executable: " ${QT_QTPATHS_EXECUTABLE})
-#else()
-#    message(FATAL_ERROR "Could NOT find qtpaths executable")
-#endif()
-
-if(QT_LRELEASE_EXECUTABLE)
-    message(STATUS "Found lrelease executable: " ${QT_LRELEASE_EXECUTABLE})
-else()
-    message(FATAL_ERROR "Could NOT find lrelease executable")
+if(Qt6LinguistTools_FOUND)
+    get_target_property(QT_LRELEASE_EXECUTABLE Qt6::lrelease IMPORTED_LOCATION)
+    if(NOT QT_QTPATHS_EXECUTABLE AND QT_LRELEASE_EXECUTABLE)
+        get_filename_component(QT_LRELEASE_PATH ${QT_LRELEASE_EXECUTABLE} DIRECTORY)
+        set(QT_QTPATHS_EXECUTABLE ${QT_LRELEASE_PATH}/qtpaths)
+    endif()
 endif()
 
-get_filename_component(QT_QTPATHS_EXECUTABLE ${QT_LRELEASE_EXECUTABLE} DIRECTORY)
-set(QT_QTPATHS_EXECUTABLE ${QT_QTPATHS_EXECUTABLE}/qtpaths)
-
-if(EXISTS ${QT_QTPATHS_EXECUTABLE})
-    message(STATUS "Found qtpaths executable: " ${QT_QTPATHS_EXECUTABLE})
+if(QT_QTPATHS_EXECUTABLE AND EXISTS ${QT_QTPATHS_EXECUTABLE})
+    message(STATUS "Found qtpaths executable: ${QT_QTPATHS_EXECUTABLE}")
 else()
     message(FATAL_ERROR "Could NOT find qtpaths executable")
 endif()
 
+if(Qt6LinguistTools_FOUND)
+    if(QT_LRELEASE_EXECUTABLE AND EXISTS ${QT_LRELEASE_EXECUTABLE})
+        message(STATUS "Found lrelease executable: ${QT_LRELEASE_EXECUTABLE}")
+    else()
+        message(FATAL_ERROR "Could NOT find lrelease executable")
+    endif()
+endif()
+
 #execute_process(COMMAND ${QT_QTPATHS_EXECUTABLE} -query QT_INSTALL_PLUGINS OUTPUT_VARIABLE PLUGINDIR OUTPUT_STRIP_TRAILING_WHITESPACE)
 execute_process(COMMAND ${QT_QTPATHS_EXECUTABLE} --plugin-dir OUTPUT_VARIABLE PLUGINDIR OUTPUT_STRIP_TRAILING_WHITESPACE)
-message(STATUS "Plugin path: " ${PLUGINDIR})
 
-message(STATUS "Generating translations ...")
-execute_process(COMMAND find ${CMAKE_CURRENT_SOURCE_DIR} -name *.ts COMMAND xargs ${QT_LRELEASE_EXECUTABLE} -silent)
+if(PLUGINDIR)
+   message(STATUS "Plugin path: ${PLUGINDIR}")
+else()
+   message(FATAL_ERROR "Could not get plugin path")
+endif()
+
+if(Qt6LinguistTools_FOUND)
+    message(STATUS "Generating translations ...")
+    execute_process(COMMAND find ${CMAKE_CURRENT_SOURCE_DIR}/src -name *.ts COMMAND xargs ${QT_LRELEASE_EXECUTABLE} -silent)
+endif()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/qt6ct-common)
 
