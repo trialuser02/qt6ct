@@ -638,7 +638,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="97"/>
         <source>Accent</source>
-        <translation type="unfinished"></translation>
+        <translation>Accentkleur</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="110"/>

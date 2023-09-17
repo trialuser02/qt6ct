@@ -57,7 +57,7 @@
     <message>
         <location filename="../appearancepage.ui" line="218"/>
         <source>Standard dialogs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Boîtes de dialogue standard :</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="72"/>
@@ -111,7 +111,7 @@
         <location filename="../appearancepage.cpp" line="221"/>
         <location filename="../appearancepage.cpp" line="259"/>
         <source>The color scheme &quot;%1&quot; already exists</source>
-        <translation>Le jeu de couleurs &quot;%1&quot; existe déjà</translation>
+        <translation>Le jeu de couleurs « %1 » existe déjà</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="163"/>
@@ -125,7 +125,7 @@
         <location filename="../appearancepage.cpp" line="186"/>
         <location filename="../appearancepage.cpp" line="244"/>
         <source>The color scheme &quot;%1&quot; is read only</source>
-        <translation>Le jeu de couleurs &quot;%1&quot; est en lecture seule</translation>
+        <translation>Le jeu de couleurs « %1 » est en lecture seule</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="191"/>
@@ -135,7 +135,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="192"/>
         <source>Are you sure you want to remove color scheme &quot;%1&quot;?</source>
-        <translation>Êtes-vous sûr de vouloir supprimer le jeu de couleurs &quot;%1&quot; ?</translation>
+        <translation>Êtes-vous sûr de vouloir supprimer le jeu de couleurs « %1 » ?</translation>
     </message>
     <message>
         <location filename="../appearancepage.cpp" line="212"/>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../appearancepage.cpp" line="229"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de copier le fichier</translation>
     </message>
 </context>
 <context>
@@ -159,7 +159,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="29"/>
         <source>Disable automatic hinting for bold fonts</source>
-        <translation>Désactiver l&apos;optimisation de rendu pour les polices en gras</translation>
+        <translation>Désactiver l’optimisation de rendu pour les polices en gras</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.ui" line="36"/>
@@ -199,7 +199,7 @@
     <message>
         <location filename="../fontconfigdialog.ui" line="97"/>
         <source>Hinting style:</source>
-        <translation>Style d&apos;optimisation de rendu :</translation>
+        <translation>Style d’optimisation de rendu :</translation>
     </message>
     <message>
         <location filename="../fontconfigdialog.cpp" line="42"/>
@@ -294,7 +294,7 @@
     <message>
         <location filename="../interfacepage.ui" line="63"/>
         <source>ToolBox effect:</source>
-        <translation>Effet barre d&apos;outil :</translation>
+        <translation>Effet barre d’outil :</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="70"/>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../interfacepage.ui" line="192"/>
         <source>Keyboard scheme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Schéma du clavier :</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="202"/>
@@ -362,47 +362,47 @@
     <message>
         <location filename="../interfacepage.ui" line="229"/>
         <source>Toolbar button style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Style de bouton de la barre d’outils :</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="239"/>
         <source>Mouse wheel scroll lines:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lignes de défilement de la molette de la souris :</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="256"/>
         <source>Show shortcut underlines</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les raccourcis soulignés</translation>
     </message>
     <message>
         <location filename="../interfacepage.ui" line="266"/>
         <source>Show shortcuts in context menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les raccourcis dans les menus contextuels</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="55"/>
         <source>Only display the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>N’afficher que l’icône</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="56"/>
         <source>Only display the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher uniquement le texte</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="57"/>
         <source>The text appears beside the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Le texte apparaît à côté de l’icône</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="58"/>
         <source>The text appears under the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Le texte apparaît sous l’icône</translation>
     </message>
     <message>
         <location filename="../interfacepage.cpp" line="59"/>
         <source>Follow the application style</source>
-        <translation type="unfinished"></translation>
+        <translation>Respecter le style de l’application</translation>
     </message>
 </context>
 <context>
@@ -410,22 +410,22 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Qt6 Configuration Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt6 Outil de configuration</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="54"/>
         <source>The application is not configured correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>L’application n’est pas configurée correctement.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="68"/>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Masquer</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="51"/>
@@ -455,7 +455,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="58"/>
         <source>Troubleshooting</source>
-        <translation type="unfinished"></translation>
+        <translation>Résolution des problèmes</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="65"/>
@@ -470,27 +470,27 @@
     <message>
         <location filename="../mainwindow.cpp" line="120"/>
         <source>Please remove the &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; environment variable (current value: &lt;b&gt;%1&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez supprimer la variable d’environnement &lt;b&gt;QT_STYLE_OVERRIDE&lt;/b&gt; (valeur actuelle : &lt;b&gt;%1&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="126"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set (required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>La variable d’environnement &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; n’est pas définie (valeurs requises : &lt;b&gt;qt6ct&lt;/b&gt; ou &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="131"/>
         <source>The &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; environment variable is not set correctly (current value: &lt;b&gt;%1&lt;/b&gt;, required values: &lt;b&gt;qt6ct&lt;/b&gt; or &lt;b&gt;qt5ct&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>La variable d’environnement &lt;b&gt;QT_QPA_PLATFORMTHEME&lt;/b&gt; n’est pas définie correctement (valeur actuelle : &lt;b&gt;%1&lt;/b&gt;, valeurs requises : &lt;b&gt;qt6ct&lt;/b&gt; ou &lt;b&gt;qt5ct&lt;/b&gt;).</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="138"/>
         <source>Unable to find &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de trouver &lt;b&gt;libqt6ct-style.so&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="144"/>
         <source>The &lt;b&gt;%1&lt;/b&gt; plugin is compiled against incompatible Qt version (%2).</source>
-        <translation type="unfinished"></translation>
+        <translation>Le plugin &lt;b&gt;%1&lt;/b&gt; est compilé avec une version Qt (%2) incompatible.</translation>
     </message>
 </context>
 <context>
@@ -633,7 +633,7 @@
     <message>
         <location filename="../paletteeditdialog.cpp" line="93"/>
         <source>Placeholder text</source>
-        <translation type="unfinished"></translation>
+        <translation>Texte d’espace réservé</translation>
     </message>
     <message>
         <location filename="../paletteeditdialog.cpp" line="97"/>
@@ -726,7 +726,7 @@
     <message>
         <location filename="../qsspage.cpp" line="91"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Aperçu</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="105"/>
@@ -752,7 +752,7 @@
     <message>
         <location filename="../qsspage.cpp" line="116"/>
         <source>The file &quot;%1&quot; already exists</source>
-        <translation>Le fichier &quot;%1&quot; existe déjà</translation>
+        <translation>Le fichier « %1 » existe déjà</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="150"/>
@@ -762,7 +762,7 @@
     <message>
         <location filename="../qsspage.cpp" line="151"/>
         <source>Are you sure you want to remove style sheet &quot;%1&quot;?</source>
-        <translation>Êtes-vous sûr de vouloir supprimer la feuille de style &quot;%1&quot; ?</translation>
+        <translation>Êtes-vous sûr de vouloir supprimer la feuille de style « %1 » ?</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="207"/>
@@ -778,7 +778,7 @@
         <location filename="../qsspage.cpp" line="217"/>
         <location filename="../qsspage.cpp" line="262"/>
         <source>The style sheet &quot;%1&quot; already exists</source>
-        <translation>La feuille de style &quot;%1&quot; existe déjà</translation>
+        <translation>La feuille de style « %1 » existe déjà</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="225"/>
@@ -788,12 +788,12 @@
     <message>
         <location filename="../qsspage.cpp" line="252"/>
         <source>%1 (copy).qss</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (copier).qss</translation>
     </message>
     <message>
         <location filename="../qsspage.cpp" line="270"/>
         <source>Unable to copy file</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de copier le fichier</translation>
     </message>
 </context>
 <context>
@@ -801,12 +801,12 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="20"/>
         <source>Ignored applications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Applications ignorées :</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="29"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter...</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="40"/>
@@ -816,27 +816,27 @@
     <message>
         <location filename="../troubleshootingpage.ui" line="73"/>
         <source>Do not apply any styles and color schemes for the listed applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne pas appliquer de styles et de schémas de couleurs pour les applications listées.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="82"/>
         <source>Make top-level widgets use pure raster surfaces, and do not support non-native GL-based child widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Faire en sorte que les widgets de premier niveau utilisent des surfaces matricielles pures et ne pas prendre en charge les widgets enfants non natifs basés sur GL.</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.ui" line="85"/>
         <source>Force raster surface</source>
-        <translation type="unfinished"></translation>
+        <translation>Forcer la surface de la matrice</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="63"/>
         <source>Select Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner l’application</translation>
     </message>
     <message>
         <location filename="../troubleshootingpage.cpp" line="63"/>
         <source>Executable files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichiers exécutables (*)</translation>
     </message>
 </context>
 </TS>

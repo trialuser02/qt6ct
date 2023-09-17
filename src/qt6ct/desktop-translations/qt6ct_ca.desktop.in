@@ -26,11 +26,14 @@ Comment=Qt6 Configuration Tool
 
 
 
+
+
 Exec=qt6ct
 Icon=preferences-desktop-theme
 Terminal=false
 Type=Application
 Categories=Settings;DesktopSettings;Qt;
+Keywords=settings;desktop;qt;qtsettings;qt6;
 
 
 # Translations
