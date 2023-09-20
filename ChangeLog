@@ -56,3 +56,17 @@ Version 0.8
 * fixed compatibility with applications that use own stylesheet (John Lindgren)
 * fixed font applying issue
 * updated Japanese translation (UTUMI Hirosi)
+
+Version 0.9
+* added Qt 6.6 compatibility
+* added compatibility with QT_STYLE_OVERRIDE=qt5ct-style (RushingAlien)
+* improved cmake build:
+  - make translations optional (Jonas Kvinge)
+  - enabled reproducible build by default
+  - other fixes and improvements (Jonas Kvinge)
+* fixed crash on QML applications
+* fixed parallel build using qmake
+* updated Dutch translation (Heimen Stoffels)
+* updated Polish translation (Marek Adamski)
+* updated Russian translation
+* updated French translation (Wallon)
