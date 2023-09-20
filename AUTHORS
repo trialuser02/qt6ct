@@ -15,14 +15,16 @@ Translators:
   Finnish - Nikolay Korotkiy
   French - David GEIGER <david.david@mageialinux-online.org>,
            Adrien DAUGABEL <adrien.d@mageialinux-online.org>,
-           papoteur <papoteur@mageialinux-online.org>
+           papoteur <papoteur@mageialinux-online.org>,
+           Wallon
   German - LeSnake
   Greek - Dimitrios Glentadakis
   Hebrew - Genghis Khan, Elkana Birdugo
   Dutch (Netherlands) - Heimen Stoffels
   German - Ettore Atalan, Mario Blättermann
   Italian - Luigi Baldoni
-  Polish - Tomasz Przybył (FadeMind), Evo
+  Japanese - UTUMI Hirosi
+  Polish - Tomasz Przybył (FadeMind), Evo, Marek Adamski
   Russian - Ilya Kotov
   Serbian - markosm
   Slovak - Ján Ďanovský
@@ -40,3 +42,5 @@ Patches and improvements:
 
   Keyboard scheme option - Nikolay Korotkiy
   Wayland fixes - Chris Rendle-Short
+  Compatibility with custom stylesheets - John Lindgren
+  CMake support impovements - Jonas Kvinge
