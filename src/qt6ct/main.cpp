@@ -38,15 +38,15 @@
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
-    QGuiApplication::setDesktopFileName("qt6ct.desktop");
+    QGuiApplication::setDesktopFileName(QStringLiteral("qt6ct.desktop"));
 
     QTranslator translator;
-    QString locale = Qt6CT::systemLanguageID();
-    if(translator.load(QString(":/qt6ct_") + locale))
-        app.installTranslator(&translator);
+
+    if(translator.load(QLocale(), QStringLiteral("qt6ct"), QStringLiteral("_"), QStringLiteral(":/")))
+        QCoreApplication::installTranslator(&translator);
 
     QTranslator qt_translator;
-    if(qt_translator.load(QLibraryInfo::path(QLibraryInfo::TranslationsPath) + "/qtbase_" + locale))
+    if(qt_translator.load(QLocale(), QStringLiteral("qtbase"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
         app.installTranslator(&qt_translator);
 
     Qt6CT::initConfig();

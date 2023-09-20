@@ -122,20 +122,6 @@ QStringList Qt6CT::sharedColorSchemePaths()
     return paths;
 }
 
-QString Qt6CT::systemLanguageID()
-{
-#ifdef Q_OS_UNIX
-    QByteArray v = qgetenv ("LC_ALL");
-    if (v.isEmpty())
-        v = qgetenv ("LC_MESSAGES");
-    if (v.isEmpty())
-        v = qgetenv ("LANG");
-    if (!v.isEmpty())
-        return QLocale (QString::fromLatin1(v)).name();
-#endif
-    return  QLocale::system().name();
-}
-
 QString Qt6CT::resolvePath(const QString &path)
 {
     QString tmp = path;

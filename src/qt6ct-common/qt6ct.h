@@ -66,7 +66,6 @@ public:
     static QStringList sharedStyleSheetPaths();
     static QString userColorSchemePath();
     static QStringList sharedColorSchemePaths();
-    static QString systemLanguageID();
     static QString resolvePath(const QString &path);
     static QPalette loadColorScheme(const QString &filePath, const QPalette &fallback);
 
