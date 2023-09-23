@@ -26,5 +26,5 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../)
 
 add_library(qt6ct-common SHARED ${app_SRCS})
 set_target_properties(qt6ct-common PROPERTIES VERSION ${QT6CT_VERSION})
-target_link_libraries(qt6ct-common PRIVATE Qt6::Widgets)
+target_link_libraries(qt6ct-common PRIVATE Qt6::Gui)
 install(TARGETS qt6ct-common DESTINATION ${CMAKE_INSTALL_LIBDIR})
