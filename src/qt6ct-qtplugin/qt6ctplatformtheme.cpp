@@ -266,18 +266,12 @@ void Qt6CTPlatformTheme::readSettings()
     {
         //do not mix gtk2 style and gtk3 dialogs
         QStringList keys = QPlatformThemeFactory::keys();
-        QString name = settings.value("standard_dialogs", "default").toString();
-        if((m_style == QLatin1String("gtk2") || m_style == QLatin1String("qt5gtk2")) &&
-                (name == QLatin1String("gtk3") || name == QLatin1String("qt5gtk3")))
-        {
-            name = QLatin1String("gtk2");
-        }
-        if(keys.contains(name))
-            m_theme.reset(QPlatformThemeFactory::create(name));
-        else if(name == QLatin1String("gtk2") && keys.contains("qt5gtk2"))
-            m_theme.reset(QPlatformThemeFactory::create("qt5gtk2"));
-        else if(name == QLatin1String("gtk3") && keys.contains("qt5gtk3"))
-            m_theme.reset(QPlatformThemeFactory::create("qt5gtk3"));
+        QString dialogs = settings.value("standard_dialogs", "default").toString();
+
+        if(m_style.endsWith("gtk2") && dialogs == QLatin1String("gtk3"))
+            dialogs = QLatin1String("gtk2");
+        if(keys.contains(dialogs))
+            m_theme.reset(QPlatformThemeFactory::create(dialogs));
     }
 
     settings.endGroup();
