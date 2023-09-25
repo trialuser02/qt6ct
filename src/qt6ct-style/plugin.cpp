@@ -40,7 +40,7 @@ public:
 
 QStyle *Qt6CTStylePlugin::create(const QString &key)
 {
-    if (key == "qt6ct-style" || key == "qt5ct-style")
+    if(key == QLatin1String("qt6ct-style") || key == QLatin1String("qt5ct-style"))
         return new Qt6CTProxyStyle();
     return nullptr;
 }

@@ -35,7 +35,6 @@
 #include <QFont>
 #include <QPalette>
 #include <QLoggingCategory>
-#include <QScopedPointer>
 #include <QIcon>
 #include <QFileInfo>
 #include <memory>
@@ -94,7 +93,7 @@ private:
     int m_wheelScrollLines = 3;
     bool m_showShortcutsInContextMenus = false;
     bool m_isIgnored = false;
-    QScopedPointer<QPlatformTheme> m_theme;
+    std::unique_ptr<QPlatformTheme> m_theme;
 };
 
 Q_DECLARE_LOGGING_CATEGORY(lqt6ct)
