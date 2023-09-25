@@ -50,7 +50,7 @@ QPlatformTheme *Qt6CTPlatformThemePlugin::create(const QString &key, const QStri
         return nullptr;
     }
 
-    if(key.toLower() == "qt6ct" || key.toLower() == "qt5ct")
+    if(key.toLower() == QLatin1String("qt6ct") || key.toLower() == QLatin1String("qt5ct"))
         return new Qt6CTPlatformTheme();
     return nullptr;
 }
