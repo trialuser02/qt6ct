@@ -66,6 +66,7 @@ Version 0.9
   - other fixes and improvements (Jonas Kvinge)
 * fixed crash on QML applications
 * fixed parallel build using qmake
+* fixed localization support
 * updated Dutch translation (Heimen Stoffels)
 * updated Polish translation (Marek Adamski)
 * updated Russian translation
