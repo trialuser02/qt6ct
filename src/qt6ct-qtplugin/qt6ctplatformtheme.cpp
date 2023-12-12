@@ -181,7 +181,7 @@ void Qt6CTPlatformTheme::applySettings()
         }
 
         if(!m_palette)
-            m_palette = std::make_unique<QPalette>(*QGenericUnixTheme::palette(QPlatformTheme::SystemPalette));
+            m_palette = std::make_unique<QPalette>(qApp->style()->standardPalette());
 
         if(m_update && m_usePalette)
             qApp->setPalette(*m_palette);
