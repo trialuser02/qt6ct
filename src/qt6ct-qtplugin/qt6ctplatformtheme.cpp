@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020-2023, Ilya Kotov <forkotov02@ya.ru>
+ * Copyright (c) 2020-2024, Ilya Kotov <forkotov02@ya.ru>
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
@@ -92,6 +92,7 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {
+    qDebug() << Q_FUNC_INFO << type;
     return (m_usePalette && m_palette) ? m_palette.get() : QGenericUnixTheme::palette(type);
 }
 
@@ -118,6 +119,7 @@ QVariant Qt6CTPlatformTheme::themeHint(QPlatformTheme::ThemeHint hint) const
     case QPlatformTheme::SystemIconThemeName:
         return m_iconTheme;
     case QPlatformTheme::StyleNames:
+        qDebug() << Q_FUNC_INFO;
         return QStringList() << "qt6ct-style";
     case QPlatformTheme::IconThemeSearchPaths:
         return Qt6CT::iconPaths();
