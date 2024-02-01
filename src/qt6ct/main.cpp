@@ -38,7 +38,7 @@
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
-    QGuiApplication::setDesktopFileName(QStringLiteral("qt6ct.desktop"));
+    QGuiApplication::setDesktopFileName(QStringLiteral("qt6ct"));
 
     QTranslator translator;
 
