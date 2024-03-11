@@ -62,9 +62,12 @@ public:
     //virtual QPixmap fileIconPixmap(const QFileInfo &fileInfo, const QSizeF &size,
     //                               QPlatformTheme::IconOptions iconOptions = 0) const;
 
-    //virtual QIconEngine *createIconEngine(const QString &iconName) const;
+    virtual QIconEngine *createIconEngine(const QString &iconName) const;
     //virtual QList<QKeySequence> keyBindings(QKeySequence::StandardKey key) const;
     //virtual QString standardButtonText(int button) const;
+
+protected:
+	bool eventFilter(QObject *obj, QEvent *e) override;
 
 private slots:
     void applySettings();

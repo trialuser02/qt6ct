@@ -35,6 +35,8 @@
 #include <QMenu>
 #include <QIcon>
 #include <QStringList>
+#include <KSharedConfig>
+#include <KConfigGroup>
 #include <qpa/qplatformthemefactory_p.h>
 #include "qt6ct.h"
 #include "appearancepage.h"
@@ -381,11 +383,22 @@ void AppearancePage::findColorSchemes(const QString &path)
 {
     QDir dir(path);
     dir.setFilter(QDir::Files);
-    dir.setNameFilters(QStringList() << "*.conf");
+    dir.setNameFilters(QStringList() << "*.conf" << "*.colors");
 
     for(const QFileInfo &info : dir.entryInfoList())
     {
-        m_ui->colorSchemeComboBox->addItem(info.baseName(), info.filePath());
+        QString name;
+        QString path = info.filePath();
+        if(info.suffix() == "colors") {
+            KSharedConfigPtr config = KSharedConfig::openConfig(path, KConfig::SimpleConfig);
+            KConfigGroup group(config, "General");
+            name = group.readEntry("Name", info.baseName()) + " (KColorScheme)";
+        }
+        else
+        {
+            name = info.baseName();
+        }
+        m_ui->colorSchemeComboBox->addItem(name, path);
     }
 }
 

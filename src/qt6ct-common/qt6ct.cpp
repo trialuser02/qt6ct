@@ -116,6 +116,7 @@ QStringList Qt6CT::sharedColorSchemePaths()
     for(const QString &p : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
     {
         paths << (p + QLatin1String("/qt6ct/colors"));
+        paths << (p + QLatin1String("/color-schemes"));
     }
     paths << QLatin1String(QT6CT_DATADIR"/qt6ct/colors");
     paths.removeDuplicates();
