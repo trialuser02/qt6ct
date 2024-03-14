@@ -24,7 +24,10 @@ set(CMAKE_BUILD_RPATH_USE_ORIGIN ON)
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DUSE_WIDGETS)
 
-find_package(Qt6 REQUIRED COMPONENTS BuildInternals Core Widgets OPTIONAL_COMPONENTS LinguistTools)
+find_package(Qt6 REQUIRED COMPONENTS BuildInternals Core Widgets QuickControls2 OPTIONAL_COMPONENTS LinguistTools)
+find_package(KF6Config REQUIRED)
+find_package(KF6ColorScheme REQUIRED)
+find_package(KF6IconThemes REQUIRED)
 
 get_target_property(QT_QTPATHS_EXECUTABLE Qt6::qtpaths IMPORTED_LOCATION)
 
