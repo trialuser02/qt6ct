@@ -92,8 +92,9 @@ QPlatformDialogHelper *Qt6CTPlatformTheme::createPlatformDialogHelper(DialogType
 
 const QPalette *Qt6CTPlatformTheme::palette(QPlatformTheme::Palette type) const
 {
-    qDebug() << Q_FUNC_INFO << type;
-    return (m_usePalette && m_palette) ? m_palette.get() : QGenericUnixTheme::palette(type);
+    if (type == QPlatformTheme::SystemPalette && !m_isIgnored)
+        return &m_palette;
+    return QPlatformTheme::palette(type);
 }
 
 const QFont *Qt6CTPlatformTheme::font(QPlatformTheme::Font type) const
@@ -152,19 +153,8 @@ void Qt6CTPlatformTheme::applySettings()
 {
     if(!QGuiApplication::desktopSettingsAware() || m_isIgnored)
     {
-        m_usePalette = false;
         m_update = true;
         return;
-    }
-
-    if(!m_update)
-    {
-        //do not override application palette
-        if(QCoreApplication::testAttribute(Qt::AA_SetPalette))
-        {
-            m_usePalette = false;
-            qCDebug(lqt6ct) << "palette support is disabled";
-        }
     }
 
     QGuiApplication::setFont(m_generalFont); //apply font
@@ -181,12 +171,6 @@ void Qt6CTPlatformTheme::applySettings()
             qApp->setWheelScrollLines(m_wheelScrollLines);
             Qt6CT::reloadStyleInstanceSettings();
         }
-
-        if(!m_palette)
-            m_palette = std::make_unique<QPalette>(qApp->style()->standardPalette());
-
-        if(m_update && m_usePalette)
-            qApp->setPalette(*m_palette);
 
         if(m_userStyleSheet != m_prevStyleSheet)
         {
@@ -209,7 +193,10 @@ void Qt6CTPlatformTheme::applySettings()
 #endif
 
     if(m_update)
+    {
         QIconLoader::instance()->updateSystemTheme(); //apply icons
+        QGuiApplication::setPalette(QGuiApplication::palette()); //apply palette
+    }
 
 #ifdef QT_WIDGETS_LIB
     if(hasWidgets() && m_update)
@@ -218,8 +205,6 @@ void Qt6CTPlatformTheme::applySettings()
         {
             QEvent e(QEvent::ThemeChange);
             QApplication::sendEvent(w, &e);
-            if(m_palette && m_usePalette)
-                w->setPalette(*m_palette);
         }
     }
 #endif
@@ -250,17 +235,16 @@ void Qt6CTPlatformTheme::updateSettings()
 
 void Qt6CTPlatformTheme::readSettings()
 {
-    m_palette.reset();
-
     QSettings settings(Qt6CT::configFile(), QSettings::IniFormat);
 
     settings.beginGroup("Appearance");
     m_style = settings.value("style", "Fusion").toString();
+    m_palette = *QPlatformTheme::palette(SystemPalette);
     QString schemePath = settings.value("color_scheme_path").toString();
     if(!schemePath.isEmpty() && settings.value("custom_palette", false).toBool())
     {
         schemePath = Qt6CT::resolvePath(schemePath); //replace environment variables
-        m_palette = std::make_unique<QPalette>(Qt6CT::loadColorScheme(schemePath, *QPlatformTheme::palette(SystemPalette)));
+        m_palette = Qt6CT::loadColorScheme(schemePath, m_palette);
     }
     m_iconTheme = settings.value("icon_theme").toString();
     //load dialogs
@@ -338,8 +322,6 @@ void Qt6CTPlatformTheme::readSettings()
             QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, true);
         else if(!m_isIgnored && forceRasterWidgets == Qt::Unchecked)
             QCoreApplication::setAttribute(Qt::AA_ForceRasterWidgets, false);
-        if(m_isIgnored)
-            m_usePalette = false;
         settings.endGroup();
     }
 }
