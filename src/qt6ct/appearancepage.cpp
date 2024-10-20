@@ -74,7 +74,7 @@ AppearancePage::AppearancePage(QWidget *parent) :
     QMenu *menu = new QMenu(this);
     menu->addAction(QIcon::fromTheme("document-new"), tr("Create"), this, SLOT(createColorScheme()));
     m_changeColorSchemeAction = menu->addAction(QIcon::fromTheme("accessories-text-editor"), tr("Edit"), this, SLOT(changeColorScheme()));
-    menu->addAction(QIcon::fromTheme("edit-copy"), tr("Create a Copy"), this, SLOT(copyColorScheme()));
+    m_copyColorSchemeAction = menu->addAction(QIcon::fromTheme("edit-copy"), tr("Create a Copy"), this, SLOT(copyColorScheme()));
     m_renameColorSchemeAction = menu->addAction(tr("Rename"), this, SLOT(renameColorScheme()));
     menu->addSeparator();
     m_removeColorSchemeAction = menu->addAction(QIcon::fromTheme("edit-delete"), tr("Remove"), this, SLOT(removeColorScheme()));
@@ -315,6 +315,7 @@ void AppearancePage::setPreviewPalette(const QPalette &p)
 
 void AppearancePage::updateActions()
 {
+    m_copyColorSchemeAction->setVisible(!Qt6CT::isKColorScheme(m_ui->colorSchemeComboBox->currentData().toString()));
     if(m_ui->colorSchemeComboBox->count() == 0 ||
             !QFileInfo(m_ui->colorSchemeComboBox->currentData().toString()).isWritable())
     {
@@ -393,11 +394,26 @@ void AppearancePage::findColorSchemes(const QString &path)
 {
     QDir dir(path);
     dir.setFilter(QDir::Files);
-    dir.setNameFilters(QStringList() << "*.conf");
+    QStringList nameFilters;
+    nameFilters << "*.conf";
+#if defined KF_CONFIGCORE_LIB && defined KF_COLORSCHEME_LIB
+    nameFilters << "*.colors";
+#endif
+    dir.setNameFilters(nameFilters);
 
     for(const QFileInfo &info : dir.entryInfoList())
     {
-        m_ui->colorSchemeComboBox->addItem(info.baseName(), info.filePath());
+        QString name = info.baseName();
+        QString path = info.filePath();
+#if defined KF_CONFIGCORE_LIB && defined KF_COLORSCHEME_LIB
+        if(Qt6CT::isKColorScheme(path))
+        {
+            KSharedConfigPtr config = KSharedConfig::openConfig(path, KConfig::SimpleConfig);
+            KConfigGroup group(config, "General");
+            name = group.readEntry("Name", name) + " (KColorScheme)";
+        }
+#endif
+        m_ui->colorSchemeComboBox->addItem(name, path);
     }
 }
 

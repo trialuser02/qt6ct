@@ -66,6 +66,9 @@ public:
     //virtual QList<QKeySequence> keyBindings(QKeySequence::StandardKey key) const;
     //virtual QString standardButtonText(int button) const;
 
+protected:
+    bool eventFilter(QObject *obj, QEvent *e) override;
+
 private slots:
     void applySettings();
 #ifdef QT_WIDGETS_LIB
@@ -79,7 +82,7 @@ private:
     bool hasWidgets();
 #endif
     QString loadStyleSheets(const QStringList &paths);
-    QString m_style, m_iconTheme, m_userStyleSheet, m_prevStyleSheet;
+    QString m_style, m_schemePath, m_iconTheme, m_userStyleSheet, m_prevStyleSheet;
     std::unique_ptr<QPalette> m_palette;
     QFont m_generalFont, m_fixedFont;
     int m_doubleClickInterval;

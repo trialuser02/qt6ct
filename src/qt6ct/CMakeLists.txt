@@ -32,6 +32,6 @@ endif()
 
 add_executable(qt6ct ${app_SRCS})
 target_link_libraries(qt6ct PRIVATE Qt6::Widgets Qt6::WidgetsPrivate $<TARGET_NAME_IF_EXISTS:KF6::ConfigCore> qt6ct-common)
-target_compile_definitions(qt6ct PRIVATE $<$<TARGET_EXISTS:KF6::ConfigCore>:KF_CONFIGCORE_LIB>)
+target_compile_definitions(qt6ct PRIVATE $<$<TARGET_EXISTS:KF6::ConfigCore>:KF_CONFIGCORE_LIB> $<$<TARGET_EXISTS:KF6::ColorScheme>:KF_COLORSCHEME_LIB>)
 install(TARGETS qt6ct DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES qt6ct.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)

@@ -76,7 +76,7 @@ private:
     QStyle *m_selectedStyle = nullptr;
     QPalette m_customPalette;
     QWidget *m_previewWidget;
-    QAction *m_changeColorSchemeAction, *m_renameColorSchemeAction, *m_removeColorSchemeAction;
+    QAction *m_changeColorSchemeAction, *m_copyColorSchemeAction, *m_renameColorSchemeAction, *m_removeColorSchemeAction;
     Ui::PreviewForm *m_previewUi;
 };
 
